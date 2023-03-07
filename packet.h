@@ -17,19 +17,34 @@ struct WallyData {
         size_t length = sizeof(WallyData);
         
         time = parse_uint32_t(buffer + 0);
+        longitude = static_cast<float>(parse_uint32_t(buffer + 4));
+        latitude = static_cast<float>(parse_uint32_t(buffer + 8));
+        altitude = static_cast<float>(parse_uint32_t(buffer + 16));
+
+
+
+
 
         return false;
     }
 
     // Returns true if the packet's checksum is valid
     bool checksum_ok() {
-        return false;
+        return false
     }
 
 private:
     uint32_t parse_uint32_t(const char* buffer) {
-        uint32_t result = 0;
-        // Do stuff
+        uint32_t result = static_cast<uint32_t>(*buffer);
+        result |= static_cast<uint32_t>(*(buffer + 1) << 8);
+        result |= static_cast<uint32_t>(*(buffer + 1) << 16);
+        result |= static_cast<uint32_t>(*(buffer + 1) << 24);
+
+
+
+        
+        // Do stuff 
+
 
         return result;
     }
