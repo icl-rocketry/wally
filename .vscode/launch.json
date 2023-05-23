@@ -12,9 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "C:/Users/Akshat/Documents/icl-art/art-wally/.pio/build/adafruit_qtpy_esp32s2/firmware.elf",
+            "executable": "C:/Users/hparm/OneDrive - Imperial College London/Documents/GitHub/art-wally/.pio/build/adafruit_qtpy_esp32s2/firmware.elf",
             "projectEnvName": "adafruit_qtpy_esp32s2",
-            "toolchainBinDir": "C:/Users/Akshat/.platformio/packages/toolchain-xtensa-esp32s2/bin",
+            "toolchainBinDir": "C:/Users/hparm/.platformio/packages/toolchain-xtensa-esp32s2/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
                 "type": "PlatformIO",
@@ -25,18 +25,18 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "C:/Users/Akshat/Documents/icl-art/art-wally/.pio/build/adafruit_qtpy_esp32s2/firmware.elf",
+            "executable": "C:/Users/hparm/OneDrive - Imperial College London/Documents/GitHub/art-wally/.pio/build/adafruit_qtpy_esp32s2/firmware.elf",
             "projectEnvName": "adafruit_qtpy_esp32s2",
-            "toolchainBinDir": "C:/Users/Akshat/.platformio/packages/toolchain-xtensa-esp32s2/bin",
+            "toolchainBinDir": "C:/Users/hparm/.platformio/packages/toolchain-xtensa-esp32s2/bin",
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "C:/Users/Akshat/Documents/icl-art/art-wally/.pio/build/adafruit_qtpy_esp32s2/firmware.elf",
+            "executable": "C:/Users/hparm/OneDrive - Imperial College London/Documents/GitHub/art-wally/.pio/build/adafruit_qtpy_esp32s2/firmware.elf",
             "projectEnvName": "adafruit_qtpy_esp32s2",
-            "toolchainBinDir": "C:/Users/Akshat/.platformio/packages/toolchain-xtensa-esp32s2/bin",
+            "toolchainBinDir": "C:/Users/hparm/.platformio/packages/toolchain-xtensa-esp32s2/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "loadMode": "manual"
         }
