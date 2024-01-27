@@ -1,5 +1,7 @@
 import plotly.graph_objs as go
 import numpy as np
+import matplotlib.pyplot as plt
+
 
 # Define the range for the variable axis
 x = np.arange(-100, 105, 5)
@@ -40,3 +42,25 @@ fig.update_layout(title='Visual scene')
 
 # Show the plot
 fig.show()
+
+# Reconstructing the trajectory from the time received. 
+# The difference in the signals shows the distance of the rocket at a given point in time.
+gs_dis_new = np.zeros((len(x),len(x_gs)))
+for i in range(len(x)):
+    for j in range(len(x_gs)): # Iterating over the number of ground stations
+        gs_dis_new[i][j] = (time_signals_recieved[i][j] - time[i])*299792458
+        
+        # Sphere of radius gs_dis_new
+        u, v = np.mgrid[0:2*np.pi:20j, 0:np.pi:10j]
+        x = gs_dis_new[i][j]*np.cos(u)*np.sin(v)
+        y = gs_dis_new[i][j]*np.sin(u)*np.sin(v)
+        z = gs_dis_new[i][j]*np.cos(v)
+        ax.plot_wireframe(x-x_gs[j], y-y_gs[j], z-z_gs[j], color="r")
+        fig = plt.figure()
+    # Calculating the exact position of the rocket by equating the positioning of all the spheres.
+        
+
+
+   
+
+
