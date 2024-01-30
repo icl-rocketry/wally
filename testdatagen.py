@@ -43,24 +43,26 @@ fig.update_layout(title='Visual scene')
 # Show the plot
 fig.show()
 
+
+v = np.zeros((len(x_gs),len(x_gs)))
+for i in range(len(x_gs)):
+    for j in range(len(x_gs)): # Iterating over the number of ground stations
+        v[i][j] = np.sqrt((x_gs[j] - x_gs[i])**2 + (y_gs[j] - y_gs[i])**2 + (z_gs[j] - z_gs[i])**2)
+
+
 # Reconstructing the trajectory from the time received. 
 # The difference in the signals shows the distance of the rocket at a given point in time.
 gs_dis_new = np.zeros((len(x),len(x_gs)))
 for i in range(len(x)):
     for j in range(len(x_gs)): # Iterating over the number of ground stations
         gs_dis_new[i][j] = (time_signals_recieved[i][j] - time[i])*299792458
-        
-        # Sphere of radius gs_dis_new
-        u, v = np.mgrid[0:2*np.pi:20j, 0:np.pi:10j]
-        x = gs_dis_new[i][j]*np.cos(u)*np.sin(v)
-        y = gs_dis_new[i][j]*np.sin(u)*np.sin(v)
-        z = gs_dis_new[i][j]*np.cos(v)
-        ax.plot_wireframe(x-x_gs[j], y-y_gs[j], z-z_gs[j], color="r")
-        fig = plt.figure()
+                
+    
+
     # Calculating the exact position of the rocket by equating the positioning of all the spheres.
-        
 
-
-   
-
-
+d = np.zeros((len(x),len(x_gs),len(x_gs)))
+for i in range(len(x)):
+    for j in range(len(x_gs)):
+        for k in range(len(x_gs)):
+            d[i][j][k] = (gs_dis_new[i][j]^2 - gs_dis_new[i][k]^2 + v[i][j][k]^2)/(2 * v[i][j][k])
