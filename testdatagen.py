@@ -1,7 +1,11 @@
 import plotly.graph_objs as go
 import numpy as np
+# pip install matplotlib
 import matplotlib.pyplot as plt
-
+# pip3 install SymPy 
+from sympy import Symbol, Plane, Point3D, Line3D#, Normal_Vector
+# pip install vector 
+import vector 
 
 # Define the range for the variable axis
 x = np.arange(-100, 105, 5)
@@ -35,13 +39,13 @@ for i in range(len(time_signals_recieved)):
     for j in range(len(time_signals_recieved[0])):
         time_signals_recieved[i][j] = time[i] + gs_distarr[i][j]/299792458
 
-print(time_signals_recieved)
+# print(time_signals_recieved)
 
 # Update layout
 fig.update_layout(title='Visual scene')
 
 # Show the plot
-fig.show()
+# fig.show()
 
 
 v = np.zeros((len(x_gs),len(x_gs)))
@@ -53,16 +57,39 @@ for i in range(len(x_gs)):
 # Reconstructing the trajectory from the time received. 
 # The difference in the signals shows the distance of the rocket at a given point in time.
 gs_dis_new = np.zeros((len(x),len(x_gs)))
-for i in range(len(x)):
-    for j in range(len(x_gs)): # Iterating over the number of ground stations
-        gs_dis_new[i][j] = (time_signals_recieved[i][j] - time[i])*299792458
-                
-    
+d12 = np.zeros((len(x_gs),len(x_gs)))
+v12 = np.zeros((len(x_gs),len(x_gs)))
+d_coord = np.zeros((len(x_gs),len(x_gs)))
 
+
+for i in range(len(x)): # values of time. 
+    for j in range(len(x_gs)): # Iterating over the number of ground stations
+        # Calculating the distance between each ground station and target (for each time)
+        gs_dis_new[i][j] = (time_signals_recieved[i][j] - time[i])*299792458
+
+    for k in range(len(x_gs)): # Iterating over each ground station.
+        for l in range(len(x_gs)): # to each other ground station.
+            if v[k][l] == 0 : # Checking for divide by 0 error. 
+                continue 
+            else: 
+            # Distance from each ground station to a point on the intersecting plane 
+                point1 = [x_gs[k],y_gs[k],z_gs[k]]
+                point2 = [x_gs[l],y_gs[l],z_gs[l]]
+                v12 = np.array(point1) - np.array(point2) 
+                # d12 is an array of 1x7 - should not be. 
+                d12 = (gs_dis_new[i][k]**2 - gs_dis_new[i][l]**2 + v[k][l]**2)/(2 * v[k][l])
+                # v12[k][l] = np.array(point1) - np.array(point2)
+                # d12[k][l] = (gs_dis_new[k]**2 - gs_dis_new[l]**2 + v[k][l]**2)/(2 * v[k][l])
+                # Coordinates on the intersection circle.
+                # d_coord[k][l] = v12[k][l]*(d12[k][l]/v[k][l]) + (x_gs[k],y_gs[k],z_gs[k])
+                d_coord = v12*(d12/v[k][l]) + [x_gs[k],y_gs[k],z_gs[k]] # this needs to be stored in an array. 
+
+    # Calculating the coordinates of the d value. 
+                
     # Calculating the exact position of the rocket by equating the positioning of all the spheres.
 
-d = np.zeros((len(x),len(x_gs),len(x_gs)))
-for i in range(len(x)):
-    for j in range(len(x_gs)):
-        for k in range(len(x_gs)):
-            d[i][j][k] = (gs_dis_new[i][j]^2 - gs_dis_new[i][k]^2 + v[i][j][k]^2)/(2 * v[i][j][k])
+                
+                # 03 Feb 2024 
+                # Calculated the point on the intersection plane. Tried to calculate the coordinates of the point 
+                # on the intersection plane - need this and the normal vector to continue. - sharwa has a function for this. 
+                # to continue to do plane calculations - might need to use algebraic/ plane toolbox. 
