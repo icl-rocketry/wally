@@ -25,7 +25,7 @@ x = x*50
 # Define the ground stations
 x_gs = [0,9000,3000,4500,3500,7500,-6000]
 y_gs = [2000,-6500,8000,9500,-5000,-7500,0]
-z_gs = [0,0,0,0,0,0,0]
+z_gs = [0,20,50,15,-10,2,28]
 
 # Create a 3D scatter plot for every dot (to visualize)
 fig = go.Figure(data=[go.Scatter3d(x=x_gs, y=y_gs, z=z_gs, mode='markers', marker=dict(color='red', size=4)), go.Scatter3d(x=x, y=y, z=z, mode='markers', marker=dict(color='blue', size=4))])
@@ -51,7 +51,7 @@ for i in range(len(time_signals_recieved)):
 fig.update_layout(title='Visual scene')
 
 # Show the plot
-# fig.show()
+fig.show()
 
 
 v = np.zeros((len(x_gs),len(x_gs)))
@@ -103,15 +103,11 @@ for i in range(len(x)): # values of time.
                 if newplanes[n] == newplanes[o] or newplanes[n] == newplanes[p] or newplanes[p] == newplanes[o]:
                     points[n][o][p] = 0
                 else:
-                    print(newplanes[n])
-                    print(newplanes[o])
-                    print(newplanes[p])
                     
                     linetemp = newplanes[n].intersection(newplanes[o])
                     
                     if linetemp:
                         
-                        print(linetemp[0])
                         print("---------")
                         point = newplanes[p].intersection(linetemp[0])
                         if point:
