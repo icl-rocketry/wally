@@ -103,9 +103,19 @@ for i in range(len(x)): # values of time.
                 if newplanes[n] == newplanes[o] or newplanes[n] == newplanes[p] or newplanes[p] == newplanes[o]:
                     points[n][o][p] = 0
                 else:
+                    print(newplanes[n])
+                    print(newplanes[o])
+                    print(newplanes[p])
+                    
                     linetemp = newplanes[n].intersection(newplanes[o])
-                    print(linetemp[0])
-                    print(linetemp[0].intersection(newplanes[p]))
+                    
+                    if linetemp:
+                        
+                        print(linetemp[0])
+                        print("---------")
+                        point = newplanes[p].intersection(linetemp[0])
+                        if point:
+                            print(point[0])
                     
 
 
