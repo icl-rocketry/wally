@@ -1,33 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T11:57:04.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="QBJ8tgkFTWBtnD0qm1Tk" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T12:15:13.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="kmt_oKry8WNF1cQkToP3" version="23.1.6" type="github">
   <diagram name="Page-1" id="FAxnaVmDCdUew-bZ3t1k">
-    <mxGraphModel dx="954" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ocz2RVNLNiVchELcto32-1" value="Power Distribution A" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="230" width="160" height="80" as="geometry" />
+        <mxCell id="Ocz2RVNLNiVchELcto32-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-1" target="Ocz2RVNLNiVchELcto32-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ocz2RVNLNiVchELcto32-2" value="Power Distribution B" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="360" width="160" height="80" as="geometry" />
+        <mxCell id="Ocz2RVNLNiVchELcto32-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-1" target="Ocz2RVNLNiVchELcto32-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ocz2RVNLNiVchELcto32-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-3" target="Ocz2RVNLNiVchELcto32-2">
+        <mxCell id="Ocz2RVNLNiVchELcto32-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-1" target="Ocz2RVNLNiVchELcto32-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="360" y="400" />
-              <mxPoint x="360" y="420" />
+              <mxPoint x="670" y="300" />
+              <mxPoint x="670" y="485" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ocz2RVNLNiVchELcto32-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-3" target="Ocz2RVNLNiVchELcto32-1">
+        <mxCell id="Ocz2RVNLNiVchELcto32-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-1" target="Ocz2RVNLNiVchELcto32-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="320" />
+              <mxPoint x="590" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-1" value="Power Distribution A" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-2" target="Ocz2RVNLNiVchELcto32-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="360" y="400" />
-              <mxPoint x="360" y="290" />
+              <mxPoint x="680" y="420" />
+              <mxPoint x="680" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-2" target="Ocz2RVNLNiVchELcto32-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="440" />
+              <mxPoint x="620" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-2" target="Ocz2RVNLNiVchELcto32-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ocz2RVNLNiVchELcto32-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="480" as="sourcePoint" />
+            <mxPoint x="730" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="480" />
+              <mxPoint x="520" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-2" value="Power Distribution B" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-3" target="Ocz2RVNLNiVchELcto32-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="440" />
+              <mxPoint x="360" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-3" target="Ocz2RVNLNiVchELcto32-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="440" />
+              <mxPoint x="360" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-3" value="Battery B" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="360" width="80" height="80" as="geometry" />
+          <mxGeometry x="210" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-4" target="Ocz2RVNLNiVchELcto32-1">
           <mxGeometry relative="1" as="geometry" />
@@ -36,19 +88,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-4" value="Battery A" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="230" width="80" height="80" as="geometry" />
+          <mxGeometry x="210" y="220" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-8" target="Ocz2RVNLNiVchELcto32-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-8" value="Screw Switch A" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="100" width="80" height="80" as="geometry" />
+          <mxGeometry x="430" y="120" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-9" target="Ocz2RVNLNiVchELcto32-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-9" value="Screw Switch B" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="470" width="80" height="80" as="geometry" />
+          <mxGeometry x="390" y="530" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-20" value="Pickle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-24" value="Blue Raven" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-27" value="WALLY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-28" value="Featherweight GPS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
