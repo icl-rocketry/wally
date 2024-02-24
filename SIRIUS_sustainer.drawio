@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T13:05:35.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="8H3PPZ9ddAdwmxeU5Glu" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T13:13:31.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="FLJoy2ZI213A3fJCj4y8" version="23.1.6" type="github">
   <diagram name="Page-1" id="FAxnaVmDCdUew-bZ3t1k">
-    <mxGraphModel dx="1193" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1060" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,23 +180,6 @@
         <mxCell id="Ocz2RVNLNiVchELcto32-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-41" target="Ocz2RVNLNiVchELcto32-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ocz2RVNLNiVchELcto32-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-41" target="Ocz2RVNLNiVchELcto32-57">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="280" />
-              <mxPoint x="1310" y="430" />
-              <mxPoint x="1422" y="430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ocz2RVNLNiVchELcto32-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-41" target="Ocz2RVNLNiVchELcto32-63">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1290" y="300" />
-              <mxPoint x="1290" y="544" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-41" value="Interlock A" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="240" width="160" height="80" as="geometry" />
         </mxCell>
@@ -216,17 +199,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ocz2RVNLNiVchELcto32-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-42" target="Ocz2RVNLNiVchELcto32-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ocz2RVNLNiVchELcto32-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-42" target="Ocz2RVNLNiVchELcto32-63">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1270" y="460" />
-              <mxPoint x="1270" y="576" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-42" value="Interlock B" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="400" width="160" height="80" as="geometry" />
         </mxCell>
@@ -237,10 +209,10 @@
           <mxGeometry x="1410" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-57" value="Motor Ignitor A" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="1600" y="400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-63" value="Motor Ignitor B" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="520" width="120" height="80" as="geometry" />
+          <mxGeometry x="1600" y="520" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ocz2RVNLNiVchELcto32-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-67" target="Ocz2RVNLNiVchELcto32-41">
           <mxGeometry relative="1" as="geometry" />
@@ -273,6 +245,46 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1240" y="169" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-107" target="Ocz2RVNLNiVchELcto32-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-107" value="QD" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.sort;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="400" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-108" target="Ocz2RVNLNiVchELcto32-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-108" value="QD" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.sort;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="520" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.111;entryY=0.354;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-41" target="Ocz2RVNLNiVchELcto32-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="280" />
+              <mxPoint x="1310" y="390" />
+              <mxPoint x="1431" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.244;entryY=0.806;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-42" target="Ocz2RVNLNiVchELcto32-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.211;entryY=0.264;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-41" target="Ocz2RVNLNiVchELcto32-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="300" />
+              <mxPoint x="1290" y="541" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocz2RVNLNiVchELcto32-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.228;entryY=0.743;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ocz2RVNLNiVchELcto32-42" target="Ocz2RVNLNiVchELcto32-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="460" />
+              <mxPoint x="1260" y="579" />
             </Array>
           </mxGeometry>
         </mxCell>
