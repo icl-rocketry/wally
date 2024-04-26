@@ -342,6 +342,27 @@
 <wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
 <wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
 </package>
+<package name="SHDRRA4W64P0X250_1X4_1240X1150">
+<description>&lt;b&gt;S4B-XH-A(LF)(SN)-&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1.1" diameter="1.65"/>
+<pad name="3" x="5" y="0" drill="1.1" diameter="1.65"/>
+<pad name="4" x="7.5" y="0" drill="1.1" diameter="1.65"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.7" y1="-1.325" x2="10.2" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="10.2" y1="-1.325" x2="10.2" y2="15.65" width="0.05" layer="51"/>
+<wire x1="10.2" y1="15.65" x2="-2.7" y2="15.65" width="0.05" layer="51"/>
+<wire x1="-2.7" y1="15.65" x2="-2.7" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="3.9" x2="-2.45" y2="15.4" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="15.4" x2="9.95" y2="15.4" width="0.1" layer="51"/>
+<wire x1="9.95" y1="15.4" x2="9.95" y2="3.9" width="0.1" layer="51"/>
+<wire x1="9.95" y1="3.9" x2="-2.45" y2="3.9" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="0" x2="-2.45" y2="15.4" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="15.4" x2="9.95" y2="15.4" width="0.2" layer="21"/>
+<wire x1="9.95" y1="15.4" x2="9.95" y2="3.9" width="0.2" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -989,6 +1010,30 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-21.59" y="-29.56" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-21.59" y="-29.56" size="1.27" layer="27" align="center"/>
 </element>
+<element name="J1" library="SamacSys_Parts" package="SHDRRA4W64P0X250_1X4_1240X1150" value="S4B-XH-A_LF__SN_" x="-40.64" y="-43.18" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/s4b-xh-a-lf-sn/jst-manufacturing?region=europe" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-40.64" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.64" y="-43.18" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-40.64" y="-43.18" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J2" library="SamacSys_Parts" package="SHDRRA4W64P0X250_1X4_1240X1150" value="S4B-XH-A_LF__SN_" x="-60.96" y="-43.18" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/s4b-xh-a-lf-sn/jst-manufacturing?region=europe" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-60.96" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-60.96" y="-43.18" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-60.96" y="-43.18" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1015,6 +1060,10 @@ design rules under a new name.</description>
 <contactref element="R7" pad="2"/>
 <contactref element="E2" pad="3"/>
 <contactref element="E2" pad="11"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J2" pad="1"/>
+<wire x1="-40.64" y1="-43.18" x2="-60.96" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.4852" y1="-41.91" x2="-40.64" y2="-43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.7748" y1="-41.91" x2="-27.4852" y2="-41.91" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.09" y1="-34.21" x2="-20.7748" y2="-41.91" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.59" y1="-34.21" x2="-19.09" y2="-34.21" width="0" layer="19" extent="1-1"/>
@@ -1140,6 +1189,24 @@ design rules under a new name.</description>
 <contactref element="LED5" pad="C"/>
 <contactref element="R7" pad="1"/>
 <wire x1="-11.43" y1="-40.86" x2="-22.4052" y2="-41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PICKLE3">
+<contactref element="J2" pad="2"/>
+</signal>
+<signal name="PICKLE2">
+<contactref element="J2" pad="3"/>
+</signal>
+<signal name="PICKLE1">
+<contactref element="J2" pad="4"/>
+</signal>
+<signal name="RAVEN3">
+<contactref element="J1" pad="2"/>
+</signal>
+<signal name="RAVEN2">
+<contactref element="J1" pad="3"/>
+</signal>
+<signal name="RAVEN1">
+<contactref element="J1" pad="4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
