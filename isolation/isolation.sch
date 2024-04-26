@@ -4221,6 +4221,11 @@ SRN6045- 33uH, 20% 1.4A</description>
 <wire x1="22.86" y1="-81.28" x2="38.1" y2="-81.28" width="0.1524" layer="91"/>
 <label x="25.4" y="-81.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="4A"/>
+<wire x1="48.26" y1="-162.56" x2="71.12" y2="-162.56" width="0.1524" layer="91"/>
+<label x="71.12" y="-162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RAVEN2" class="0">
 <segment>
@@ -4228,12 +4233,22 @@ SRN6045- 33uH, 20% 1.4A</description>
 <wire x1="22.86" y1="-78.74" x2="38.1" y2="-78.74" width="0.1524" layer="91"/>
 <label x="25.4" y="-78.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="5A"/>
+<wire x1="48.26" y1="-157.48" x2="71.12" y2="-157.48" width="0.1524" layer="91"/>
+<label x="71.12" y="-157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RAVEN1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="22.86" y1="-76.2" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
 <label x="25.4" y="-76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="6A"/>
+<wire x1="48.26" y1="-152.4" x2="71.12" y2="-152.4" width="0.1524" layer="91"/>
+<label x="71.12" y="-152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
