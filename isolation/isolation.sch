@@ -350,27 +350,6 @@
 <wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
 <wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
 </package>
-<package name="SHDRRA4W64P0X250_1X4_1240X1150">
-<description>&lt;b&gt;S4B-XH-A(LF)(SN)-&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
-<pad name="2" x="2.5" y="0" drill="1.1" diameter="1.65"/>
-<pad name="3" x="5" y="0" drill="1.1" diameter="1.65"/>
-<pad name="4" x="7.5" y="0" drill="1.1" diameter="1.65"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.7" y1="-1.325" x2="10.2" y2="-1.325" width="0.05" layer="51"/>
-<wire x1="10.2" y1="-1.325" x2="10.2" y2="15.65" width="0.05" layer="51"/>
-<wire x1="10.2" y1="15.65" x2="-2.7" y2="15.65" width="0.05" layer="51"/>
-<wire x1="-2.7" y1="15.65" x2="-2.7" y2="-1.325" width="0.05" layer="51"/>
-<wire x1="-2.45" y1="3.9" x2="-2.45" y2="15.4" width="0.1" layer="51"/>
-<wire x1="-2.45" y1="15.4" x2="9.95" y2="15.4" width="0.1" layer="51"/>
-<wire x1="9.95" y1="15.4" x2="9.95" y2="3.9" width="0.1" layer="51"/>
-<wire x1="9.95" y1="3.9" x2="-2.45" y2="3.9" width="0.1" layer="51"/>
-<wire x1="-2.45" y1="0" x2="-2.45" y2="15.4" width="0.2" layer="21"/>
-<wire x1="-2.45" y1="15.4" x2="9.95" y2="15.4" width="0.2" layer="21"/>
-<wire x1="9.95" y1="15.4" x2="9.95" y2="3.9" width="0.2" layer="21"/>
-</package>
 <package name="SOP65P640X120-14N">
 <description>&lt;b&gt;PW (R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -562,18 +541,6 @@
 <pin name="5Y" x="25.4" y="-10.16" length="middle" rot="R180"/>
 <pin name="4A" x="25.4" y="-12.7" length="middle" rot="R180"/>
 <pin name="4Y" x="25.4" y="-15.24" length="middle" rot="R180"/>
-</symbol>
-<symbol name="S4B-XH-A_LF__SN_">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="0" y="-5.08" length="middle"/>
-<pin name="4" x="0" y="-7.62" length="middle"/>
 </symbol>
 <symbol name="SN74HCS32PWR">
 <wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
@@ -793,35 +760,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/SN74HC14"&gt; Datasheet &lt;/a&gt;
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74HC14DRG3" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-SN74HC14DRG3" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC14DRG3?qs=EuM%2FBx4ov4QCZjgspzZGxg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="S4B-XH-A_LF__SN_" prefix="J">
-<description>&lt;b&gt;XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="S4B-XH-A_LF__SN_" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SHDRRA4W64P0X250_1X4_1240X1150">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="S4B-XH-A(LF)(SN)" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/s4b-xh-a-lf-sn/jst-manufacturing?region=europe" constant="no"/>
-<attribute name="DESCRIPTION" value="XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" constant="no"/>
-<attribute name="HEIGHT" value="7mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="S4B-XH-A(LF)(SN)" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5445,6 +5383,92 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 </deviceset>
 </devicesets>
 </library>
+<library name="Headers" urn="urn:adsk.eagle:library:11687645">
+<description>&lt;h3&gt; PCBLayout.com - Frequently Used &lt;i&gt;Headers&lt;/i&gt;&lt;/h3&gt;
+
+Visit us at &lt;a href="http://www.PCBLayout.com"&gt;PCBLayout.com&lt;/a&gt; for quick and hassle-free PCB Layout/Manufacturing ordering experience.
+&lt;BR&gt;
+&lt;BR&gt;
+This library has been generated by our experienced pcb layout engineers using current IPC and/or industry standards. We &lt;b&gt;believe&lt;/b&gt; the content to be accurate, complete and current. But, this content is provided as a courtesy and &lt;u&gt;user assumes all risk and responsiblity of it's usage&lt;/u&gt;.
+&lt;BR&gt;
+&lt;BR&gt;
+Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@PCBLayout.com&lt;/a&gt; if you have any questions/concerns regarding any of our content or services.</description>
+<packages>
+<package name="S4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:footprint:19181347/4" library_version="3">
+<pad name="1" x="-3" y="0" drill="0.7" shape="square"/>
+<pad name="2" x="-1" y="0" drill="0.7"/>
+<pad name="3" x="1" y="0" drill="0.7"/>
+<pad name="4" x="3" y="0" drill="0.7"/>
+<wire x1="-4.95" y1="1.35" x2="4.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="4.95" y1="1.35" x2="4.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-6.25" x2="-4.95" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="-6.25" x2="-4.95" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="1.35" x2="4.95" y2="1.35" width="0.127" layer="21"/>
+<wire x1="4.95" y1="1.35" x2="4.95" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="4.95" y1="-6.25" x2="-4.95" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="-6.25" x2="-4.95" y2="1.35" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="1.6" x2="5.2" y2="1.6" width="0.05" layer="39"/>
+<wire x1="5.2" y1="1.6" x2="5.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="5.2" y1="-6.5" x2="-5.2" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="-5.2" y1="-6.5" x2="-5.2" y2="1.6" width="0.05" layer="39"/>
+<text x="-5.08" y="2.84" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-8.382" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-3" y="2.1" radius="0.1" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="S4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:package:19181369/5" type="model" library_version="3">
+<packageinstances>
+<packageinstance name="S4B-PH-K-S(LF)(SN)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="4POSHEADER-2" urn="urn:adsk.eagle:symbol:19376813/1" library_version="3">
+<pin name="1" x="7.62" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="6.35" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<text x="-3.556" y="7.366" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.556" y="-6.096" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="S4B-PH-K-S(LF)(SN)" urn="urn:adsk.eagle:component:19376828/1" prefix="J" library_version="3">
+<description>&lt;h3&gt; CONN HEADER R/A 4POS 2MM &lt;/h3&gt;
+&lt;BR&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="4POSHEADER-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S4B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19181369/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
+<attribute name="DIGIKEY_PARTNO" value="455-1721-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." constant="no"/>
+<attribute name="MPN" value="S4B-PH-K-S(LF)(SN)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5493,8 +5517,8 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <part name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="E2" library="SamacSys_Parts" deviceset="SJ1-3525N" device=""/>
 <part name="SUPPLY11" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="J1" library="SamacSys_Parts" deviceset="S4B-XH-A_LF__SN_" device=""/>
-<part name="J2" library="SamacSys_Parts" deviceset="S4B-XH-A_LF__SN_" device=""/>
+<part name="J1" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
+<part name="J2" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
 <part name="SUPPLY12" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY13" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
@@ -5519,9 +5543,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <part name="SUPPLY21" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY22" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY23" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="J3" library="SamacSys_Parts" deviceset="S4B-XH-A_LF__SN_" device=""/>
-<part name="J4" library="SamacSys_Parts" deviceset="S4B-XH-A_LF__SN_" device=""/>
-<part name="J5" library="SamacSys_Parts" deviceset="S4B-XH-A_LF__SN_" device=""/>
+<part name="J3" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
+<part name="J4" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
+<part name="J5" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R8" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
 <part name="R9" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
@@ -5713,19 +5737,19 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <instance part="SUPPLY11" gate="G$1" x="144.78" y="-27.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="146.685" y="-27.94" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="J1" gate="G$1" x="22.86" y="-83.82" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.35" y="-91.44" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="6.35" y="-88.9" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="J1" gate="G$1" x="66.04" y="-78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.37" y="-86.36" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="34.29" y="-83.82" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="J2" gate="G$1" x="22.86" y="-104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.35" y="-111.76" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="6.35" y="-109.22" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="J2" gate="G$1" x="86.36" y="-99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="92.71" y="-96.52" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="90.17" y="-91.44" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="48.26" y="-104.14" smashed="yes" rot="R90">
-<attribute name="VALUE" x="50.165" y="-104.14" size="1.778" layer="96" rot="R90" align="center"/>
+<instance part="SUPPLY12" gate="G$1" x="53.34" y="-104.14" smashed="yes" rot="R270">
+<attribute name="VALUE" x="51.435" y="-104.14" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="48.26" y="-83.82" smashed="yes" rot="R90">
-<attribute name="VALUE" x="50.165" y="-83.82" size="1.778" layer="96" rot="R90" align="center"/>
+<instance part="SUPPLY13" gate="G$1" x="45.72" y="-83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="43.815" y="-83.82" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
 <instance part="C8" gate="G$1" x="53.34" y="-139.7" smashed="yes">
 <attribute name="NAME" x="47.625" y="-139.065" size="1.778" layer="95"/>
@@ -5805,17 +5829,16 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <instance part="SUPPLY23" gate="G$1" x="0" y="-340.36" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-1.905" y="-340.36" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="J3" gate="G$1" x="91.44" y="-289.56" smashed="yes">
-<attribute name="NAME" x="107.95" y="-281.94" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="107.95" y="-284.48" size="1.778" layer="96" align="center-left"/>
+<instance part="J3" gate="G$1" x="104.14" y="-289.56" smashed="yes" rot="R180">
+<attribute name="VALUE" x="130.81" y="-294.64" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="J4" gate="G$1" x="91.44" y="-304.8" smashed="yes">
-<attribute name="NAME" x="107.95" y="-297.18" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="107.95" y="-299.72" size="1.778" layer="96" align="center-left"/>
+<instance part="J4" gate="G$1" x="104.14" y="-304.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.49" y="-302.26" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="130.81" y="-304.8" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="J5" gate="G$1" x="91.44" y="-320.04" smashed="yes">
-<attribute name="NAME" x="107.95" y="-312.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="107.95" y="-314.96" size="1.778" layer="96" align="center-left"/>
+<instance part="J5" gate="G$1" x="104.14" y="-320.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.49" y="-317.5" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="130.81" y="-320.04" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="P+1" gate="VCC" x="86.36" y="-276.86" smashed="yes"/>
 <instance part="R8" gate="G$1" x="20.32" y="-284.48" smashed="yes" rot="R180">
@@ -6095,12 +6118,12 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="-83.82" x2="45.72" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-83.82" x2="48.26" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="-104.14" x2="45.72" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-104.14" x2="55.88" y2="-104.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -6428,35 +6451,31 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <wire x1="71.12" y1="33.02" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="86.36" y1="-279.4" x2="86.36" y2="-289.56" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="86.36" y1="-289.56" x2="86.36" y2="-297.18" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-297.18" x2="86.36" y2="-304.8" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-304.8" x2="86.36" y2="-312.42" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-312.42" x2="86.36" y2="-320.04" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-320.04" x2="86.36" y2="-327.66" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-327.66" x2="91.44" y2="-327.66" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-320.04" x2="86.36" y2="-320.04" width="0.1524" layer="91"/>
-<junction x="86.36" y="-320.04"/>
-<pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="91.44" y1="-312.42" x2="86.36" y2="-312.42" width="0.1524" layer="91"/>
-<junction x="86.36" y="-312.42"/>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-304.8" x2="86.36" y2="-304.8" width="0.1524" layer="91"/>
-<junction x="86.36" y="-304.8"/>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="91.44" y1="-297.18" x2="86.36" y2="-297.18" width="0.1524" layer="91"/>
-<junction x="86.36" y="-297.18"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-289.56" x2="86.36" y2="-289.56" width="0.1524" layer="91"/>
-<junction x="86.36" y="-289.56"/>
-<label x="88.9" y="-281.94" size="1.778" layer="95"/>
 <pinref part="LS1" gate="G$1" pin="+"/>
 <wire x1="93.98" y1="-337.82" x2="86.36" y2="-337.82" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-337.82" x2="86.36" y2="-327.66" width="0.1524" layer="91"/>
-<junction x="86.36" y="-327.66"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="86.36" y1="-337.82" x2="86.36" y2="-325.12" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="86.36" y1="-325.12" x2="86.36" y2="-317.5" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-317.5" x2="86.36" y2="-302.26" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-302.26" x2="86.36" y2="-294.64" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-294.64" x2="86.36" y2="-287.02" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-287.02" x2="86.36" y2="-279.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-287.02" x2="86.36" y2="-287.02" width="0.1524" layer="91"/>
+<junction x="86.36" y="-287.02"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="-294.64" x2="86.36" y2="-294.64" width="0.1524" layer="91"/>
+<junction x="86.36" y="-294.64"/>
+<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="96.52" y1="-302.26" x2="86.36" y2="-302.26" width="0.1524" layer="91"/>
+<junction x="86.36" y="-302.26"/>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="96.52" y1="-317.5" x2="86.36" y2="-317.5" width="0.1524" layer="91"/>
+<junction x="86.36" y="-317.5"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="-325.12" x2="86.36" y2="-325.12" width="0.1524" layer="91"/>
+<junction x="86.36" y="-325.12"/>
+<label x="88.9" y="-281.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6583,7 +6602,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <label x="25.4" y="-101.6" size="1.778" layer="95"/>
-<wire x1="22.86" y1="-101.6" x2="58.42" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-101.6" x2="58.42" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="3B"/>
@@ -6600,7 +6619,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <label x="25.4" y="-99.06" size="1.778" layer="95"/>
-<wire x1="22.86" y1="-99.06" x2="58.42" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-99.06" x2="58.42" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="2B"/>
@@ -6621,7 +6640,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="22.86" y1="-96.52" x2="58.42" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-96.52" x2="58.42" y2="-96.52" width="0.1524" layer="91"/>
 <label x="25.4" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -6633,7 +6652,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <net name="RAVEN3" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-81.28" x2="38.1" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-81.28" x2="38.1" y2="-81.28" width="0.1524" layer="91"/>
 <label x="25.4" y="-81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -6645,7 +6664,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <net name="RAVEN2" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="22.86" y1="-78.74" x2="38.1" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-78.74" x2="38.1" y2="-78.74" width="0.1524" layer="91"/>
 <label x="25.4" y="-78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -6657,7 +6676,7 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <net name="RAVEN1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="22.86" y1="-76.2" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-76.2" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
 <label x="25.4" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -6764,9 +6783,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="-292.1" x2="76.2" y2="-292.1" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="76.2" y1="-292.1" x2="91.44" y2="-292.1" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-294.64" x2="76.2" y2="-294.64" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-294.64" x2="76.2" y2="-292.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-292.1" x2="96.52" y2="-292.1" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-289.56" x2="76.2" y2="-289.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-289.56" x2="76.2" y2="-292.1" width="0.1524" layer="91"/>
 <junction x="76.2" y="-292.1"/>
 </segment>
 </net>
@@ -6776,9 +6795,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="-307.34" x2="76.2" y2="-307.34" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="76.2" y1="-307.34" x2="91.44" y2="-307.34" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-309.88" x2="76.2" y2="-309.88" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-309.88" x2="76.2" y2="-307.34" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-307.34" x2="96.52" y2="-307.34" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-304.8" x2="76.2" y2="-304.8" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-304.8" x2="76.2" y2="-307.34" width="0.1524" layer="91"/>
 <junction x="76.2" y="-307.34"/>
 </segment>
 </net>
@@ -6788,9 +6807,9 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="-322.58" x2="76.2" y2="-322.58" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="76.2" y1="-322.58" x2="91.44" y2="-322.58" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-325.12" x2="76.2" y2="-325.12" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-325.12" x2="76.2" y2="-322.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-322.58" x2="96.52" y2="-322.58" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-320.04" x2="76.2" y2="-320.04" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-320.04" x2="76.2" y2="-322.58" width="0.1524" layer="91"/>
 <junction x="76.2" y="-322.58"/>
 </segment>
 </net>
