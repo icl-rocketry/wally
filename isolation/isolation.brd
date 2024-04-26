@@ -363,6 +363,74 @@
 <wire x1="-2.45" y1="15.4" x2="9.95" y2="15.4" width="0.2" layer="21"/>
 <wire x1="9.95" y1="15.4" x2="9.95" y2="3.9" width="0.2" layer="21"/>
 </package>
+<package name="SOP65P640X120-14N">
+<description>&lt;b&gt;PW (R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.938" y="1.95" dx="1.475" dy="0.45" layer="1"/>
+<smd name="2" x="-2.938" y="1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="3" x="-2.938" y="0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="4" x="-2.938" y="0" dx="1.475" dy="0.45" layer="1"/>
+<smd name="5" x="-2.938" y="-0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="6" x="-2.938" y="-1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="7" x="-2.938" y="-1.95" dx="1.475" dy="0.45" layer="1"/>
+<smd name="8" x="2.938" y="-1.95" dx="1.475" dy="0.45" layer="1"/>
+<smd name="9" x="2.938" y="-1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="10" x="2.938" y="-0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="11" x="2.938" y="0" dx="1.475" dy="0.45" layer="1"/>
+<smd name="12" x="2.938" y="0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="13" x="2.938" y="1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="14" x="2.938" y="1.95" dx="1.475" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.925" y1="2.8" x2="3.925" y2="2.8" width="0.05" layer="51"/>
+<wire x1="3.925" y1="2.8" x2="3.925" y2="-2.8" width="0.05" layer="51"/>
+<wire x1="3.925" y1="-2.8" x2="-3.925" y2="-2.8" width="0.05" layer="51"/>
+<wire x1="-3.925" y1="-2.8" x2="-3.925" y2="2.8" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-3.675" y1="2.525" x2="-2.2" y2="2.525" width="0.2" layer="21"/>
+</package>
+<package name="SOP50P326X110-14N">
+<description>&lt;b&gt;DYY0014A&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.538" y="1.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="2" x="-1.538" y="1" dx="1.075" dy="0.3" layer="1"/>
+<smd name="3" x="-1.538" y="0.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="4" x="-1.538" y="0" dx="1.075" dy="0.3" layer="1"/>
+<smd name="5" x="-1.538" y="-0.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="6" x="-1.538" y="-1" dx="1.075" dy="0.3" layer="1"/>
+<smd name="7" x="-1.538" y="-1.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="8" x="1.538" y="-1.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="9" x="1.538" y="-1" dx="1.075" dy="0.3" layer="1"/>
+<smd name="10" x="1.538" y="-0.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="11" x="1.538" y="0" dx="1.075" dy="0.3" layer="1"/>
+<smd name="12" x="1.538" y="0.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="13" x="1.538" y="1" dx="1.075" dy="0.3" layer="1"/>
+<smd name="14" x="1.538" y="1.5" dx="1.075" dy="0.3" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.325" y1="2.4" x2="2.325" y2="2.4" width="0.05" layer="51"/>
+<wire x1="2.325" y1="2.4" x2="2.325" y2="-2.4" width="0.05" layer="51"/>
+<wire x1="2.325" y1="-2.4" x2="-2.325" y2="-2.4" width="0.05" layer="51"/>
+<wire x1="-2.325" y1="-2.4" x2="-2.325" y2="2.4" width="0.05" layer="51"/>
+<wire x1="-1" y1="2.1" x2="1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="1" y1="2.1" x2="1" y2="-2.1" width="0.1" layer="51"/>
+<wire x1="1" y1="-2.1" x2="-1" y2="-2.1" width="0.1" layer="51"/>
+<wire x1="-1" y1="-2.1" x2="-1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-1" y1="1.6" x2="-0.5" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="2.1" x2="0.65" y2="2.1" width="0.2" layer="21"/>
+<wire x1="0.65" y1="2.1" x2="0.65" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="0.65" y1="-2.1" x2="-0.65" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-0.65" y1="-2.1" x2="-0.65" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-2.075" y1="2" x2="-1" y2="2" width="0.2" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -1034,6 +1102,120 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-60.96" y="-43.18" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-60.96" y="-43.18" size="1.27" layer="27" align="center"/>
 </element>
+<element name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="100n" x="-67.31" y="-49.53" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-67.31" y="-48.0959" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-67.31" y="-50.9641" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-66.04" y="-49.53" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C9" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="1u" x="-67.31" y="-57.15" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-67.31" y="-55.7159" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-67.31" y="-58.5841" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-66.04" y="-57.15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC3" library="SamacSys_Parts" package="SOP65P640X120-14N" value="SN74HCS32PWR" x="-64.77" y="-63.5" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32PWR" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32pwr/texas-instruments?region=nac" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-TSSOP -40 to 125" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.2mm" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32PWR" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32PWR" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32PWR?qs=vHuUswq2%252BswZ59iFDX%252BOFA%3D%3D" x="-64.77" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-64.77" y="-63.5" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-64.77" y="-63.5" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C10" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="100n" x="-69.85" y="-69.85" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-69.85" y="-68.4159" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-69.85" y="-71.2841" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-68.58" y="-69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C11" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="1u" x="-69.85" y="-77.47" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-69.85" y="-76.0359" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-69.85" y="-78.9041" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-68.58" y="-77.47" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC4" library="SamacSys_Parts" package="SOP50P326X110-14N" value="SN74HCS08DYYR" x="-68.58" y="-83.82" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates 4-ch, 2-input, 2-V to 6-V low power AND gates with Schmitt-trigger inputs" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS08DYYR" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS08DYYR" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS08DYYR?qs=Li%252BoUPsLEnuxOc6m1Nu7zQ%3D%3D" x="-68.58" y="-83.82" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-68.58" y="-83.82" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-68.58" y="-83.82" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="100n" x="-73.66" y="-90.17" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-73.66" y="-88.7359" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-73.66" y="-91.6041" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="1u" x="-73.66" y="-97.79" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-73.66" y="-96.3559" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-73.66" y="-99.2241" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1062,6 +1244,31 @@ design rules under a new name.</description>
 <contactref element="E2" pad="11"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J2" pad="1"/>
+<contactref element="IC2" pad="5"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="C11" pad="1"/>
+<contactref element="IC3" pad="13"/>
+<contactref element="IC3" pad="12"/>
+<contactref element="IC3" pad="7"/>
+<contactref element="C12" pad="1"/>
+<contactref element="C13" pad="1"/>
+<contactref element="IC4" pad="7"/>
+<contactref element="IC4" pad="12"/>
+<contactref element="IC4" pad="13"/>
+<wire x1="-74.4346" y1="-90.17" x2="-74.4346" y2="-97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.118" y1="-85.32" x2="-74.4346" y2="-90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.042" y1="-83.32" x2="-70.118" y2="-85.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.042" y1="-82.82" x2="-67.042" y2="-83.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.6246" y1="-77.47" x2="-67.042" y2="-82.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.6246" y1="-69.85" x2="-70.6246" y2="-77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.708" y1="-65.45" x2="-70.6246" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.832" y1="-62.85" x2="-67.708" y2="-65.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.832" y1="-62.2" x2="-61.832" y2="-62.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.0846" y1="-57.15" x2="-61.832" y2="-62.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.0846" y1="-49.53" x2="-68.0846" y2="-57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.96" y1="-43.18" x2="-68.0846" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="-43.18" x2="-60.96" y2="-43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.4852" y1="-41.91" x2="-40.64" y2="-43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.7748" y1="-41.91" x2="-27.4852" y2="-41.91" width="0" layer="19" extent="1-1"/>
@@ -1069,7 +1276,8 @@ design rules under a new name.</description>
 <wire x1="-16.59" y1="-34.21" x2="-19.09" y2="-34.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.59" y1="-29.21" x2="-19.09" y2="-34.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.302" y1="-19.05" x2="-21.59" y2="-29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.16" y1="-11.43" x2="-24.302" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.302" y1="-16.51" x2="-24.302" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.16" y1="-11.43" x2="-24.302" y2="-16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.66" y1="-16.43" x2="-10.16" y2="-11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.16" y1="-16.43" x2="-7.66" y2="-16.43" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="5.08" x2="-10.16" y2="-11.43" width="0" layer="19" extent="1-1"/>
@@ -1103,6 +1311,22 @@ design rules under a new name.</description>
 <contactref element="E1" pad="2"/>
 <contactref element="IC2" pad="14"/>
 <contactref element="E2" pad="2"/>
+<contactref element="C8" pad="2"/>
+<contactref element="C9" pad="2"/>
+<contactref element="IC3" pad="14"/>
+<contactref element="C10" pad="2"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C12" pad="2"/>
+<contactref element="C13" pad="2"/>
+<contactref element="IC4" pad="14"/>
+<wire x1="-72.8854" y1="-90.17" x2="-72.8854" y2="-97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.042" y1="-82.32" x2="-72.8854" y2="-90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.0754" y1="-77.47" x2="-67.042" y2="-82.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.0754" y1="-69.85" x2="-69.0754" y2="-77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.832" y1="-61.55" x2="-69.0754" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.5354" y1="-57.15" x2="-61.832" y2="-61.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.5354" y1="-49.53" x2="-66.5354" y2="-57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.59" y1="-34.21" x2="-66.5354" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.16" y1="-16.43" x2="-26.59" y2="-34.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.878" y1="-11.43" x2="-15.16" y2="-16.43" width="0" layer="19" extent="1-1"/>
 <wire x1="5.8546" y1="10.16" x2="-18.878" y2="-11.43" width="0" layer="19" extent="1-1"/>
@@ -1150,8 +1374,12 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="A"/>
 <contactref element="E1" pad="10"/>
 <contactref element="IC2" pad="1"/>
-<wire x1="-12.66" y1="-16.43" x2="35.34" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.302" y1="-11.43" x2="-12.66" y2="-16.43" width="0" layer="19" extent="1-1"/>
+<contactref element="IC4" pad="2"/>
+<contactref element="IC4" pad="5"/>
+<wire x1="-70.118" y1="-82.82" x2="-70.118" y2="-84.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.302" y1="-11.43" x2="-70.118" y2="-82.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.66" y1="-16.43" x2="-24.302" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="35.34" y1="2.54" x2="-12.66" y2="-16.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED2" pad="C"/>
@@ -1167,7 +1395,9 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="3"/>
 <contactref element="E2" pad="10"/>
 <contactref element="LED4" pad="A"/>
-<wire x1="-16.51" y1="-42.96" x2="-24.09" y2="-34.21" width="0" layer="19" extent="1-1"/>
+<contactref element="IC4" pad="10"/>
+<wire x1="-16.51" y1="-42.96" x2="-67.042" y2="-84.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.09" y1="-34.21" x2="-16.51" y2="-42.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.302" y1="-13.97" x2="-24.09" y2="-34.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SAFE2">
@@ -1213,6 +1443,54 @@ design rules under a new name.</description>
 <contactref element="J1" pad="4"/>
 <contactref element="IC2" pad="13"/>
 <wire x1="-18.878" y1="-12.7" x2="-33.14" y2="-43.18" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="IC3" pad="1"/>
+<contactref element="IC2" pad="12"/>
+<wire x1="-18.878" y1="-13.97" x2="-67.708" y2="-61.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="IC3" pad="2"/>
+</signal>
+<signal name="N$10">
+<contactref element="IC3" pad="4"/>
+<contactref element="IC2" pad="10"/>
+<wire x1="-18.878" y1="-16.51" x2="-67.708" y2="-63.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="IC3" pad="5"/>
+</signal>
+<signal name="N$12">
+<contactref element="IC3" pad="10"/>
+</signal>
+<signal name="N$13">
+<contactref element="IC3" pad="9"/>
+<contactref element="IC2" pad="8"/>
+<wire x1="-18.878" y1="-19.05" x2="-61.832" y2="-64.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="IC3" pad="8"/>
+<contactref element="IC4" pad="9"/>
+<wire x1="-61.832" y1="-65.45" x2="-67.042" y2="-84.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="IC3" pad="3"/>
+<contactref element="IC4" pad="1"/>
+<wire x1="-67.708" y1="-62.85" x2="-70.118" y2="-82.32" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="IC3" pad="6"/>
+<contactref element="IC4" pad="4"/>
+<wire x1="-67.708" y1="-64.8" x2="-70.118" y2="-83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FIRE1">
+<contactref element="IC4" pad="3"/>
+</signal>
+<signal name="FIRE2">
+<contactref element="IC4" pad="6"/>
+</signal>
+<signal name="FIRE3">
+<contactref element="IC4" pad="8"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
