@@ -452,6 +452,28 @@
 <wire x1="-0.25" y1="-1.46" x2="-0.25" y2="1.46" width="0.2" layer="21"/>
 <wire x1="-1.7" y1="1.525" x2="-0.6" y2="1.525" width="0.2" layer="21"/>
 </package>
+<package name="CMI970585SMTTR">
+<description>&lt;b&gt;CMI-9705-85-SMT-TR-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="0" y="4.95" dx="1.7" dy="1.5" layer="1"/>
+<smd name="2" x="0" y="-4.95" dx="1.7" dy="1.5" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.85" y1="4.85" x2="4.85" y2="4.85" width="0.2" layer="51"/>
+<wire x1="4.85" y1="4.85" x2="4.85" y2="-4.85" width="0.2" layer="51"/>
+<wire x1="4.85" y1="-4.85" x2="-4.85" y2="-4.85" width="0.2" layer="51"/>
+<wire x1="-4.85" y1="-4.85" x2="-4.85" y2="4.85" width="0.2" layer="51"/>
+<wire x1="-5.85" y1="6.7" x2="5.85" y2="6.7" width="0.1" layer="51"/>
+<wire x1="5.85" y1="6.7" x2="5.85" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="5.85" y1="-6.7" x2="-5.85" y2="-6.7" width="0.1" layer="51"/>
+<wire x1="-5.85" y1="-6.7" x2="-5.85" y2="6.7" width="0.1" layer="51"/>
+<wire x1="1.5" y1="4.85" x2="4.85" y2="4.85" width="0.1" layer="21"/>
+<wire x1="4.85" y1="4.85" x2="4.85" y2="-4.85" width="0.1" layer="21"/>
+<wire x1="4.85" y1="-4.85" x2="1.5" y2="-4.85" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="4.85" x2="-4.85" y2="4.85" width="0.1" layer="21"/>
+<wire x1="-4.85" y1="4.85" x2="-4.85" y2="-4.85" width="0.1" layer="21"/>
+<wire x1="-4.85" y1="-4.85" x2="-1.5" y2="-4.85" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="XT30UPB-M">
@@ -597,6 +619,18 @@
 <pin name="G" x="0" y="0" length="middle"/>
 <pin name="S" x="0" y="-2.54" length="middle"/>
 <pin name="D" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CMI-9705-85-SMT-TR">
+<wire x1="5.08" y1="1.27" x2="7.112" y2="1.27" width="0.254" layer="94"/>
+<wire x1="9.652" y1="3.81" x2="7.112" y2="1.27" width="0.254" layer="94"/>
+<wire x1="9.652" y1="3.81" x2="9.652" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.112" y1="-3.81" x2="9.652" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.112" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<text x="11.43" y="0" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="-2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" length="middle"/>
+<pin name="-" x="0" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -884,6 +918,33 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDN359BN-D.pdf"&gt; Da
 <attribute name="MANUFACTURER_PART_NUMBER" value="FDN359BN" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="512-FDN359BN" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMI-9705-85-SMT-TR" prefix="LS">
+<description>&lt;b&gt;Piezo Buzzers &amp; Audio Indicators buzzer, 9.7 mm x 9.7 mm x 5 mm deep, M, 12 VDC, 85 dB, Surface Mount, Audio Indicator&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/670/cmi-9705-85-smt-tr-1627760.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CMI-9705-85-SMT-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CMI970585SMTTR">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="CMI-9705-85-SMT-TR" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cmi-9705-85-smt-tr/cui-devices?region=nac" constant="no"/>
+<attribute name="DESCRIPTION" value="Piezo Buzzers &amp; Audio Indicators buzzer, 9.7 mm x 9.7 mm x 5 mm deep, M, 12 VDC, 85 dB, Surface Mount, Audio Indicator" constant="no"/>
+<attribute name="HEIGHT" value="5.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="CUI Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CMI-9705-85-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-CMI-9705-85SMTTR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMI-9705-85-SMT-TR?qs=P1JMDcb91o4Wun0lW9vptg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4012,6 +4073,7 @@ SRN6045- 33uH, 20% 1.4A</description>
 <part name="R9" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
 <part name="R10" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
 <part name="R11" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
+<part name="LS1" library="SamacSys_Parts" deviceset="CMI-9705-85-SMT-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4283,6 +4345,10 @@ SRN6045- 33uH, 20% 1.4A</description>
 <instance part="R11" gate="G$1" x="20.32" y="-330.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.32" y="-332.74" size="1.778" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="20.32" y="-327.66" size="1.778" layer="96" rot="R180" align="center"/>
+</instance>
+<instance part="LS1" gate="G$1" x="93.98" y="-337.82" smashed="yes">
+<attribute name="NAME" x="105.41" y="-337.82" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="105.41" y="-340.36" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -4674,6 +4740,10 @@ SRN6045- 33uH, 20% 1.4A</description>
 <wire x1="91.44" y1="-289.56" x2="86.36" y2="-289.56" width="0.1524" layer="91"/>
 <junction x="86.36" y="-289.56"/>
 <label x="88.9" y="-281.94" size="1.778" layer="95"/>
+<pinref part="LS1" gate="G$1" pin="+"/>
+<wire x1="93.98" y1="-337.82" x2="86.36" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-337.82" x2="86.36" y2="-327.66" width="0.1524" layer="91"/>
+<junction x="86.36" y="-327.66"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5039,6 +5109,16 @@ SRN6045- 33uH, 20% 1.4A</description>
 <wire x1="91.44" y1="-325.12" x2="76.2" y2="-325.12" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-325.12" x2="76.2" y2="-322.58" width="0.1524" layer="91"/>
 <junction x="76.2" y="-322.58"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="LS1" gate="G$1" pin="-"/>
+<wire x1="93.98" y1="-340.36" x2="93.98" y2="-342.9" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-342.9" x2="60.96" y2="-342.9" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="-342.9" x2="60.96" y2="-337.82" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="D"/>
+<wire x1="60.96" y1="-337.82" x2="55.88" y2="-337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
