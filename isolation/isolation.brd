@@ -1313,17 +1313,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.907" y="-124.587" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="20.447" y="-119.507" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="E1" library="SamacSys_Parts" package="SJ13525N" value="SJ1-3525N" x="-29.464" y="-1.27" smashed="yes" rot="MR270">
-<attribute name="ARROW_PART_NUMBER" value="" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="CUI Devices" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SJ1-3525N" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-29.464" y="-1.27" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-29.114" y="-1.27" size="1.27" layer="26" rot="MR270" align="center"/>
-<attribute name="VALUE" x="-29.114" y="-1.27" size="1.27" layer="28" rot="MR270" align="center"/>
+<element name="E1" library="SamacSys_Parts" package="SJ13525N" value="SJ1-3525N" x="-29.464" y="-1.27" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="CUI Devices" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SJ1-3525N" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-29.464" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-29.114" y="-1.27" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="-29.114" y="-1.27" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="IC2" library="SamacSys_Parts" package="SOIC127P600X175-14N" value="SN74HC14DRG3" x="17.78" y="-67.31" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="SN74HC14DRG3" x="17.78" y="-67.31" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1377,17 +1377,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.61" y="-92.71" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="57.15" y="-86.36" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="E2" library="SamacSys_Parts" package="SJ13525N" value="SJ1-3525N" x="-14.859" y="25.4" smashed="yes" rot="MR330">
-<attribute name="ARROW_PART_NUMBER" value="" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="HEIGHT" value="mm" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="CUI Devices" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SJ1-3525N" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="8.532596875" y="43.3045625" size="1.778" layer="28" rot="MR330" display="off"/>
-<attribute name="NAME" x="-16.248709375" y="22.72704375" size="1.27" layer="26" rot="MR330" align="center"/>
-<attribute name="VALUE" x="-14.684003125" y="25.096896875" size="1.27" layer="28" rot="MR330" align="center"/>
+<element name="E2" library="SamacSys_Parts" package="SJ13525N" value="SJ1-3525N" x="14.986" y="25.4" smashed="yes" rot="R330">
+<attribute name="ARROW_PART_NUMBER" value="" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="CUI Devices" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SJ1-3525N" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-8.405596875" y="43.3045625" size="1.778" layer="27" rot="R330" display="off"/>
+<attribute name="NAME" x="16.37570625" y="22.727046875" size="1.27" layer="25" rot="R330" align="center"/>
+<attribute name="VALUE" x="14.810996875" y="25.0969" size="1.27" layer="27" rot="R330" align="center"/>
 </element>
 <element name="J1" library="SamacSys_Parts" package="SHDRRA4W64P0X250_1X4_1240X1150" value="S4B-XH-A_LF__SN_" x="11.43" y="-63.5" smashed="yes" rot="MR270">
 <attribute name="ARROW_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="11.43" y="-63.5" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2093,12 +2093,12 @@ design rules under a new name.</description>
 <wire x1="52.07" y1="-80.4648" x2="44.9048" y2="-73.66" width="0" layer="19" extent="1-1"/>
 <wire x1="54.61" y1="-80.4648" x2="52.07" y2="-80.4648" width="0" layer="19" extent="1-1"/>
 <wire x1="57.15" y1="-80.4648" x2="54.61" y2="-80.4648" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.464" y1="-1.27" x2="11.43" y2="-55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.464" y1="-3.77" x2="-29.464" y2="-1.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.464" y1="-6.27" x2="-24.464" y2="-3.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.859" y1="25.4" x2="-24.464" y2="-6.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.524065625" y1="19.819871875" x2="-14.859" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.689128125" y1="18.569871875" x2="-14.524065625" y2="19.819871875" width="0" layer="19" extent="1-1"/>
+<wire x1="16.816125" y1="18.569871875" x2="25.4" y2="-51.2548" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6510625" y1="19.819871875" x2="16.816125" y2="18.569871875" width="0" layer="19" extent="1-1"/>
+<wire x1="14.986" y1="25.4" x2="14.6510625" y2="19.819871875" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.464" y1="3.73" x2="14.6510625" y2="19.819871875" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.464" y1="1.23" x2="-24.464" y2="3.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.464" y1="-1.27" x2="-24.464" y2="1.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="BAT1" pad="2"/>
@@ -2130,13 +2130,11 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="2"/>
 <contactref element="JP3" pad="2"/>
 <contactref element="JP2" pad="2"/>
-<wire x1="9.2575" y1="-80.01" x2="-16.51" y2="-62.01" width="0" layer="19" extent="1-1"/>
-<wire x1="9.2575" y1="-77.47" x2="9.2575" y2="-80.01" width="0" layer="19" extent="1-1"/>
-<wire x1="9.2575" y1="-74.93" x2="9.2575" y2="-77.47" width="0" layer="19" extent="1-1"/>
-<wire x1="15.068" y1="-71.12" x2="9.2575" y2="-74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="17.2846" y1="-60.96" x2="15.068" y2="-71.12" width="0" layer="19" extent="1-1"/>
-<wire x1="17.2846" y1="-58.42" x2="17.2846" y2="-60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="-55.1054" x2="17.2846" y2="-58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.464" y1="-6.27" x2="17.705125" y2="18.061871875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="-40.64" x2="-24.464" y2="-6.27" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="-40.64" x2="5.08" y2="-40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="-40.64" x2="8.89" y2="-40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-55.1054" x2="12.7" y2="-40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="-55.1054" x2="17.78" y2="-55.1054" width="0" layer="19" extent="1-1"/>
 <wire x1="22.86" y1="-56.6546" x2="20.32" y2="-55.1054" width="0" layer="19" extent="1-1"/>
 <wire x1="21.0946" y1="-58.42" x2="22.86" y2="-56.6546" width="0" layer="19" extent="1-1"/>
@@ -2145,19 +2143,21 @@ design rules under a new name.</description>
 <wire x1="25.42" y1="-56.83" x2="22.86" y2="-56.6546" width="0" layer="19" extent="1-1"/>
 <wire x1="25.42" y1="-55.88" x2="25.42" y2="-56.83" width="0" layer="19" extent="1-1"/>
 <wire x1="25.42" y1="-54.93" x2="25.42" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="17.2846" y1="-58.42" x2="17.78" y2="-55.1054" width="0" layer="19" extent="1-1"/>
+<wire x1="17.2846" y1="-60.96" x2="17.2846" y2="-58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="24.9046" y1="-62.23" x2="23.026" y2="-59.309" width="0" layer="19" extent="1-1"/>
 <wire x1="27.1654" y1="-62.23" x2="24.9046" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="23.45" y1="-64.372" x2="24.9046" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="33.288" y1="-65.81" x2="27.1654" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="-65.2654" x2="33.288" y2="-65.81" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="-70.6246" x2="33.288" y2="-65.81" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="-40.64" x2="17.78" y2="-55.1054" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="-40.64" x2="12.7" y2="-40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-40.64" x2="8.89" y2="-40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="15.068" y1="-71.12" x2="17.2846" y2="-60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="9.2575" y1="-74.93" x2="15.068" y2="-71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="9.2575" y1="-77.47" x2="9.2575" y2="-74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="9.2575" y1="-80.01" x2="9.2575" y2="-77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="53.34" y1="-64.85" x2="35.56" y2="-65.2654" width="0" layer="19" extent="1-1"/>
 <wire x1="53.34" y1="-53.42" x2="53.34" y2="-64.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.464" y1="3.73" x2="5.08" y2="-40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.028875" y1="23.569871875" x2="-24.464" y2="3.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.51" y1="-62.01" x2="9.2575" y2="-74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="C"/>
@@ -2211,8 +2211,8 @@ design rules under a new name.</description>
 <wire x1="30.212" y1="-66.31" x2="30.212" y2="-67.81" width="0" layer="19" extent="1-1"/>
 <wire x1="24.1" y1="-64.372" x2="30.212" y2="-66.31" width="0" layer="19" extent="1-1"/>
 <wire x1="20.492" y1="-71.12" x2="24.1" y2="-64.372" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.464" y1="1.23" x2="20.492" y2="-71.12" width="0" layer="19" extent="1-1"/>
-<wire x1="15.875" y1="-119.287" x2="-24.464" y2="1.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.464" y1="-3.77" x2="20.492" y2="-71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="15.875" y1="-119.287" x2="-24.464" y2="-3.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED2" pad="C"/>
@@ -2230,10 +2230,10 @@ design rules under a new name.</description>
 <contactref element="LED4" pad="A"/>
 <contactref element="IC4" pad="10"/>
 <contactref element="IC3" pad="12"/>
+<wire x1="20.492" y1="-68.58" x2="15.5400625" y2="19.311871875" width="0" layer="19" extent="1-1"/>
 <wire x1="24.75" y1="-64.372" x2="20.492" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="33.288" y1="-67.81" x2="24.75" y2="-64.372" width="0" layer="19" extent="1-1"/>
 <wire x1="52.07" y1="-86.14" x2="33.288" y2="-67.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.1939375" y1="22.319871875" x2="24.75" y2="-64.372" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SAFE2">
 <contactref element="IC2" pad="4"/>
