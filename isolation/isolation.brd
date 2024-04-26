@@ -207,25 +207,29 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SHDR2W160P0X500_1X2_1020X520X1">
-<description>&lt;b&gt;XT30UPB-M&lt;/b&gt;&lt;br&gt;
+<package name="B2BXH2LFSN">
+<description>&lt;b&gt;B2B-XH-2 (LF)(SN)-1&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.8" diameter="2.7" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.8" diameter="2.7"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.85" y1="-2.85" x2="-2.85" y2="2.85" width="0.05" layer="51"/>
-<wire x1="-2.85" y1="2.85" x2="7.85" y2="2.85" width="0.05" layer="51"/>
-<wire x1="7.85" y1="2.85" x2="7.85" y2="-2.85" width="0.05" layer="51"/>
-<wire x1="7.85" y1="-2.85" x2="-2.85" y2="-2.85" width="0.05" layer="51"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="2.6" x2="7.6" y2="2.6" width="0.1" layer="51"/>
-<wire x1="7.6" y1="2.6" x2="7.6" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="7.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="0" y1="-2.6" x2="7.6" y2="-2.6" width="0.2" layer="21"/>
-<wire x1="7.6" y1="-2.6" x2="7.6" y2="2.6" width="0.2" layer="21"/>
-<wire x1="7.6" y1="2.6" x2="-2.6" y2="2.6" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="2.6" x2="-2.6" y2="0" width="0.2" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.05" diameter="1.575"/>
+<pad name="2" x="2.5" y="0" drill="1.05" diameter="1.575"/>
+<text x="1.25" y="0.025" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="1.25" y="0.025" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.45" y1="3.4" x2="4.95" y2="3.4" width="0.2" layer="51"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="4.95" y1="-2.35" x2="-2.45" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-2.35" x2="3" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="3" y1="-2.35" x2="3" y2="-3.35" width="0.2" layer="51"/>
+<wire x1="3" y1="-3.35" x2="-0.5" y2="-3.35" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-3.35" x2="-0.5" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="-2.45" y1="3.4" x2="4.95" y2="3.4" width="0.1" layer="21"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.1" layer="21"/>
+<wire x1="4.95" y1="-2.35" x2="-2.45" y2="-2.35" width="0.1" layer="21"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.1" layer="21"/>
+<wire x1="-2.95" y1="3.9" x2="5.45" y2="3.9" width="0.1" layer="51"/>
+<wire x1="5.45" y1="3.9" x2="5.45" y2="-3.85" width="0.1" layer="51"/>
+<wire x1="5.45" y1="-3.85" x2="-2.95" y2="-3.85" width="0.1" layer="51"/>
+<wire x1="-2.95" y1="-3.85" x2="-2.95" y2="3.9" width="0.1" layer="51"/>
 </package>
 <package name="SOT95P280X145-6N">
 <description>&lt;b&gt;DBV0006A&lt;/b&gt;&lt;br&gt;
@@ -1065,25 +1069,25 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BAT1" library="SamacSys_Parts" package="SHDR2W160P0X500_1X2_1020X520X1" value="XT30UPB-M" x="5.08" y="5.08" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10.7mm" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amass" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="XT30UPB-M" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
+<element name="BAT1" library="SamacSys_Parts" package="B2BXH2LFSN" value="B2B-XH-2__LF__SN_" x="5.08" y="5.08" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="B2B-XH-2 (LF)(SN)" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/b2b-xh-2-lf-sn/jst-manufacturing?region=europe" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="JST XH B2B, 2 Way, 1 Row, Straight PCB Header" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B2B-XH-2 (LF)(SN)" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="5.08" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="0" y="5.08" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="19.05" y="6.35" size="1.27" layer="27" align="center"/>
 </element>
-<element name="BAT2" library="SamacSys_Parts" package="SHDR2W160P0X500_1X2_1020X520X1" value="XT30UPB-M" x="17.78" y="5.08" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="10.7mm" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amass" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="XT30UPB-M" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
+<element name="BAT2" library="SamacSys_Parts" package="B2BXH2LFSN" value="B2B-XH-2__LF__SN_" x="17.78" y="5.08" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="B2B-XH-2 (LF)(SN)" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/b2b-xh-2-lf-sn/jst-manufacturing?region=europe" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="JST XH B2B, 2 Way, 1 Row, Straight PCB Header" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B2B-XH-2 (LF)(SN)" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="17.78" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="13.97" y="0" size="1.27" layer="25" align="center"/>
@@ -2147,18 +2151,18 @@ design rules under a new name.</description>
 <wire x1="-26.59" y1="-34.21" x2="-66.5354" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.16" y1="-16.43" x2="-26.59" y2="-34.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.878" y1="-11.43" x2="-15.16" y2="-16.43" width="0" layer="19" extent="1-1"/>
-<wire x1="5.8546" y1="10.16" x2="-18.878" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="7.58" y1="5.08" x2="-18.878" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="5.8546" y1="10.16" x2="7.58" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="10.9346" y1="10.16" x2="5.8546" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="12.72" y1="14.29" x2="10.9346" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="12.72" y1="15.24" x2="12.72" y2="14.29" width="0" layer="19" extent="1-1"/>
 <wire x1="12.72" y1="16.19" x2="12.72" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="15.7354" x2="12.72" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="10.08" y1="5.08" x2="10.9346" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="18.5546" y1="10.16" x2="12.72" y2="14.29" width="0" layer="19" extent="1-1"/>
 <wire x1="23.6346" y1="10.16" x2="18.5546" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="22.78" y1="5.08" x2="23.6346" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="30.26" y1="2.54" x2="22.78" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="20.28" y1="5.08" x2="18.5546" y2="10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="18.63" x2="12.72" y2="16.19" width="0" layer="19" extent="1-1"/>
+<wire x1="30.26" y1="2.54" x2="23.6346" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="C"/>

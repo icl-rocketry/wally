@@ -199,25 +199,29 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SHDR2W160P0X500_1X2_1020X520X1">
-<description>&lt;b&gt;XT30UPB-M&lt;/b&gt;&lt;br&gt;
+<package name="B2BXH2LFSN">
+<description>&lt;b&gt;B2B-XH-2 (LF)(SN)-1&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.8" diameter="2.7" shape="square"/>
-<pad name="2" x="5" y="0" drill="1.8" diameter="2.7"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.85" y1="-2.85" x2="-2.85" y2="2.85" width="0.05" layer="51"/>
-<wire x1="-2.85" y1="2.85" x2="7.85" y2="2.85" width="0.05" layer="51"/>
-<wire x1="7.85" y1="2.85" x2="7.85" y2="-2.85" width="0.05" layer="51"/>
-<wire x1="7.85" y1="-2.85" x2="-2.85" y2="-2.85" width="0.05" layer="51"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="2.6" x2="7.6" y2="2.6" width="0.1" layer="51"/>
-<wire x1="7.6" y1="2.6" x2="7.6" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="7.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="0" y1="-2.6" x2="7.6" y2="-2.6" width="0.2" layer="21"/>
-<wire x1="7.6" y1="-2.6" x2="7.6" y2="2.6" width="0.2" layer="21"/>
-<wire x1="7.6" y1="2.6" x2="-2.6" y2="2.6" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="2.6" x2="-2.6" y2="0" width="0.2" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.05" diameter="1.575"/>
+<pad name="2" x="2.5" y="0" drill="1.05" diameter="1.575"/>
+<text x="1.25" y="0.025" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="1.25" y="0.025" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.45" y1="3.4" x2="4.95" y2="3.4" width="0.2" layer="51"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="4.95" y1="-2.35" x2="-2.45" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-2.35" x2="3" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="3" y1="-2.35" x2="3" y2="-3.35" width="0.2" layer="51"/>
+<wire x1="3" y1="-3.35" x2="-0.5" y2="-3.35" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="-3.35" x2="-0.5" y2="-2.35" width="0.2" layer="51"/>
+<wire x1="-2.45" y1="3.4" x2="4.95" y2="3.4" width="0.1" layer="21"/>
+<wire x1="4.95" y1="3.4" x2="4.95" y2="-2.35" width="0.1" layer="21"/>
+<wire x1="4.95" y1="-2.35" x2="-2.45" y2="-2.35" width="0.1" layer="21"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.1" layer="21"/>
+<wire x1="-2.95" y1="3.9" x2="5.45" y2="3.9" width="0.1" layer="51"/>
+<wire x1="5.45" y1="3.9" x2="5.45" y2="-3.85" width="0.1" layer="51"/>
+<wire x1="5.45" y1="-3.85" x2="-2.95" y2="-3.85" width="0.1" layer="51"/>
+<wire x1="-2.95" y1="-3.85" x2="-2.95" y2="3.9" width="0.1" layer="51"/>
 </package>
 <package name="SOT95P280X145-6N">
 <description>&lt;b&gt;DBV0006A&lt;/b&gt;&lt;br&gt;
@@ -486,7 +490,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="XT30UPB-M">
+<symbol name="B2B-XH-2__LF__SN_">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -644,26 +648,26 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XT30UPB-M" prefix="J">
-<description>&lt;b&gt;Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB SPEC.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="B2B-XH-2__LF__SN_" prefix="J">
+<description>&lt;b&gt;JST XH B2B, 2 Way, 1 Row, Straight PCB Header&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/1755297"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="XT30UPB-M" x="0" y="0"/>
+<gate name="G$1" symbol="B2B-XH-2__LF__SN_" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SHDR2W160P0X500_1X2_1020X520X1">
+<device name="" package="B2BXH2LFSN">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow" constant="no"/>
-<attribute name="HEIGHT" value="10.7mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Amass" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="XT30UPB-M" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="B2B-XH-2 (LF)(SN)" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/b2b-xh-2-lf-sn/jst-manufacturing?region=europe" constant="no"/>
+<attribute name="DESCRIPTION" value="JST XH B2B, 2 Way, 1 Row, Straight PCB Header" constant="no"/>
+<attribute name="HEIGHT" value="7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B2B-XH-2 (LF)(SN)" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -5455,8 +5459,8 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 </class>
 </classes>
 <parts>
-<part name="BAT1" library="SamacSys_Parts" deviceset="XT30UPB-M" device=""/>
-<part name="BAT2" library="SamacSys_Parts" deviceset="XT30UPB-M" device=""/>
+<part name="BAT1" library="SamacSys_Parts" deviceset="B2B-XH-2__LF__SN_" device=""/>
+<part name="BAT2" library="SamacSys_Parts" deviceset="B2B-XH-2__LF__SN_" device=""/>
 <part name="SUPPLY1" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="R1" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="75"/>
@@ -5573,12 +5577,12 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 </plain>
 <instances>
 <instance part="BAT1" gate="G$1" x="17.78" y="50.8" smashed="yes">
-<attribute name="NAME" x="34.29" y="58.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="34.29" y="55.88" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="21.59" y="58.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="21.59" y="55.88" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="BAT2" gate="G$1" x="17.78" y="33.02" smashed="yes">
-<attribute name="NAME" x="34.29" y="40.64" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="34.29" y="38.1" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="21.59" y="40.64" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="21.59" y="38.1" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="0" y="40.64" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-1.905" y="40.64" size="1.778" layer="96" rot="R270" align="center"/>
