@@ -185,6 +185,12 @@
 </layers>
 <board>
 <plain>
+<wire x1="-5.08" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="20"/>
+<wire x1="35.56" y1="22.86" x2="39.37" y2="19.05" width="0.1524" layer="20"/>
+<wire x1="39.37" y1="19.05" x2="39.37" y2="-3.81" width="0.1524" layer="20"/>
+<wire x1="39.37" y1="-3.81" x2="-1.27" y2="-3.81" width="0.1524" layer="20"/>
+<wire x1="-1.27" y1="-3.81" x2="-5.08" y2="0" width="0.1524" layer="20"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="22.86" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -430,6 +436,29 @@
 <wire x1="0.65" y1="-2.1" x2="-0.65" y2="-2.1" width="0.2" layer="21"/>
 <wire x1="-0.65" y1="-2.1" x2="-0.65" y2="2.1" width="0.2" layer="21"/>
 <wire x1="-2.075" y1="2" x2="-1" y2="2" width="0.2" layer="21"/>
+</package>
+<package name="SOT95P251X112-3N">
+<description>&lt;b&gt;SOT23_1+&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.15" y="0.95" dx="1.1" dy="0.65" layer="1"/>
+<smd name="2" x="-1.15" y="-0.95" dx="1.1" dy="0.65" layer="1"/>
+<smd name="3" x="1.15" y="0" dx="1.1" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.95" y1="1.77" x2="1.95" y2="1.77" width="0.05" layer="51"/>
+<wire x1="1.95" y1="1.77" x2="1.95" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="1.95" y1="-1.77" x2="-1.95" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="-1.77" x2="-1.95" y2="1.77" width="0.05" layer="51"/>
+<wire x1="-0.68" y1="1.46" x2="0.68" y2="1.46" width="0.1" layer="51"/>
+<wire x1="0.68" y1="1.46" x2="0.68" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="0.68" y1="-1.46" x2="-0.68" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="-0.68" y1="-1.46" x2="-0.68" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.68" y1="0.51" x2="0.27" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="1.46" x2="0.25" y2="1.46" width="0.2" layer="21"/>
+<wire x1="0.25" y1="1.46" x2="0.25" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="0.25" y1="-1.46" x2="-0.25" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="-0.25" y1="-1.46" x2="-0.25" y2="1.46" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="1.525" x2="-0.6" y2="1.525" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1216,6 +1245,90 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-73.66" y="-99.2241" size="1.27" layer="27" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-72.39" y="-97.79" size="1.778" layer="27" display="off"/>
 </element>
+<element name="IC5" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="-72.39" y="-102.87" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.12mm" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FDN359BN" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-FDN359BN" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" x="-72.39" y="-102.87" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="-102.87" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.39" y="-102.87" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC6" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="-72.39" y="-106.68" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.12mm" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FDN359BN" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-FDN359BN" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" x="-72.39" y="-106.68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="-106.68" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.39" y="-106.68" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC7" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="-72.39" y="-110.49" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.12mm" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FDN359BN" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-FDN359BN" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" x="-72.39" y="-110.49" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="-110.49" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.39" y="-110.49" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC8" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="-72.39" y="-114.3" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.12mm" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FDN359BN" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-FDN359BN" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="-114.3" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.39" y="-114.3" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J3" library="SamacSys_Parts" package="SHDRRA4W64P0X250_1X4_1240X1150" value="S4B-XH-A_LF__SN_" x="-88.9" y="-114.3" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/s4b-xh-a-lf-sn/jst-manufacturing?region=europe" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-88.9" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-88.9" y="-114.3" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-88.9" y="-114.3" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J4" library="SamacSys_Parts" package="SHDRRA4W64P0X250_1X4_1240X1150" value="S4B-XH-A_LF__SN_" x="-109.22" y="-114.3" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/s4b-xh-a-lf-sn/jst-manufacturing?region=europe" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-109.22" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-109.22" y="-114.3" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-109.22" y="-114.3" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J5" library="SamacSys_Parts" package="SHDRRA4W64P0X250_1X4_1240X1150" value="S4B-XH-A_LF__SN_" x="-129.54" y="-114.3" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/s4b-xh-a-lf-sn/jst-manufacturing?region=europe" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-129.54" y="-114.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-129.54" y="-114.3" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-129.54" y="-114.3" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1249,14 +1362,20 @@ design rules under a new name.</description>
 <contactref element="C9" pad="1"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C11" pad="1"/>
-<contactref element="IC3" pad="13"/>
-<contactref element="IC3" pad="12"/>
 <contactref element="IC3" pad="7"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C13" pad="1"/>
 <contactref element="IC4" pad="7"/>
 <contactref element="IC4" pad="12"/>
 <contactref element="IC4" pad="13"/>
+<contactref element="IC5" pad="2"/>
+<contactref element="IC6" pad="2"/>
+<contactref element="IC7" pad="2"/>
+<contactref element="IC8" pad="2"/>
+<wire x1="-73.54" y1="-111.44" x2="-73.54" y2="-115.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.54" y1="-107.63" x2="-73.54" y2="-111.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.54" y1="-103.82" x2="-73.54" y2="-107.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.4346" y1="-97.79" x2="-73.54" y2="-103.82" width="0" layer="19" extent="1-1"/>
 <wire x1="-74.4346" y1="-90.17" x2="-74.4346" y2="-97.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.118" y1="-85.32" x2="-74.4346" y2="-90.17" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.042" y1="-83.32" x2="-70.118" y2="-85.32" width="0" layer="19" extent="1-1"/>
@@ -1264,9 +1383,7 @@ design rules under a new name.</description>
 <wire x1="-70.6246" y1="-77.47" x2="-67.042" y2="-82.82" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.6246" y1="-69.85" x2="-70.6246" y2="-77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.708" y1="-65.45" x2="-70.6246" y2="-69.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.832" y1="-62.85" x2="-67.708" y2="-65.45" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.832" y1="-62.2" x2="-61.832" y2="-62.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.0846" y1="-57.15" x2="-61.832" y2="-62.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.0846" y1="-57.15" x2="-67.708" y2="-65.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.0846" y1="-49.53" x2="-68.0846" y2="-57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.96" y1="-43.18" x2="-68.0846" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="-43.18" x2="-60.96" y2="-43.18" width="0" layer="19" extent="1-1"/>
@@ -1360,8 +1477,20 @@ design rules under a new name.</description>
 <contactref element="D1" pad="1"/>
 <contactref element="C2" pad="2"/>
 <contactref element="R2" pad="1"/>
+<contactref element="J5" pad="4"/>
+<contactref element="J5" pad="1"/>
+<contactref element="J4" pad="4"/>
+<contactref element="J4" pad="1"/>
+<contactref element="J3" pad="4"/>
+<contactref element="J3" pad="1"/>
+<wire x1="-122.04" y1="-114.3" x2="-129.54" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-109.22" y1="-114.3" x2="-122.04" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.72" y1="-114.3" x2="-109.22" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.9" y1="-114.3" x2="-101.72" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.4" y1="-114.3" x2="-88.9" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="15.6948" y1="19.05" x2="-81.4" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="17.0054" x2="15.6948" y2="19.05" width="0" layer="19" extent="1-1"/>
 <wire x1="24.275" y1="13.97" x2="25.4" y2="17.0054" width="0" layer="19" extent="1-1"/>
-<wire x1="15.6948" y1="19.05" x2="25.4" y2="17.0054" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R2" pad="2"/>
@@ -1376,8 +1505,10 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="1"/>
 <contactref element="IC4" pad="2"/>
 <contactref element="IC4" pad="5"/>
+<contactref element="IC3" pad="13"/>
 <wire x1="-70.118" y1="-82.82" x2="-70.118" y2="-84.32" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.302" y1="-11.43" x2="-70.118" y2="-82.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.832" y1="-62.2" x2="-70.118" y2="-82.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.302" y1="-11.43" x2="-61.832" y2="-62.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-12.66" y1="-16.43" x2="-24.302" y2="-11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="35.34" y1="2.54" x2="-12.66" y2="-16.43" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1396,8 +1527,10 @@ design rules under a new name.</description>
 <contactref element="E2" pad="10"/>
 <contactref element="LED4" pad="A"/>
 <contactref element="IC4" pad="10"/>
-<wire x1="-16.51" y1="-42.96" x2="-67.042" y2="-84.32" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.09" y1="-34.21" x2="-16.51" y2="-42.96" width="0" layer="19" extent="1-1"/>
+<contactref element="IC3" pad="12"/>
+<wire x1="-61.832" y1="-62.85" x2="-67.042" y2="-84.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.09" y1="-34.21" x2="-61.832" y2="-62.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.51" y1="-42.96" x2="-24.09" y2="-34.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.302" y1="-13.97" x2="-24.09" y2="-34.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SAFE2">
@@ -1485,12 +1618,44 @@ design rules under a new name.</description>
 </signal>
 <signal name="FIRE1">
 <contactref element="IC4" pad="3"/>
+<contactref element="IC5" pad="1"/>
+<wire x1="-70.118" y1="-83.32" x2="-73.54" y2="-101.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FIRE2">
 <contactref element="IC4" pad="6"/>
+<contactref element="IC6" pad="1"/>
+<wire x1="-70.118" y1="-84.82" x2="-73.54" y2="-105.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FIRE3">
 <contactref element="IC4" pad="8"/>
+<contactref element="IC7" pad="1"/>
+<wire x1="-67.042" y1="-85.32" x2="-73.54" y2="-109.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BUZZ">
+<contactref element="IC3" pad="11"/>
+<contactref element="IC8" pad="1"/>
+<wire x1="-61.832" y1="-63.5" x2="-73.54" y2="-113.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="IC5" pad="3"/>
+<contactref element="J3" pad="2"/>
+<contactref element="J3" pad="3"/>
+<wire x1="-83.9" y1="-114.3" x2="-86.4" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.24" y1="-102.87" x2="-83.9" y2="-114.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="IC6" pad="3"/>
+<contactref element="J4" pad="2"/>
+<contactref element="J4" pad="3"/>
+<wire x1="-104.22" y1="-114.3" x2="-106.72" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.24" y1="-106.68" x2="-104.22" y2="-114.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="IC7" pad="3"/>
+<contactref element="J5" pad="2"/>
+<contactref element="J5" pad="3"/>
+<wire x1="-124.54" y1="-114.3" x2="-127.04" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.24" y1="-110.49" x2="-124.54" y2="-114.3" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
