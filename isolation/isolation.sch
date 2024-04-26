@@ -4008,6 +4008,10 @@ SRN6045- 33uH, 20% 1.4A</description>
 <part name="J4" library="SamacSys_Parts" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="J5" library="SamacSys_Parts" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="R8" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
+<part name="R9" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
+<part name="R10" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
+<part name="R11" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
 </parts>
 <sheets>
 <sheet>
@@ -4239,17 +4243,17 @@ SRN6045- 33uH, 20% 1.4A</description>
 <attribute name="NAME" x="52.07" y="-330.2" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="52.07" y="-332.74" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SUPPLY17" gate="G$1" x="22.86" y="-294.64" smashed="yes" rot="R270">
-<attribute name="VALUE" x="20.955" y="-294.64" size="1.778" layer="96" rot="R270" align="center"/>
+<instance part="SUPPLY17" gate="G$1" x="0" y="-294.64" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-1.905" y="-294.64" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="22.86" y="-309.88" smashed="yes" rot="R270">
-<attribute name="VALUE" x="20.955" y="-309.88" size="1.778" layer="96" rot="R270" align="center"/>
+<instance part="SUPPLY21" gate="G$1" x="0" y="-309.88" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-1.905" y="-309.88" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="SUPPLY22" gate="G$1" x="20.32" y="-325.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="18.415" y="-325.12" size="1.778" layer="96" rot="R270" align="center"/>
+<instance part="SUPPLY22" gate="G$1" x="0" y="-325.12" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-1.905" y="-325.12" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="SUPPLY23" gate="G$1" x="20.32" y="-340.36" smashed="yes" rot="R270">
-<attribute name="VALUE" x="18.415" y="-340.36" size="1.778" layer="96" rot="R270" align="center"/>
+<instance part="SUPPLY23" gate="G$1" x="0" y="-340.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-1.905" y="-340.36" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
 <instance part="J3" gate="G$1" x="91.44" y="-289.56" smashed="yes">
 <attribute name="NAME" x="107.95" y="-281.94" size="1.778" layer="95" align="center-left"/>
@@ -4264,6 +4268,22 @@ SRN6045- 33uH, 20% 1.4A</description>
 <attribute name="VALUE" x="107.95" y="-314.96" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="P+1" gate="VCC" x="86.36" y="-276.86" smashed="yes"/>
+<instance part="R8" gate="G$1" x="20.32" y="-284.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.32" y="-287.02" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="20.32" y="-281.94" size="1.778" layer="96" rot="R180" align="center"/>
+</instance>
+<instance part="R9" gate="G$1" x="20.32" y="-299.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.32" y="-302.26" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="20.32" y="-297.18" size="1.778" layer="96" rot="R180" align="center"/>
+</instance>
+<instance part="R10" gate="G$1" x="20.32" y="-314.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.32" y="-317.5" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="20.32" y="-312.42" size="1.778" layer="96" rot="R180" align="center"/>
+</instance>
+<instance part="R11" gate="G$1" x="20.32" y="-330.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.32" y="-332.74" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="20.32" y="-327.66" size="1.778" layer="96" rot="R180" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4453,22 +4473,42 @@ SRN6045- 33uH, 20% 1.4A</description>
 <segment>
 <pinref part="IC5" gate="G$1" pin="S"/>
 <pinref part="SUPPLY17" gate="G$1" pin="GND"/>
-<wire x1="35.56" y1="-294.64" x2="25.4" y2="-294.64" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-294.64" x2="10.16" y2="-294.64" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="-294.64" x2="2.54" y2="-294.64" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-284.48" x2="10.16" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-284.48" x2="10.16" y2="-294.64" width="0.1524" layer="91"/>
+<junction x="10.16" y="-294.64"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="S"/>
 <pinref part="SUPPLY21" gate="G$1" pin="GND"/>
-<wire x1="35.56" y1="-309.88" x2="25.4" y2="-309.88" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-309.88" x2="10.16" y2="-309.88" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="-309.88" x2="2.54" y2="-309.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-299.72" x2="10.16" y2="-299.72" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-299.72" x2="10.16" y2="-309.88" width="0.1524" layer="91"/>
+<junction x="10.16" y="-309.88"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="S"/>
 <pinref part="SUPPLY22" gate="G$1" pin="GND"/>
-<wire x1="35.56" y1="-325.12" x2="22.86" y2="-325.12" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-325.12" x2="10.16" y2="-325.12" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="-325.12" x2="2.54" y2="-325.12" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-314.96" x2="10.16" y2="-314.96" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-314.96" x2="10.16" y2="-325.12" width="0.1524" layer="91"/>
+<junction x="10.16" y="-325.12"/>
 </segment>
 <segment>
 <pinref part="IC8" gate="G$1" pin="S"/>
 <pinref part="SUPPLY23" gate="G$1" pin="GND"/>
-<wire x1="35.56" y1="-340.36" x2="22.86" y2="-340.36" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-340.36" x2="10.16" y2="-340.36" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="-340.36" x2="2.54" y2="-340.36" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-330.2" x2="10.16" y2="-330.2" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-330.2" x2="10.16" y2="-340.36" width="0.1524" layer="91"/>
+<junction x="10.16" y="-340.36"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -4903,8 +4943,13 @@ SRN6045- 33uH, 20% 1.4A</description>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="G"/>
-<wire x1="35.56" y1="-292.1" x2="15.24" y2="-292.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-292.1" x2="30.48" y2="-292.1" width="0.1524" layer="91"/>
 <label x="15.24" y="-292.1" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="-292.1" x2="15.24" y2="-292.1" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-284.48" x2="30.48" y2="-284.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-284.48" x2="30.48" y2="-292.1" width="0.1524" layer="91"/>
+<junction x="30.48" y="-292.1"/>
 </segment>
 </net>
 <net name="FIRE2" class="0">
@@ -4915,8 +4960,13 @@ SRN6045- 33uH, 20% 1.4A</description>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="G"/>
-<wire x1="35.56" y1="-307.34" x2="15.24" y2="-307.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-307.34" x2="30.48" y2="-307.34" width="0.1524" layer="91"/>
 <label x="15.24" y="-307.34" size="1.778" layer="95"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="-307.34" x2="15.24" y2="-307.34" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-299.72" x2="30.48" y2="-299.72" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-299.72" x2="30.48" y2="-307.34" width="0.1524" layer="91"/>
+<junction x="30.48" y="-307.34"/>
 </segment>
 </net>
 <net name="FIRE3" class="0">
@@ -4927,8 +4977,13 @@ SRN6045- 33uH, 20% 1.4A</description>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="G"/>
-<wire x1="35.56" y1="-322.58" x2="15.24" y2="-322.58" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-322.58" x2="30.48" y2="-322.58" width="0.1524" layer="91"/>
 <label x="15.24" y="-322.58" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="-322.58" x2="15.24" y2="-322.58" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-314.96" x2="30.48" y2="-314.96" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-314.96" x2="30.48" y2="-322.58" width="0.1524" layer="91"/>
+<junction x="30.48" y="-322.58"/>
 </segment>
 </net>
 <net name="BUZZ" class="0">
@@ -4941,8 +4996,13 @@ SRN6045- 33uH, 20% 1.4A</description>
 </segment>
 <segment>
 <pinref part="IC8" gate="G$1" pin="G"/>
-<wire x1="35.56" y1="-337.82" x2="15.24" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-337.82" x2="30.48" y2="-337.82" width="0.1524" layer="91"/>
 <label x="15.24" y="-337.82" size="1.778" layer="95"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="-337.82" x2="15.24" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-330.2" x2="30.48" y2="-330.2" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-330.2" x2="30.48" y2="-337.82" width="0.1524" layer="91"/>
+<junction x="30.48" y="-337.82"/>
 </segment>
 </net>
 <net name="N$17" class="0">
