@@ -7322,9 +7322,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="J5" library="Connectors" library_urn="urn:adsk.eagle:library:14555660" deviceset="S2B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:10989924/2"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
-<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
-<part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
@@ -7731,29 +7729,21 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="96.52" y="-316.738" size="1.778" layer="95"/>
 <attribute name="VALUE" x="96.52" y="-327.66" size="1.778" layer="96"/>
 </instance>
-<instance part="TP3" gate="G$1" x="40.64" y="-401.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="-400.304" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="38.1" y="-402.59" size="1.778" layer="97" rot="R270"/>
+<instance part="TP3" gate="G$1" x="40.64" y="-436.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.29" y="-435.864" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="38.1" y="-438.15" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP4" gate="G$1" x="40.64" y="-406.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="-405.384" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="38.1" y="-407.67" size="1.778" layer="97" rot="R270"/>
-</instance>
-<instance part="TP5" gate="G$1" x="40.64" y="-414.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="-413.004" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="38.1" y="-415.29" size="1.778" layer="97" rot="R270"/>
+<instance part="TP4" gate="G$1" x="40.64" y="-411.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.75" y="-410.464" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="38.1" y="-412.75" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="TP6" gate="G$1" x="40.64" y="-419.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.21" y="-418.084" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="38.1" y="-420.37" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP7" gate="G$1" x="40.64" y="-426.72" smashed="yes" rot="R270">
+<instance part="TP8" gate="G$1" x="40.64" y="-426.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.29" y="-425.704" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="38.1" y="-427.99" size="1.778" layer="97" rot="R270"/>
-</instance>
-<instance part="TP8" gate="G$1" x="40.64" y="-431.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="-430.784" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="38.1" y="-433.07" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="TP9" gate="G$1" x="53.34" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.99" y="34.036" size="1.778" layer="95"/>
@@ -8176,18 +8166,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <label x="71.12" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="-401.32" x2="60.96" y2="-414.02" width="0.1524" layer="91"/>
 <label x="63.5" y="-441.96" size="1.778" layer="95"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="60.96" y1="-414.02" x2="60.96" y2="-426.72" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-426.72" x2="60.96" y2="-441.96" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-401.32" x2="43.18" y2="-401.32" width="0.1524" layer="91"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
-<wire x1="43.18" y1="-414.02" x2="60.96" y2="-414.02" width="0.1524" layer="91"/>
-<junction x="60.96" y="-414.02"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
-<wire x1="43.18" y1="-426.72" x2="60.96" y2="-426.72" width="0.1524" layer="91"/>
-<junction x="60.96" y="-426.72"/>
+<wire x1="60.96" y1="-436.88" x2="60.96" y2="-441.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-436.88" x2="60.96" y2="-436.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8472,10 +8454,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <segment>
 <pinref part="LED12" gate="G$1" pin="A"/>
 <label x="78.74" y="-411.48" size="1.778" layer="95"/>
-<wire x1="96.52" y1="-411.48" x2="50.8" y2="-411.48" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-411.48" x2="50.8" y2="-406.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-411.48" x2="43.18" y2="-411.48" width="0.1524" layer="91"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="50.8" y1="-406.4" x2="43.18" y2="-406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FIRE2" class="0">
@@ -8520,10 +8500,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <segment>
 <pinref part="LED14" gate="G$1" pin="A"/>
 <label x="78.74" y="-426.72" size="1.778" layer="95"/>
-<wire x1="96.52" y1="-426.72" x2="66.04" y2="-426.72" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-426.72" x2="66.04" y2="-431.8" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-426.72" x2="43.18" y2="-426.72" width="0.1524" layer="91"/>
 <pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="66.04" y1="-431.8" x2="43.18" y2="-431.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUZZ" class="0">
