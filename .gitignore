@@ -36,3 +36,4 @@ TinyGPS/
 *.b#*
 *.s#*
 *.job
+isolation/isolation.pro
