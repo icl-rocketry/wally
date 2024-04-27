@@ -35,3 +35,4 @@ TinyGPS/
 # Eagle cache
 *.b#*
 *.s#*
+*.job
