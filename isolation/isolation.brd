@@ -7206,6 +7206,7 @@
 <text x="-12.7" y="-29.21" size="1" layer="22" font="vector" ratio="12" rot="MR0">GND</text>
 <text x="27.051" y="-1.143" size="1.5" layer="21" font="vector" ratio="15" rot="R90">VBUS</text>
 <text x="31.75" y="3.175" size="1.5" layer="21" font="vector" ratio="15" rot="R270">USB C</text>
+<text x="2.794" y="-22.606" size="1" layer="21" font="vector" ratio="15">JLCJLCJLCJLC</text>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
