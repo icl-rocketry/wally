@@ -354,6 +354,51 @@
 <wire x1="-10.1" y1="5.51" x2="-10.1" y2="5.51" width="0.1" layer="21"/>
 <wire x1="-10.1" y1="5.51" x2="-10" y2="5.51" width="0.1" layer="21" curve="180"/>
 </package>
+<package name="SOT95P280X145-6N">
+<description>&lt;b&gt;DBV0006A&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="6" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
+</package>
+<package name="DIOM5127X229N">
+<description>&lt;b&gt;SMA (DO-214AC)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.05" y="0" dx="2.2" dy="1.55" layer="1"/>
+<smd name="2" x="2.05" y="0" dx="2.2" dy="1.55" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.4" y1="1.645" x2="3.4" y2="1.645" width="0.05" layer="51"/>
+<wire x1="3.4" y1="1.645" x2="3.4" y2="-1.645" width="0.05" layer="51"/>
+<wire x1="3.4" y1="-1.645" x2="-3.4" y2="-1.645" width="0.05" layer="51"/>
+<wire x1="-3.4" y1="-1.645" x2="-3.4" y2="1.645" width="0.05" layer="51"/>
+<wire x1="-2.552" y1="1.332" x2="2.552" y2="1.332" width="0.1" layer="51"/>
+<wire x1="2.552" y1="1.332" x2="2.552" y2="-1.332" width="0.1" layer="51"/>
+<wire x1="2.552" y1="-1.332" x2="-2.552" y2="-1.332" width="0.1" layer="51"/>
+<wire x1="-2.552" y1="-1.332" x2="-2.552" y2="1.332" width="0.1" layer="51"/>
+<wire x1="-2.552" y1="0.558" x2="-1.778" y2="1.332" width="0.1" layer="51"/>
+<wire x1="2.552" y1="1.332" x2="-2.825" y2="1.332" width="0.2" layer="21"/>
+<wire x1="-2.552" y1="-1.332" x2="2.552" y2="-1.332" width="0.2" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Connectors">
@@ -713,6 +758,39 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package3d>
 </packages3d>
 </library>
+<library name="BeagleBone_Blue_R3" urn="urn:adsk.eagle:library:5828899">
+<description>Generated from &lt;b&gt;BeagleBone_Blue.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="L0603" urn="urn:adsk.eagle:footprint:5829375/1" library_version="49">
+<description>&lt;b&gt;INDUCTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.127" layer="21"/>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="L0603" urn="urn:adsk.eagle:package:5829817/3" type="model" library_version="49">
+<description>&lt;b&gt;INDUCTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<packageinstances>
+<packageinstance name="L0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1046,6 +1124,222 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="-51" y="-57" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="-51" y="-57" size="0.0254" layer="27"/>
 </element>
+<element name="IC2" library="SamacSys_Parts" package="SOT95P280X145-6N" override_package3d_urn="urn:adsk.eagle:package:44099322/2" override_package_urn="urn:adsk.eagle:footprint:44099323/1" value="XTLV61048DBVR" x="-45" y="-86" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="DESCRIPTION" value="15-V output voltage non-synchronous boost converter in SOT-23 package" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="XTLV61048DBVR" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="N/A" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" x="-49" y="-66" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-45" y="-86" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-45" y="-86" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D1" library="SamacSys_Parts" package="DIOM5127X229N" override_package3d_urn="urn:adsk.eagle:package:44099325/2" override_package_urn="urn:adsk.eagle:footprint:44099326/1" value="SSA34-E3_5AT" x="-46" y="-90" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SSA34-E3/5AT" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ssa34-e35at/vishay?region=nac" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="DESCRIPTION" value="Vishay SSA34-E3/5AT, SMT Schottky Diode, 40V 3A, 2-Pin DO-214AC" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="HEIGHT" value="2.29mm" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSA34-E3/5AT" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="625-SSA34-E3/5AT" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SSA34-E3-5AT?qs=x2jpVgRnAtMCobuyGDc8VQ%3D%3D" x="-52" y="-70" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-46" y="-90" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-46" y="-90" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="10u" x="-51" y="-74" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-51" y="-72.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-51" y="-75.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-75" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="10u" x="-47" y="-74" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-47" y="-72.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-47" y="-75.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-82" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="R2" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="1M" x="-47" y="-67" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-47" y="-65.5641" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="RATING" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TOLERANCE" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-47" y="-68.4359" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="R3" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="120k" x="-51" y="-67" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-51" y="-65.5641" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="RATING" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TOLERANCE" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-51" y="-68.4359" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="L1" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="L0603" package3d_urn="urn:adsk.eagle:package:5829817/3" value="10uH" x="-43" y="-80" smashed="yes">
+<attribute name="NAME" x="-43.889" y="-79.111" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-43.889" y="-82.032" size="1.27" layer="27"/>
+</element>
+<element name="C4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="22u" x="-43" y="-74" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-43" y="-72.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-43" y="-75.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-108" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="22u" x="-39" y="-74" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-39" y="-72.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-39" y="-75.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-115" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="C6" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="22u" x="-35" y="-74" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-35" y="-72.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-35" y="-75.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-122" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="C7" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="22u" x="-51" y="-81" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-51" y="-79.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-51" y="-82.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-129" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="1u" x="-47" y="-81" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-47" y="-79.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-47" y="-82.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-136" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099355/2" override_package_urn="urn:adsk.eagle:footprint:27902/1" value="PTR1PAD1-13" x="-37" y="-81" smashed="yes">
+<attribute name="NAME" x="-38.016" y="-79.73" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="2" x="-57" y="-143" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="-38.27" y="-83.54" size="1" layer="37"/>
+<attribute name="VALUE" x="-37" y="-81" size="0.0254" layer="27"/>
+</element>
+<element name="C20" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="22u" x="-43" y="-67" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-43" y="-65.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-43" y="-68.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-148" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="C21" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="22u" x="-38" y="-67" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-38" y="-65.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-38" y="-68.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-155" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="C22" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="22u" x="-33" y="-67" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-33" y="-65.5659" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-33" y="-68.4341" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-54" y="-162" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1073,6 +1367,32 @@ design rules under a new name.</description>
 <contactref element="SIM7600G" pad="1"/>
 <contactref element="SIM7600G" pad="6"/>
 <contactref element="TP3" pad="TP"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C4" pad="1"/>
+<contactref element="C5" pad="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C7" pad="1"/>
+<contactref element="C20" pad="1"/>
+<contactref element="C21" pad="1"/>
+<contactref element="C22" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="R3" pad="2"/>
+<contactref element="IC2" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="IC2" pad="6"/>
+<wire x1="-46.2254" y1="-81" x2="-51.7746" y2="-81" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.75" y1="-85.05" x2="-46.2254" y2="-81" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.25" y1="-86" x2="-43.75" y2="-85.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.2254" y1="-74" x2="-51.7746" y2="-81" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.7746" y1="-74" x2="-50.2254" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.7746" y1="-74" x2="-47.7746" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.7746" y1="-74" x2="-43.7746" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.7746" y1="-74" x2="-39.7746" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.1848" y1="-67" x2="-50.2254" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.7746" y1="-67" x2="-50.1848" y2="-67" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.7746" y1="-67" x2="-43.7746" y2="-67" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.7746" y1="-67" x2="-38.7746" y2="-67" width="0" layer="19" extent="1-1"/>
+<wire x1="-51" y1="-57" x2="-50.1848" y2="-67" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.7746" y1="-33" x2="-51" y2="-57" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.1848" y1="-26" x2="-50.7746" y2="-33" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.1848" y1="-26" x2="-49.1848" y2="-26" width="0" layer="19" extent="1-1"/>
@@ -1152,10 +1472,52 @@ design rules under a new name.</description>
 <signal name="VSIM">
 <contactref element="SIM7600G" pad="5"/>
 <contactref element="TP2" pad="TP"/>
+<contactref element="D1" pad="1"/>
+<contactref element="C2" pad="2"/>
+<contactref element="R2" pad="1"/>
+<contactref element="TP9" pad="TP"/>
+<wire x1="-37" y1="-81" x2="-48.05" y2="-90" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.2254" y1="-74" x2="-37" y2="-81" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.8152" y1="-67" x2="-46.2254" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-51" y1="-52" x2="-47.8152" y2="-67" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="-17.96" x2="-51" y2="-52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SLEEP">
 <contactref element="SIM7600G" pad="7"/>
+</signal>
+<signal name="VCC">
+<contactref element="IC2" pad="5"/>
+<contactref element="IC2" pad="4"/>
+<contactref element="C1" pad="1"/>
+<contactref element="L1" pad="2"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C5" pad="2"/>
+<contactref element="C4" pad="2"/>
+<contactref element="C22" pad="2"/>
+<contactref element="C21" pad="2"/>
+<contactref element="C20" pad="2"/>
+<wire x1="-43.75" y1="-86" x2="-43.75" y2="-86.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.15" y1="-80" x2="-43.75" y2="-86" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.2254" y1="-74" x2="-42.15" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.2254" y1="-74" x2="-42.2254" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.2254" y1="-74" x2="-38.2254" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.2254" y1="-67" x2="-42.2254" y2="-74" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.2254" y1="-67" x2="-42.2254" y2="-67" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.2254" y1="-67" x2="-37.2254" y2="-67" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.2254" y1="-81" x2="-42.15" y2="-80" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.7746" y1="-74" x2="-50.2254" y2="-81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC2" pad="1"/>
+<contactref element="D1" pad="2"/>
+<contactref element="L1" pad="1"/>
+<contactref element="C3" pad="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R2" pad="2"/>
+<contactref element="R3" pad="1"/>
+<contactref element="IC2" pad="3"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
