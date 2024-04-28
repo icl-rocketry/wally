@@ -333,79 +333,79 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="ESP32S3WROOM1N4">
-<description>&lt;b&gt;ESP32-S3-WROOM-1-N4-4&lt;/b&gt;&lt;br&gt;
+<package name="ESP32S3WROOM1UN16">
+<description>&lt;b&gt;ESP32-S3-WROOM-1U-N16-1&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-8.75" y="5.51" dx="1.5" dy="0.9" layer="1"/>
-<smd name="2" x="-8.75" y="4.24" dx="1.5" dy="0.9" layer="1"/>
-<smd name="3" x="-8.75" y="2.97" dx="1.5" dy="0.9" layer="1"/>
-<smd name="4" x="-8.75" y="1.7" dx="1.5" dy="0.9" layer="1"/>
-<smd name="5" x="-8.75" y="0.43" dx="1.5" dy="0.9" layer="1"/>
-<smd name="6" x="-8.75" y="-0.84" dx="1.5" dy="0.9" layer="1"/>
-<smd name="7" x="-8.75" y="-2.11" dx="1.5" dy="0.9" layer="1"/>
-<smd name="8" x="-8.75" y="-3.38" dx="1.5" dy="0.9" layer="1"/>
-<smd name="9" x="-8.75" y="-4.65" dx="1.5" dy="0.9" layer="1"/>
-<smd name="10" x="-8.75" y="-5.92" dx="1.5" dy="0.9" layer="1"/>
-<smd name="11" x="-8.75" y="-7.19" dx="1.5" dy="0.9" layer="1"/>
-<smd name="12" x="-8.75" y="-8.46" dx="1.5" dy="0.9" layer="1"/>
-<smd name="13" x="-8.75" y="-9.73" dx="1.5" dy="0.9" layer="1"/>
-<smd name="14" x="-8.75" y="-11" dx="1.5" dy="0.9" layer="1"/>
-<smd name="15" x="-6.985" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="16" x="-5.715" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="17" x="-4.445" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="18" x="-3.175" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="19" x="-1.905" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="20" x="-0.635" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="21" x="0.635" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="22" x="1.905" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="23" x="3.175" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="24" x="4.445" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="25" x="5.715" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="26" x="6.985" y="-12.25" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="27" x="8.75" y="-11" dx="1.5" dy="0.9" layer="1"/>
-<smd name="28" x="8.75" y="-9.73" dx="1.5" dy="0.9" layer="1"/>
-<smd name="29" x="8.75" y="-8.46" dx="1.5" dy="0.9" layer="1"/>
-<smd name="30" x="8.75" y="-7.19" dx="1.5" dy="0.9" layer="1"/>
-<smd name="31" x="8.75" y="-5.92" dx="1.5" dy="0.9" layer="1"/>
-<smd name="32" x="8.75" y="-4.65" dx="1.5" dy="0.9" layer="1"/>
-<smd name="33" x="8.75" y="-3.38" dx="1.5" dy="0.9" layer="1"/>
-<smd name="34" x="8.75" y="-2.11" dx="1.5" dy="0.9" layer="1"/>
-<smd name="35" x="8.75" y="-0.84" dx="1.5" dy="0.9" layer="1"/>
-<smd name="36" x="8.75" y="0.43" dx="1.5" dy="0.9" layer="1"/>
-<smd name="37" x="8.75" y="1.7" dx="1.5" dy="0.9" layer="1"/>
-<smd name="38" x="8.75" y="2.97" dx="1.5" dy="0.9" layer="1"/>
-<smd name="39" x="8.75" y="4.24" dx="1.5" dy="0.9" layer="1"/>
-<smd name="40" x="8.75" y="5.51" dx="1.5" dy="0.9" layer="1"/>
-<smd name="41" x="-1.5" y="-2.21" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="42" x="-0.1" y="-2.21" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="43" x="-0.1" y="-0.81" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="44" x="-1.5" y="-0.81" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="45" x="-2.9" y="-0.81" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="46" x="-2.9" y="-2.21" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="47" x="-2.9" y="-3.61" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="48" x="-1.5" y="-3.61" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<smd name="49" x="-0.1" y="-3.61" dx="0.9" dy="0.9" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-9" y1="13" x2="9" y2="13" width="0.1" layer="51"/>
-<wire x1="9" y1="13" x2="9" y2="-12.5" width="0.1" layer="51"/>
-<wire x1="9" y1="-12.5" x2="-9" y2="-12.5" width="0.1" layer="51"/>
-<wire x1="-9" y1="-12.5" x2="-9" y2="13" width="0.1" layer="51"/>
-<wire x1="-10.5" y1="14" x2="10.5" y2="14" width="0.1" layer="51"/>
-<wire x1="10.5" y1="14" x2="10.5" y2="-14" width="0.1" layer="51"/>
-<wire x1="10.5" y1="-14" x2="-10.5" y2="-14" width="0.1" layer="51"/>
-<wire x1="-10.5" y1="-14" x2="-10.5" y2="14" width="0.1" layer="51"/>
-<wire x1="9" y1="6.45" x2="9" y2="13" width="0.2" layer="21"/>
-<wire x1="9" y1="13" x2="-9" y2="13" width="0.2" layer="21"/>
-<wire x1="-9" y1="13" x2="-9" y2="6.45" width="0.2" layer="21"/>
-<wire x1="-9" y1="-11.75" x2="-9" y2="-12.5" width="0.2" layer="21"/>
-<wire x1="-9" y1="-12.5" x2="-7.8" y2="-12.5" width="0.2" layer="21"/>
-<wire x1="7.8" y1="-12.5" x2="9" y2="-12.5" width="0.2" layer="21"/>
-<wire x1="9" y1="-12.5" x2="9" y2="-11.75" width="0.2" layer="21"/>
-<wire x1="-10" y1="5.51" x2="-10" y2="5.51" width="0.1" layer="21"/>
-<wire x1="-10" y1="5.51" x2="-10.1" y2="5.51" width="0.1" layer="21" curve="180"/>
-<wire x1="-10.1" y1="5.51" x2="-10.1" y2="5.51" width="0.1" layer="21"/>
-<wire x1="-10.1" y1="5.51" x2="-10" y2="5.51" width="0.1" layer="21" curve="180"/>
+<smd name="1" x="-8.75" y="8.41" dx="1.5" dy="0.9" layer="1"/>
+<smd name="2" x="-8.75" y="7.14" dx="1.5" dy="0.9" layer="1"/>
+<smd name="3" x="-8.75" y="5.87" dx="1.5" dy="0.9" layer="1"/>
+<smd name="4" x="-8.75" y="4.6" dx="1.5" dy="0.9" layer="1"/>
+<smd name="5" x="-8.75" y="3.33" dx="1.5" dy="0.9" layer="1"/>
+<smd name="6" x="-8.75" y="2.06" dx="1.5" dy="0.9" layer="1"/>
+<smd name="7" x="-8.75" y="0.79" dx="1.5" dy="0.9" layer="1"/>
+<smd name="8" x="-8.75" y="-0.48" dx="1.5" dy="0.9" layer="1"/>
+<smd name="9" x="-8.75" y="-1.75" dx="1.5" dy="0.9" layer="1"/>
+<smd name="10" x="-8.75" y="-3.02" dx="1.5" dy="0.9" layer="1"/>
+<smd name="11" x="-8.75" y="-4.29" dx="1.5" dy="0.9" layer="1"/>
+<smd name="12" x="-8.75" y="-5.56" dx="1.5" dy="0.9" layer="1"/>
+<smd name="13" x="-8.75" y="-6.83" dx="1.5" dy="0.9" layer="1"/>
+<smd name="14" x="-8.75" y="-8.1" dx="1.5" dy="0.9" layer="1"/>
+<smd name="15" x="-6.985" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="16" x="-5.715" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="17" x="-4.445" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="18" x="-3.175" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="19" x="-1.905" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="20" x="-0.635" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="21" x="0.635" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="22" x="1.905" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="23" x="3.175" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="24" x="4.445" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="25" x="5.715" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="26" x="6.985" y="-9.35" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="27" x="8.75" y="-8.1" dx="1.5" dy="0.9" layer="1"/>
+<smd name="28" x="8.75" y="-6.83" dx="1.5" dy="0.9" layer="1"/>
+<smd name="29" x="8.75" y="-5.56" dx="1.5" dy="0.9" layer="1"/>
+<smd name="30" x="8.75" y="-4.29" dx="1.5" dy="0.9" layer="1"/>
+<smd name="31" x="8.75" y="-3.02" dx="1.5" dy="0.9" layer="1"/>
+<smd name="32" x="8.75" y="-1.75" dx="1.5" dy="0.9" layer="1"/>
+<smd name="33" x="8.75" y="-0.48" dx="1.5" dy="0.9" layer="1"/>
+<smd name="34" x="8.75" y="0.79" dx="1.5" dy="0.9" layer="1"/>
+<smd name="35" x="8.75" y="2.06" dx="1.5" dy="0.9" layer="1"/>
+<smd name="36" x="8.75" y="3.33" dx="1.5" dy="0.9" layer="1"/>
+<smd name="37" x="8.75" y="4.6" dx="1.5" dy="0.9" layer="1"/>
+<smd name="38" x="8.75" y="5.87" dx="1.5" dy="0.9" layer="1"/>
+<smd name="39" x="8.75" y="7.14" dx="1.5" dy="0.9" layer="1"/>
+<smd name="40" x="8.75" y="8.41" dx="1.5" dy="0.9" layer="1"/>
+<smd name="41" x="-1.5" y="0.69" dx="0.9" dy="0.9" layer="1"/>
+<smd name="42" x="-1.5" y="2.09" dx="0.9" dy="0.9" layer="1"/>
+<smd name="43" x="-2.9" y="2.09" dx="0.9" dy="0.9" layer="1"/>
+<smd name="44" x="-2.9" y="0.69" dx="0.9" dy="0.9" layer="1"/>
+<smd name="45" x="-2.9" y="-0.71" dx="0.9" dy="0.9" layer="1"/>
+<smd name="46" x="-1.5" y="-0.71" dx="0.9" dy="0.9" layer="1"/>
+<smd name="47" x="-0.1" y="-0.71" dx="0.9" dy="0.9" layer="1"/>
+<smd name="48" x="-0.1" y="0.69" dx="0.9" dy="0.9" layer="1"/>
+<smd name="49" x="-0.1" y="2.09" dx="0.9" dy="0.9" layer="1"/>
+<text x="0" y="-0.25" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.25" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9" y1="9.6" x2="9" y2="9.6" width="0.1" layer="51"/>
+<wire x1="9" y1="9.6" x2="9" y2="-9.6" width="0.1" layer="51"/>
+<wire x1="9" y1="-9.6" x2="-9" y2="-9.6" width="0.1" layer="51"/>
+<wire x1="-9" y1="-9.6" x2="-9" y2="9.6" width="0.1" layer="51"/>
+<wire x1="-10.5" y1="10.6" x2="10.5" y2="10.6" width="0.1" layer="51"/>
+<wire x1="10.5" y1="10.6" x2="10.5" y2="-11.1" width="0.1" layer="51"/>
+<wire x1="10.5" y1="-11.1" x2="-10.5" y2="-11.1" width="0.1" layer="51"/>
+<wire x1="-10.5" y1="-11.1" x2="-10.5" y2="10.6" width="0.1" layer="51"/>
+<wire x1="-9" y1="9.2" x2="-9" y2="9.6" width="0.2" layer="21"/>
+<wire x1="-9" y1="9.6" x2="9" y2="9.6" width="0.2" layer="21"/>
+<wire x1="9" y1="9.6" x2="9" y2="9.2" width="0.2" layer="21"/>
+<wire x1="-9" y1="-9" x2="-9" y2="-9.6" width="0.2" layer="21"/>
+<wire x1="-9" y1="-9.6" x2="-7.8" y2="-9.6" width="0.2" layer="21"/>
+<wire x1="9" y1="-9" x2="9" y2="-9.6" width="0.2" layer="21"/>
+<wire x1="9" y1="-9.6" x2="7.8" y2="-9.6" width="0.2" layer="21"/>
+<wire x1="-10" y1="8.41" x2="-10" y2="8.41" width="0.1" layer="21"/>
+<wire x1="-10" y1="8.41" x2="-10.1" y2="8.41" width="0.1" layer="21" curve="180"/>
+<wire x1="-10.1" y1="8.41" x2="-10.1" y2="8.41" width="0.1" layer="21"/>
+<wire x1="-10.1" y1="8.41" x2="-10" y2="8.41" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="SOT95P280X145-6N">
 <description>&lt;b&gt;DBV0006A&lt;/b&gt;&lt;br&gt;
@@ -506,7 +506,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="ESP32-S3-WROOM-1-N4">
+<symbol name="ESP32-S3-WROOM-1U-N16">
 <wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-63.5" x2="27.94" y2="2.54" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-63.5" x2="5.08" y2="-63.5" width="0.254" layer="94"/>
@@ -621,14 +621,14 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP32-S3-WROOM-1-N4" prefix="IC">
-<description>&lt;b&gt;WiFi Modules - 802.11 [Engineering Samples] SMD Module, ESP32-S3, 4 MB SPI Flash, PCB Antenna&lt;/b&gt;&lt;p&gt;
+<deviceset name="ESP32-S3-WROOM-1U-N16" prefix="IC">
+<description>&lt;b&gt;Multiprotocol Modules SMD Module, ESP32-S3, 16 MB SPI Flash, IPEX Antenna Connector&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ESP32-S3-WROOM-1-N4" x="0" y="0"/>
+<gate name="G$1" symbol="ESP32-S3-WROOM-1U-N16" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ESP32S3WROOM1N4">
+<device name="" package="ESP32S3WROOM1UN16">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="EN" pad="3"/>
@@ -684,12 +684,12 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <technology name="">
 <attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
 <attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="WiFi Modules - 802.11 [Engineering Samples] SMD Module, ESP32-S3, 4 MB SPI Flash, PCB Antenna" constant="no"/>
-<attribute name="HEIGHT" value="3.25mm" constant="no"/>
+<attribute name="DESCRIPTION" value="Multiprotocol Modules SMD Module, ESP32-S3, 16 MB SPI Flash, IPEX Antenna Connector" constant="no"/>
+<attribute name="HEIGHT" value="3.35mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Espressif Systems" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ESP32-S3-WROOM-1-N4" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="356-ESP32-S3WROOM1N4" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N4?qs=Li%252BoUPsLEnsO%2FkiJOUK0FQ%3D%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ESP32-S3-WROOM-1U-N16" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="356-ESP32S3WROM1UN16" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1U-N16?qs=Li%252BoUPsLEntAI1ynUyotnA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5599,7 +5599,7 @@ JST PH 2-pin thru-home side entry</description>
 </classes>
 <parts>
 <part name="U1" library="RA-01H" deviceset="RA-01H" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1-N4" device=""/>
+<part name="IC1" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1U-N16" device=""/>
 <part name="SUPPLY1" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY2" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY3" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
