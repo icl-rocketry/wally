@@ -8134,10 +8134,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </pass>
 </autorouter>
 <elements>
-<element name="BAT1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" value="" x="8.001" y="5.08" smashed="yes" rot="R180">
+<element name="BAT1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44095647/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1" value="" x="8.001" y="5.08" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-5.969" y="3.81" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="BAT2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" value="" x="16.002" y="5.08" smashed="yes" rot="R180">
+<element name="BAT2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44095755/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1" value="" x="16.002" y="5.08" smashed="yes" rot="R180">
 <attribute name="VALUE" x="12.192" y="12.7" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDW" x="23.114" y="19.812" smashed="yes" rot="R240">
@@ -8158,7 +8158,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="TYPE" value="" x="19.939" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.3749" y="15.24" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="IC1" library="SamacSys_Parts" package="SOT95P280X145-6N" value="XTLV61048DBVR" x="-1.143" y="18.796" smashed="yes" rot="R90">
+<element name="IC1" library="SamacSys_Parts" package="SOT95P280X145-6N" override_package3d_urn="urn:adsk.eagle:package:44099322/2" override_package_urn="urn:adsk.eagle:footprint:44099323/1" value="XTLV61048DBVR" x="-1.143" y="18.796" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="-1.143" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-1.143" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="15-V output voltage non-synchronous boost converter in SOT-23 package" x="-1.143" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8169,7 +8169,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" x="-1.143" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-6.223" y="16.256" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="D1" library="SamacSys_Parts" package="DIOM5127X229N" value="SSA34-E3_5AT" x="-2.413" y="14.224" smashed="yes" rot="R180">
+<element name="D1" library="SamacSys_Parts" package="DIOM5127X229N" override_package3d_urn="urn:adsk.eagle:package:44099325/2" override_package_urn="urn:adsk.eagle:footprint:44099326/1" value="SSA34-E3_5AT" x="-2.413" y="14.224" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="SSA34-E3/5AT" x="-2.413" y="14.224" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ssa34-e35at/vishay?region=nac" x="-2.413" y="14.224" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Vishay SSA34-E3/5AT, SMT Schottky Diode, 40V 3A, 2-Pin DO-214AC" x="-2.413" y="14.224" size="1.778" layer="27" rot="R180" display="off"/>
@@ -8347,7 +8347,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDG" x="-30.353" y="12.319" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-31.623" y="9.779" size="1.27" layer="27"/>
 </element>
-<element name="E1" library="SamacSys_Parts" package="SJ13525N" value="SJ1-3525N" x="-29.591" y="0.762" smashed="yes" rot="R90">
+<element name="E1" library="SamacSys_Parts" package="SJ13525N" override_package3d_urn="urn:adsk.eagle:package:44092638/2" override_package_urn="urn:adsk.eagle:footprint:44092639/1" value="SJ1-3525N" x="-29.591" y="0.762" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="-29.591" y="0.762" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-29.591" y="0.762" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector" x="-29.591" y="0.762" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8358,7 +8358,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MOUSER_PRICE-STOCK" value="" x="-29.591" y="0.762" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-29.241" y="0.762" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="IC2" library="SamacSys_Parts" package="SOP65P640X120-14N" value="SN74HC14PWR" x="-20.32" y="18.923" smashed="yes" rot="MR270">
+<element name="IC2" library="SamacSys_Parts" package="SOP65P640X120-14N" override_package3d_urn="urn:adsk.eagle:package:44092651/2" override_package_urn="urn:adsk.eagle:footprint:44092652/1" value="SN74HC14PWR" x="-20.32" y="18.923" smashed="yes" rot="MR270">
 <attribute name="ARROW_PART_NUMBER" value="SN74HC14PWR" x="-20.32" y="18.923" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hc14pwr/texas-instruments?region=nac" x="-20.32" y="18.923" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" value="Hex Schmitt-Trigger Inverters" x="-20.32" y="18.923" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -8405,7 +8405,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <element name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDG" x="26.543" y="19.685" smashed="yes" rot="R150">
 <attribute name="VALUE" x="24.97829375" y="22.05485" size="1.27" layer="27" rot="R240"/>
 </element>
-<element name="E2" library="SamacSys_Parts" package="SJ13525N" value="SJ1-3525N" x="15.494" y="25.273" smashed="yes" rot="R330">
+<element name="E2" library="SamacSys_Parts" package="SJ13525N" override_package3d_urn="urn:adsk.eagle:package:44092643/2" override_package_urn="urn:adsk.eagle:footprint:44092644/1" value="SJ1-3525N" x="15.494" y="25.273" smashed="yes" rot="R330">
 <attribute name="ARROW_PART_NUMBER" value="" x="-7.897596875" y="43.1775625" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-7.897596875" y="43.1775625" size="1.778" layer="27" rot="R330" display="off"/>
 <attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector" x="-7.897596875" y="43.1775625" size="1.778" layer="27" rot="R330" display="off"/>
@@ -8458,7 +8458,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="VALUE" x="-24.5481" y="25.019" size="1.27" layer="27" rot="R270" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-23.114" y="23.749" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC3" library="SamacSys_Parts" package="SN74HCS32BQAR" value="SN74HCS32BQAR" x="-12.954" y="21.463" smashed="yes" rot="MR0">
+<element name="IC3" library="SamacSys_Parts" package="SN74HCS32BQAR" override_package3d_urn="urn:adsk.eagle:package:44092654/2" override_package_urn="urn:adsk.eagle:footprint:44092655/1" value="SN74HCS32BQAR" x="-12.954" y="21.463" smashed="yes" rot="MR0">
 <attribute name="ARROW_PART_NUMBER" value="SN74HCS32BQAR" x="-12.954" y="21.463" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32bqar/texas-instruments?region=nac" x="-12.954" y="21.463" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" value="OR Gate IC 4 Channel Schmitt Trigger Input 14-WQFN (3x2.5)" x="-12.954" y="21.463" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -8497,7 +8497,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="VALUE" x="-17.9441" y="23.749" size="1.27" layer="27" rot="R270" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-16.51" y="22.479" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC4" library="SamacSys_Parts" package="SOP50P326X110-14N" value="SN74HCS08DYYR" x="-12.954" y="15.24" smashed="yes" rot="MR90">
+<element name="IC4" library="SamacSys_Parts" package="SOP50P326X110-14N" override_package3d_urn="urn:adsk.eagle:package:44092657/2" override_package_urn="urn:adsk.eagle:footprint:44092658/1" value="SN74HCS08DYYR" x="-12.954" y="15.24" smashed="yes" rot="MR90">
 <attribute name="ARROW_PART_NUMBER" value="" x="-12.954" y="15.24" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-12.954" y="15.24" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value="Logic Gates 4-ch, 2-input, 2-V to 6-V low power AND gates with Schmitt-trigger inputs" x="-12.954" y="15.24" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8536,7 +8536,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="VALUE" x="-6.8209" y="13.589" size="1.27" layer="27" rot="R90" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-8.255" y="14.859" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IC5" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="-15.24" y="8.89" smashed="yes">
+<element name="IC5" library="SamacSys_Parts" package="SOT95P251X112-3N" override_package3d_urn="urn:adsk.eagle:package:44099312/2" override_package_urn="urn:adsk.eagle:footprint:44099313/1" value="FDN359BN" x="-15.24" y="8.89" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="-15.24" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="-15.24" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="-15.24" y="8.89" size="1.778" layer="27" display="off"/>
@@ -8547,7 +8547,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" x="-15.24" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-15.24" y="8.89" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC6" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="-7.62" y="8.89" smashed="yes">
+<element name="IC6" library="SamacSys_Parts" package="SOT95P251X112-3N" override_package3d_urn="urn:adsk.eagle:package:44099316/2" override_package_urn="urn:adsk.eagle:footprint:44099317/1" value="FDN359BN" x="-7.62" y="8.89" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="-7.62" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="-7.62" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="-7.62" y="8.89" size="1.778" layer="27" display="off"/>
@@ -8558,7 +8558,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" x="-7.62" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-7.62" y="8.89" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC7" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="0" y="8.89" smashed="yes">
+<element name="IC7" library="SamacSys_Parts" package="SOT95P251X112-3N" override_package3d_urn="urn:adsk.eagle:package:44099319/2" override_package_urn="urn:adsk.eagle:footprint:44099320/1" value="FDN359BN" x="0" y="8.89" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="0" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="0" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="0" y="8.89" size="1.778" layer="27" display="off"/>
@@ -8569,7 +8569,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDN359BN?qs=8YYpzd7qSxKZfze3Gm99uA%3D%3D" x="0" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="0" y="8.89" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC8" library="SamacSys_Parts" package="SOT95P251X112-3N" value="FDN359BN" x="15.113" y="10.033" smashed="yes" rot="MR180">
+<element name="IC8" library="SamacSys_Parts" package="SOT95P251X112-3N" override_package3d_urn="urn:adsk.eagle:package:44092820/2" override_package_urn="urn:adsk.eagle:footprint:44092838/1" value="FDN359BN" x="15.113" y="10.033" smashed="yes" rot="MR180">
 <attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="15.113" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/fdn359bn/on-semiconductor?region=nac" x="15.113" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DESCRIPTION" value="FDN359BN, N-channel MOSFET Transistor 2.7 A 30 V, 3-Pin SuperSOT" x="15.113" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -8640,7 +8640,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="TYPE" value="" x="11.43" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.8659" y="10.16" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="LS1" library="SamacSys_Parts" package="CMI970585SMTTR" value="CMI-9705-85-SMT-TR" x="24.511" y="11.43" smashed="yes" rot="MR270">
+<element name="LS1" library="SamacSys_Parts" package="CMI970585SMTTR" override_package3d_urn="urn:adsk.eagle:package:44093672/2" override_package_urn="urn:adsk.eagle:footprint:44093711/1" value="CMI-9705-85-SMT-TR" x="24.511" y="11.43" smashed="yes" rot="MR270">
 <attribute name="ARROW_PART_NUMBER" value="CMI-9705-85-SMT-TR" x="24.511" y="11.43" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cmi-9705-85-smt-tr/cui-devices?region=nac" x="24.511" y="11.43" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" value="Piezo Buzzers &amp; Audio Indicators buzzer, 9.7 mm x 9.7 mm x 5 mm deep, M, 12 VDC, 85 dB, Surface Mount, Audio Indicator" x="24.511" y="11.43" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -8651,7 +8651,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMI-9705-85-SMT-TR?qs=P1JMDcb91o4Wun0lW9vptg%3D%3D" x="24.511" y="11.43" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="24.511" y="11.43" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="J6" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" value="USBC" x="27.94" y="0.381" smashed="yes" rot="R90">
+<element name="J6" library="SparkFun-Connectors" package="USB-C-16P-2LAYER-PADS" override_package3d_urn="urn:adsk.eagle:package:44095805/2" override_package_urn="urn:adsk.eagle:footprint:44095806/1" value="USBC" x="27.94" y="0.381" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CONN-14122" x="27.94" y="0.381" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.75" y="0.381" size="0.762" layer="27" rot="R90" align="center"/>
 </element>
@@ -8700,13 +8700,13 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="TYPE" value="" x="21.463" y="8.255" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.8989" y="8.255" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="USBDiode" x="22.987" y="3.81" smashed="yes">
+<element name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" override_package3d_urn="urn:adsk.eagle:package:44099330/2" override_package_urn="urn:adsk.eagle:footprint:6240294/1" value="USBDiode" x="22.987" y="3.81" smashed="yes">
 <attribute name="VALUE" x="20.447" y="1.524" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="USBDiode" x="22.987" y="1.143" smashed="yes">
+<element name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" override_package3d_urn="urn:adsk.eagle:package:44099334/2" override_package_urn="urn:adsk.eagle:footprint:6240294/1" value="USBDiode" x="22.987" y="1.143" smashed="yes">
 <attribute name="VALUE" x="21.887" y="-0.141" size="0.4064" layer="27"/>
 </element>
-<element name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" value="USBDiode" x="22.987" y="-1.27" smashed="yes">
+<element name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" override_package3d_urn="urn:adsk.eagle:package:44099339/2" override_package_urn="urn:adsk.eagle:footprint:6240294/1" value="USBDiode" x="22.987" y="-1.27" smashed="yes">
 <attribute name="VALUE" x="21.887" y="-2.554" size="0.4064" layer="27"/>
 </element>
 <element name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1608X85" package3d_urn="urn:adsk.eagle:package:16290898/5" value="100n" x="24.257" y="7.239" smashed="yes">
@@ -8899,12 +8899,12 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="TYPE" value="" x="45.212" y="16.637" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.352" y="18.0729" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
-<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" value="TPPAD1-20Y" x="-13.462" y="-31.115" smashed="yes" rot="R90">
+<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" override_package3d_urn="urn:adsk.eagle:package:44099356/2" override_package_urn="urn:adsk.eagle:footprint:27907/1" value="TPPAD1-20Y" x="-13.462" y="-31.115" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="0" x="-13.462" y="-31.115" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-13.462" y="-31.115" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="-13.462" y="-31.115" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" value="TPPAD1-20Y" x="14.224" y="-30.988" smashed="yes" rot="R90">
+<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" override_package3d_urn="urn:adsk.eagle:package:44099360/2" override_package_urn="urn:adsk.eagle:footprint:27907/1" value="TPPAD1-20Y" x="14.224" y="-30.988" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="0" x="14.224" y="-30.988" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="14.224" y="-30.988" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="14.224" y="-30.988" size="0.0254" layer="27" rot="R90"/>
@@ -8930,27 +8930,27 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MPN" value="S2B-PH-K-S(LF)(SN)" x="0" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-3.3" y="-2.12" size="0.6096" layer="27"/>
 </element>
-<element name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="PTR1PAD1-13" x="-28.448" y="19.05" smashed="yes">
+<element name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099341/2" override_package_urn="urn:adsk.eagle:footprint:27902/1" value="PTR1PAD1-13" x="-28.448" y="19.05" smashed="yes">
 <attribute name="POPULARITY" value="2" x="-28.448" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-28.448" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-28.448" y="19.05" size="0.0254" layer="27"/>
 </element>
-<element name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="PTR1PAD1-13" x="-25.908" y="19.05" smashed="yes">
+<element name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099348/2" override_package_urn="urn:adsk.eagle:footprint:27902/1" value="PTR1PAD1-13" x="-25.908" y="19.05" smashed="yes">
 <attribute name="POPULARITY" value="2" x="-25.908" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-25.908" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.908" y="19.05" size="0.0254" layer="27"/>
 </element>
-<element name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="PTR1PAD1-13" x="-28.448" y="16.51" smashed="yes">
+<element name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099350/2" override_package_urn="urn:adsk.eagle:footprint:27902/1" value="PTR1PAD1-13" x="-28.448" y="16.51" smashed="yes">
 <attribute name="POPULARITY" value="2" x="-28.448" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-28.448" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-28.448" y="16.51" size="0.0254" layer="27"/>
 </element>
-<element name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="PTR1PAD1-13" x="-25.908" y="16.51" smashed="yes">
+<element name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099353/2" override_package_urn="urn:adsk.eagle:footprint:27902/1" value="PTR1PAD1-13" x="-25.908" y="16.51" smashed="yes">
 <attribute name="POPULARITY" value="2" x="-25.908" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-25.908" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.908" y="16.51" size="0.0254" layer="27"/>
 </element>
-<element name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="PTR1PAD1-13" x="16.51" y="13.97" smashed="yes">
+<element name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099355/2" override_package_urn="urn:adsk.eagle:footprint:27902/1" value="PTR1PAD1-13" x="16.51" y="13.97" smashed="yes">
 <attribute name="POPULARITY" value="2" x="16.51" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="16.51" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.51" y="13.97" size="0.0254" layer="27"/>
@@ -10436,6 +10436,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
