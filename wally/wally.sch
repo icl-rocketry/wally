@@ -504,6 +504,146 @@
 <wire x1="-2" y1="2.55" x2="2" y2="2.55" width="0.1" layer="21"/>
 <wire x1="-2" y1="-2.55" x2="2" y2="-2.55" width="0.1" layer="21"/>
 </package>
+<package name="MSD4A">
+<description>&lt;b&gt;MSD-4-A-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="2.25" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="1.15" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="0.05" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="4" x="-1.05" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="5" x="-2.15" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="6" x="-3.25" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="7" x="-4.35" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="8" x="-5.45" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<smd name="G1" x="6.85" y="5.85" dx="1.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="G2" x="7.75" y="-3.7" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="G3" x="-7.75" y="-3.7" dx="2.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="G4" x="-7.75" y="5.6" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="CD1" x="-6.55" y="6.9" dx="1.6" dy="0.7" layer="1" rot="R90"/>
+<hole x="3.05" y="-4.1" drill="1"/>
+<hole x="-4.95" y="-4.1" drill="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9.35" y1="8.7" x2="9.35" y2="8.7" width="0.1" layer="51"/>
+<wire x1="9.35" y1="8.7" x2="9.35" y2="-8.7" width="0.1" layer="51"/>
+<wire x1="9.35" y1="-8.7" x2="-9.35" y2="-8.7" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="-8.7" x2="-9.35" y2="8.7" width="0.1" layer="51"/>
+<wire x1="3.05" y1="6.8" x2="-7.375" y2="6.8" width="0.1" layer="51"/>
+<wire x1="-7.375" y1="6.8" x2="-7.375" y2="-6.2" width="0.1" layer="51"/>
+<wire x1="-7.375" y1="-6.2" x2="3.05" y2="-6.2" width="0.1" layer="51"/>
+<wire x1="3.05" y1="-6.2" x2="4.05" y2="-7.7" width="0.1" layer="51"/>
+<wire x1="4.05" y1="-7.7" x2="7.375" y2="-7.7" width="0.1" layer="51"/>
+<wire x1="7.375" y1="-7.7" x2="7.375" y2="6.8" width="0.1" layer="51"/>
+<wire x1="7.375" y1="6.8" x2="3.05" y2="6.8" width="0.1" layer="51"/>
+<wire x1="2.25" y1="8.2" x2="2.25" y2="8.2" width="0.1" layer="21"/>
+<wire x1="2.25" y1="8.2" x2="2.25" y2="8.3" width="0.1" layer="21" curve="180"/>
+<wire x1="2.25" y1="8.3" x2="2.25" y2="8.3" width="0.1" layer="21"/>
+<wire x1="2.25" y1="8.3" x2="2.25" y2="8.2" width="0.1" layer="21" curve="180"/>
+<wire x1="7.375" y1="4.8" x2="7.375" y2="-2.2" width="0.2" layer="21"/>
+<wire x1="7.375" y1="-5.2" x2="7.375" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="7.375" y1="-7.7" x2="4.05" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="4.05" y1="-7.7" x2="3.05" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="3.05" y1="-6.2" x2="-7.375" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-7.375" y1="-6.2" x2="-7.375" y2="-5.2" width="0.2" layer="21"/>
+<wire x1="-7.375" y1="-2.2" x2="-7.375" y2="4.4" width="0.2" layer="21"/>
+</package>
+<package name="DPS310XTSA1">
+<description>&lt;b&gt;VLGA-8&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="0.975" y="-0.725" dx="0.35" dy="0.35" layer="1"/>
+<smd name="2" x="0.325" y="-0.725" dx="0.35" dy="0.35" layer="1"/>
+<smd name="3" x="-0.325" y="-0.725" dx="0.35" dy="0.35" layer="1"/>
+<smd name="4" x="-0.975" y="-0.725" dx="0.35" dy="0.35" layer="1"/>
+<smd name="5" x="-0.975" y="0.725" dx="0.35" dy="0.35" layer="1"/>
+<smd name="6" x="-0.325" y="0.725" dx="0.35" dy="0.35" layer="1"/>
+<smd name="7" x="0.325" y="0.725" dx="0.35" dy="0.35" layer="1"/>
+<smd name="8" x="0.975" y="0.725" dx="0.35" dy="0.35" layer="1"/>
+<text x="0" y="-0.216" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.216" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.254" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.254" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.254" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.254" layer="51"/>
+<wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="-1.932" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.932" x2="-1.75" y2="-1.932" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.932" x2="-1.75" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="0.25" x2="-1.25" y2="-0.25" width="0.254" layer="21"/>
+<wire x1="1.25" y1="0.25" x2="1.25" y2="-0.25" width="0.254" layer="21"/>
+<wire x1="1.001" y1="-1.424" x2="1.001" y2="-1.424" width="0.016" layer="21"/>
+<wire x1="1.001" y1="-1.424" x2="1.017" y2="-1.424" width="0.016" layer="21" curve="180"/>
+<wire x1="1.017" y1="-1.424" x2="1.017" y2="-1.424" width="0.016" layer="21"/>
+<wire x1="1.017" y1="-1.424" x2="1.001" y2="-1.424" width="0.016" layer="21" curve="180"/>
+</package>
+<package name="BMI323">
+<description>&lt;b&gt;BMI323-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.163" y="0.75" dx="0.475" dy="0.25" layer="1"/>
+<smd name="2" x="-1.163" y="0.25" dx="0.475" dy="0.25" layer="1"/>
+<smd name="3" x="-1.163" y="-0.25" dx="0.475" dy="0.25" layer="1"/>
+<smd name="4" x="-1.163" y="-0.75" dx="0.475" dy="0.25" layer="1"/>
+<smd name="5" x="-0.5" y="-0.913" dx="0.475" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="0" y="-0.913" dx="0.475" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="0.5" y="-0.913" dx="0.475" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="1.163" y="-0.75" dx="0.475" dy="0.25" layer="1"/>
+<smd name="9" x="1.163" y="-0.25" dx="0.475" dy="0.25" layer="1"/>
+<smd name="10" x="1.163" y="0.25" dx="0.475" dy="0.25" layer="1"/>
+<smd name="11" x="1.163" y="0.75" dx="0.475" dy="0.25" layer="1"/>
+<smd name="12" x="0.5" y="0.913" dx="0.475" dy="0.25" layer="1" rot="R90"/>
+<smd name="13" x="0" y="0.913" dx="0.475" dy="0.25" layer="1" rot="R90"/>
+<smd name="14" x="-0.5" y="0.913" dx="0.475" dy="0.25" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2.25" x2="2.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.25" x2="2.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.25" x2="-2.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.25" x2="-2.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="0.75" x2="-2.1" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-2.1" y1="0.75" x2="-2" y2="0.75" width="0.1" layer="21" curve="180"/>
+<wire x1="-2" y1="0.75" x2="-2" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-2" y1="0.75" x2="-2.1" y2="0.75" width="0.1" layer="21" curve="180"/>
+</package>
+<package name="QFN65P500X500X100-21N">
+<description>&lt;b&gt;(NU) 20-Lead [MQFN]&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.45" y="1.3" dx="0.85" dy="0.35" layer="1"/>
+<smd name="2" x="-2.45" y="0.65" dx="0.85" dy="0.35" layer="1"/>
+<smd name="3" x="-2.45" y="0" dx="0.85" dy="0.35" layer="1"/>
+<smd name="4" x="-2.45" y="-0.65" dx="0.85" dy="0.35" layer="1"/>
+<smd name="5" x="-2.45" y="-1.3" dx="0.85" dy="0.35" layer="1"/>
+<smd name="6" x="-1.3" y="-2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="7" x="-0.65" y="-2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="9" x="0.65" y="-2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="10" x="1.3" y="-2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="11" x="2.45" y="-1.3" dx="0.85" dy="0.35" layer="1"/>
+<smd name="12" x="2.45" y="-0.65" dx="0.85" dy="0.35" layer="1"/>
+<smd name="13" x="2.45" y="0" dx="0.85" dy="0.35" layer="1"/>
+<smd name="14" x="2.45" y="0.65" dx="0.85" dy="0.35" layer="1"/>
+<smd name="15" x="2.45" y="1.3" dx="0.85" dy="0.35" layer="1"/>
+<smd name="16" x="1.3" y="2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="17" x="0.65" y="2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="18" x="0" y="2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="19" x="-0.65" y="2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="20" x="-1.3" y="2.45" dx="0.85" dy="0.35" layer="1" rot="R90"/>
+<smd name="21" x="0" y="0" dx="3.35" dy="3.35" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.125" y1="3.125" x2="3.125" y2="3.125" width="0.05" layer="51"/>
+<wire x1="3.125" y1="3.125" x2="3.125" y2="-3.125" width="0.05" layer="51"/>
+<wire x1="3.125" y1="-3.125" x2="-3.125" y2="-3.125" width="0.05" layer="51"/>
+<wire x1="-3.125" y1="-3.125" x2="-3.125" y2="3.125" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="1.85" x2="-1.85" y2="2.5" width="0.1" layer="51"/>
+<circle x="-2.8745" y="2.275" radius="0.1625" width="0.325" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP32-S3-WROOM-1U-N16">
@@ -618,6 +758,94 @@
 <pin name="COM_2" x="30.48" y="0" length="middle" rot="R180"/>
 <pin name="NO_1" x="0" y="-2.54" length="middle"/>
 <pin name="NO_2" x="30.48" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MSD-4-A">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-17.78" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="DAT2" x="0" y="0" length="middle"/>
+<pin name="CD/DAT3" x="0" y="-2.54" length="middle"/>
+<pin name="CMD" x="0" y="-5.08" length="middle"/>
+<pin name="VDD" x="0" y="-7.62" length="middle"/>
+<pin name="CLK" x="0" y="-10.16" length="middle"/>
+<pin name="VSS" x="0" y="-12.7" length="middle"/>
+<pin name="DAT0" x="0" y="-15.24" length="middle"/>
+<pin name="DAT1" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="GND_1" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND_2" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_3" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND_4" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="CD1" x="33.02" y="-12.7" length="middle" rot="R180"/>
+</symbol>
+<symbol name="DPS310XTSA1">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GND_1" x="0" y="-7.62" length="middle"/>
+<pin name="CSB" x="0" y="-5.08" length="middle"/>
+<pin name="SDI" x="0" y="-2.54" length="middle"/>
+<pin name="SCK" x="0" y="0" length="middle"/>
+<pin name="SDO" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="VDDIO" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND_2" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="30.48" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="BMI323">
+<wire x1="5.08" y1="10.16" x2="25.4" y2="10.16" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="10.16" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="26.67" y="15.24" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="12.7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="SDO" x="0" y="0" length="middle"/>
+<pin name="NC_1" x="0" y="-2.54" length="middle"/>
+<pin name="NC_2" x="0" y="-5.08" length="middle"/>
+<pin name="INT1" x="0" y="-7.62" length="middle"/>
+<pin name="VDDIO" x="12.7" y="-25.4" length="middle" rot="R90"/>
+<pin name="GNDIO" x="15.24" y="-25.4" length="middle" rot="R90"/>
+<pin name="GND" x="17.78" y="-25.4" length="middle" rot="R90"/>
+<pin name="VDD" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="INT2" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="NC_3" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="NC_4" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="CSB" x="17.78" y="15.24" length="middle" rot="R270"/>
+<pin name="SCX" x="15.24" y="15.24" length="middle" rot="R270"/>
+<pin name="SDX" x="12.7" y="15.24" length="middle" rot="R270"/>
+</symbol>
+<symbol name="MCP96L00T-E_MX">
+<wire x1="5.08" y1="12.7" x2="27.94" y2="12.7" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-22.86" x2="27.94" y2="12.7" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<text x="29.21" y="17.78" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="15.24" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GND_1" x="0" y="0" length="middle"/>
+<pin name="VIN+" x="0" y="-2.54" length="middle"/>
+<pin name="GND_2" x="0" y="-5.08" length="middle"/>
+<pin name="VIN-" x="0" y="-7.62" length="middle"/>
+<pin name="GND_3" x="0" y="-10.16" length="middle"/>
+<pin name="GND_4" x="10.16" y="-27.94" length="middle" rot="R90"/>
+<pin name="GND_5" x="12.7" y="-27.94" length="middle" rot="R90"/>
+<pin name="GND_6" x="15.24" y="-27.94" length="middle" rot="R90"/>
+<pin name="GND_7" x="17.78" y="-27.94" length="middle" rot="R90"/>
+<pin name="GND_8" x="20.32" y="-27.94" length="middle" rot="R90"/>
+<pin name="ALERT_4" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="ALERT_3" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND_9" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="ALERT_2" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="ALERT_1" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="EPAD" x="10.16" y="17.78" length="middle" rot="R270"/>
+<pin name="SDA" x="12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="SCL" x="15.24" y="17.78" length="middle" rot="R270"/>
+<pin name="GND_11" x="17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="GND_10" x="20.32" y="17.78" length="middle" rot="R270"/>
+<pin name="ADDR" x="22.86" y="17.78" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -806,6 +1034,162 @@ Source: &lt;a href="http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf
 <attribute name="MANUFACTURER_PART_NUMBER" value="TS-1187A-B-A-B" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSD-4-A" prefix="J">
+<description>&lt;b&gt;Memory Card Connectors 9 Positions, Push In, Auto Eject Out, SMT, 1.8 mm Height Above Board,&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.cuidevices.com/product/resource/pdf/msd-4-a.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MSD-4-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSD4A">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CD1" pad="CD1"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="GND_1" pad="G1"/>
+<connect gate="G$1" pin="GND_2" pad="G2"/>
+<connect gate="G$1" pin="GND_3" pad="G3"/>
+<connect gate="G$1" pin="GND_4" pad="G4"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Memory Card Connectors 9 Positions, Push In, Auto Eject Out, SMT, 1.8 mm Height Above Board," constant="no"/>
+<attribute name="HEIGHT" value="2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="CUI Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MSD-4-A" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="179-MSD-4-A" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DPS310XTSA1" prefix="IC">
+<description>&lt;b&gt;INFINEON - DPS310XTSA1 - DIGITAL PRESSURE SENSOR, 1200HPA, VLGA-8&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.infineon.com/dgdl/Infineon-DPS310-DS-v01_00-EN.pdf?fileId=5546d462576f34750157750826c42242"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DPS310XTSA1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DPS310XTSA1">
+<connects>
+<connect gate="G$1" pin="CSB" pad="2"/>
+<connect gate="G$1" pin="GND_1" pad="1"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SDI" pad="3"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="DPS310XTSA1" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/dps310xtsa1/infineon-technologies-ag?region=nac" constant="no"/>
+<attribute name="DESCRIPTION" value="INFINEON - DPS310XTSA1 - DIGITAL PRESSURE SENSOR, 1200HPA, VLGA-8" constant="no"/>
+<attribute name="HEIGHT" value="1.01mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Infineon" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DPS310XTSA1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="726-DPS310XTSA1" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/DPS310XTSA1?qs=uuTTuBTXn66Ynca8WHwycg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMI323" prefix="IC">
+<description>&lt;b&gt;3.0 SHUTTLE BOARD DEV KIT BMI323&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BMI323" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMI323">
+<connects>
+<connect gate="G$1" pin="CSB" pad="12"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="GNDIO" pad="6"/>
+<connect gate="G$1" pin="INT1" pad="4"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="NC_1" pad="2"/>
+<connect gate="G$1" pin="NC_2" pad="3"/>
+<connect gate="G$1" pin="NC_3" pad="10"/>
+<connect gate="G$1" pin="NC_4" pad="11"/>
+<connect gate="G$1" pin="SCX" pad="13"/>
+<connect gate="G$1" pin="SDO" pad="1"/>
+<connect gate="G$1" pin="SDX" pad="14"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="BMI323" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/bmi323/bosch?region=nac" constant="no"/>
+<attribute name="DESCRIPTION" value="3.0 SHUTTLE BOARD DEV KIT BMI323" constant="no"/>
+<attribute name="HEIGHT" value="0.87mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="BOSCH" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BMI323" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="262-BMI323" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI323?qs=By6Nw2ByBD3%2FE1v0UqNQPQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP96L00T-E_MX" prefix="IC">
+<description>&lt;b&gt;MICROCHIP - MCP96L00T-E/MX - TEMPERATURE SENSOR, 6DEG C, MQFN&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026539.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCP96L00T-E_MX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN65P500X500X100-21N">
+<connects>
+<connect gate="G$1" pin="ADDR" pad="16"/>
+<connect gate="G$1" pin="ALERT_1" pad="11"/>
+<connect gate="G$1" pin="ALERT_2" pad="12"/>
+<connect gate="G$1" pin="ALERT_3" pad="14"/>
+<connect gate="G$1" pin="ALERT_4" pad="15"/>
+<connect gate="G$1" pin="EPAD" pad="21"/>
+<connect gate="G$1" pin="GND_1" pad="1"/>
+<connect gate="G$1" pin="GND_10" pad="17"/>
+<connect gate="G$1" pin="GND_11" pad="18"/>
+<connect gate="G$1" pin="GND_2" pad="3"/>
+<connect gate="G$1" pin="GND_3" pad="5"/>
+<connect gate="G$1" pin="GND_4" pad="6"/>
+<connect gate="G$1" pin="GND_5" pad="7"/>
+<connect gate="G$1" pin="GND_6" pad="8"/>
+<connect gate="G$1" pin="GND_7" pad="9"/>
+<connect gate="G$1" pin="GND_8" pad="10"/>
+<connect gate="G$1" pin="GND_9" pad="13"/>
+<connect gate="G$1" pin="SCL" pad="19"/>
+<connect gate="G$1" pin="SDA" pad="20"/>
+<connect gate="G$1" pin="VIN+" pad="2"/>
+<connect gate="G$1" pin="VIN-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="MICROCHIP - MCP96L00T-E/MX - TEMPERATURE SENSOR, 6DEG C, MQFN" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCP96L00T-E/MX" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="579-MCP96L00T-E/MX" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP96L00T-E-MX?qs=lc2O%252BfHJPVbfgU9%252BbwIcfg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5655,6 +6039,10 @@ JST PH 2-pin thru-home side entry</description>
 <part name="S1" library="SamacSys_Parts" deviceset="TS-1187A-B-A-B" device=""/>
 <part name="C16" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
 <part name="R4" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="1k"/>
+<part name="J1" library="SamacSys_Parts" deviceset="MSD-4-A" device=""/>
+<part name="IC4" library="SamacSys_Parts" deviceset="DPS310XTSA1" device=""/>
+<part name="IC5" library="SamacSys_Parts" deviceset="BMI323" device=""/>
+<part name="IC6" library="SamacSys_Parts" deviceset="MCP96L00T-E_MX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5873,6 +6261,22 @@ JST PH 2-pin thru-home side entry</description>
 <instance part="R4" gate="G$1" x="-93.98" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="-96.52" y="20.32" size="1.778" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-91.44" y="20.32" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="J1" gate="G$1" x="-5.08" y="-182.88" smashed="yes">
+<attribute name="NAME" x="24.13" y="-175.26" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="24.13" y="-177.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC4" gate="G$1" x="-5.08" y="-218.44" smashed="yes">
+<attribute name="NAME" x="21.59" y="-210.82" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="21.59" y="-213.36" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC5" gate="G$1" x="5.08" y="-269.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="-10.16" y="-242.57" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-7.62" y="-242.57" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="IC6" gate="G$1" x="5.08" y="-309.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="-12.7" y="-280.67" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-10.16" y="-280.67" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 </instances>
 <busses>
