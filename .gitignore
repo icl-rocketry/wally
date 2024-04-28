@@ -31,3 +31,9 @@
 *.out
 *.app
 TinyGPS/
+
+# Eagle cache
+*.b#*
+*.s#*
+*.job
+isolation/isolation.pro
