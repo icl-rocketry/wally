@@ -8039,8 +8039,8 @@ by exp-lbrs.ulp</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="RA-01H" deviceset="RA-01H" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1U-N16" device=""/>
+<part name="U1" library="RA-01H" deviceset="RA-01H" device="" override_package3d_urn="urn:adsk.eagle:package:44116555/2" override_package_urn="urn:adsk.eagle:footprint:44116556/1"/>
+<part name="IC1" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1U-N16" device="" override_package3d_urn="urn:adsk.eagle:package:44116497/2" override_package_urn="urn:adsk.eagle:footprint:44116498/1"/>
 <part name="SUPPLY1" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY2" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY3" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
@@ -8077,9 +8077,9 @@ by exp-lbrs.ulp</description>
 <part name="C20" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C21" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C22" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
-<part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1"/>
-<part name="CN2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1"/>
-<part name="IC3" library="SamacSys_Parts" deviceset="TLV1117LV33DCYR" device=""/>
+<part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44116578/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1"/>
+<part name="CN2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44116580/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1"/>
+<part name="IC3" library="SamacSys_Parts" deviceset="TLV1117LV33DCYR" device="" override_package3d_urn="urn:adsk.eagle:package:44116521/2" override_package_urn="urn:adsk.eagle:footprint:44116522/1"/>
 <part name="SUPPLY7" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY12" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="1u"/>
@@ -8094,12 +8094,12 @@ by exp-lbrs.ulp</description>
 <part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
 <part name="C16" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
 <part name="R4" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="1k"/>
-<part name="J1" library="SamacSys_Parts" deviceset="MSD-4-A" device=""/>
-<part name="IC4" library="SamacSys_Parts" deviceset="DPS310XTSA1" device=""/>
-<part name="IC5" library="SamacSys_Parts" deviceset="BMI323" device=""/>
-<part name="IC6" library="SamacSys_Parts" deviceset="MCP96L00T-E_MX" device=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
+<part name="J1" library="SamacSys_Parts" deviceset="MSD-4-A" device="" override_package3d_urn="urn:adsk.eagle:package:44116525/2" override_package_urn="urn:adsk.eagle:footprint:44116526/1"/>
+<part name="IC4" library="SamacSys_Parts" deviceset="DPS310XTSA1" device="" override_package3d_urn="urn:adsk.eagle:package:44116536/2" override_package_urn="urn:adsk.eagle:footprint:44116537/1"/>
+<part name="IC5" library="SamacSys_Parts" deviceset="BMI323" device="" override_package3d_urn="urn:adsk.eagle:package:44116540/2" override_package_urn="urn:adsk.eagle:footprint:44116541/1"/>
+<part name="IC6" library="SamacSys_Parts" deviceset="MCP96L00T-E_MX" device="" override_package3d_urn="urn:adsk.eagle:package:44116543/2" override_package_urn="urn:adsk.eagle:footprint:44116544/1"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" override_package3d_urn="urn:adsk.eagle:package:44116583/2" override_package_urn="urn:adsk.eagle:footprint:44116584/1" value="QWIIC_RIGHT_ANGLE"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" override_package3d_urn="urn:adsk.eagle:package:44116586/2" override_package_urn="urn:adsk.eagle:footprint:44116587/1" value="QWIIC_RIGHT_ANGLE"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="J4" library="Connectors" library_urn="urn:adsk.eagle:library:14555660" deviceset="S2B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:10989924/2"/>
@@ -8113,7 +8113,7 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY22" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY23" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY25" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="IC7" library="SamacSys_Parts" deviceset="MLX90395KLW-BBA-001-SP" device=""/>
+<part name="IC7" library="SamacSys_Parts" deviceset="MLX90395KLW-BBA-001-SP" device="" override_package3d_urn="urn:adsk.eagle:package:44116552/2" override_package_urn="urn:adsk.eagle:footprint:44116553/1"/>
 <part name="SUPPLY26" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY27" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="SUPPLY28" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>

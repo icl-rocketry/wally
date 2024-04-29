@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -194,6 +194,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlpYzM4OA" projecturn="a.YnVzaW5lc3M6bXlpYzM4OCMyMDIzMTEwOTY5NjY3NjI3Ng" f3durn="urn:adsk.wipprod:dm.lineage:gCDWHWufTgu09MC2HTH3mw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9176632d-2230-4dc2-ab44-8a473d36bc0c" lastsyncedrevisionid="9176632d-2230-4dc2-ab44-8a473d36bc0c" lastboardhashguid="7ebd58d1-d52b-b140-e305-6569ead4cae2" lastpushedtime="2024-04-29T21:37:29Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="41" y2="0" width="0.254" layer="51" locked="yes"/>
 <wire x1="41" y1="0" x2="41" y2="-41" width="0.254" layer="51" locked="yes"/>
@@ -10623,7 +10624,7 @@ by exp-lbrs.ulp</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="RA-01H" package="XCVR_RA-01H" value="RA-01H" x="9.8" y="-68.3" smashed="yes">
+<element name="U1" library="RA-01H" package="XCVR_RA-01H" override_package3d_urn="urn:adsk.eagle:package:44116555/2" override_package_urn="urn:adsk.eagle:footprint:44116556/1" value="RA-01H" x="9.8" y="-68.3" smashed="yes">
 <attribute name="AVAILABILITY" value="In Stock" x="9.8" y="-68.3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/RA-01H/AI-Thinker/view-part/?ref=eda" x="9.8" y="-68.3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz LoRa™ Transceiver Module 803MHz ~ 930MHz Antenna Not Included Surface Mount " x="9.8" y="-68.3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -10633,7 +10634,7 @@ by exp-lbrs.ulp</description>
 <attribute name="PRICE" value="None" x="9.8" y="-68.3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/RA-01H/AI-Thinker/view-part/?ref=snap" x="9.8" y="-68.3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="IC1" library="SamacSys_Parts" package="ESP32S3WROOM1UN16" value="ESP32-S3-WROOM-1U-N16" x="10" y="-88" smashed="yes" rot="R90">
+<element name="IC1" library="SamacSys_Parts" package="ESP32S3WROOM1UN16" override_package3d_urn="urn:adsk.eagle:package:44116497/2" override_package_urn="urn:adsk.eagle:footprint:44116498/1" value="ESP32-S3-WROOM-1U-N16" x="10" y="-88" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="Multiprotocol Modules SMD Module, ESP32-S3, 16 MB SPI Flash, IPEX Antenna Connector" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -10918,9 +10919,9 @@ by exp-lbrs.ulp</description>
 <attribute name="TYPE" value="" x="48.67" y="52.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VOLTAGE_RATING" value="" x="48.67" y="52.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" value="" x="34" y="-46" smashed="yes" rot="R270"/>
-<element name="CN2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" value="" x="34" y="-53" smashed="yes" rot="R270"/>
-<element name="IC3" library="SamacSys_Parts" package="SOT230P700X180-4N" value="TLV1117LV33DCYR" x="19.2" y="-47.7" smashed="yes" rot="R270">
+<element name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44116578/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1" value="" x="34" y="-46" smashed="yes" rot="R270"/>
+<element name="CN2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44116580/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1" value="" x="34" y="-53" smashed="yes" rot="R270"/>
+<element name="IC3" library="SamacSys_Parts" package="SOT230P700X180-4N" override_package3d_urn="urn:adsk.eagle:package:44116521/2" override_package_urn="urn:adsk.eagle:footprint:44116522/1" value="TLV1117LV33DCYR" x="19.2" y="-47.7" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="TLV1117LV33DCYR" x="19.2" y="-47.7" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv1117lv33dcyr/texas-instruments?region=nac" x="19.2" y="-47.7" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="1-A, Positive Fixed Voltage, Low-Dropout Regulator" x="19.2" y="-47.7" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -11053,7 +11054,7 @@ by exp-lbrs.ulp</description>
 <attribute name="TOLERANCE" value="" x="15" y="-99" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="15" y="-99" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="J1" library="SamacSys_Parts" package="MSD4A" value="MSD-4-A" x="33" y="-81" smashed="yes" rot="R90">
+<element name="J1" library="SamacSys_Parts" package="MSD4A" override_package3d_urn="urn:adsk.eagle:package:44116525/2" override_package_urn="urn:adsk.eagle:footprint:44116526/1" value="MSD-4-A" x="33" y="-81" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="33" y="-81" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="33" y="-81" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="Memory Card Connectors 9 Positions, Push In, Auto Eject Out, SMT, 1.8 mm Height Above Board," x="33" y="-81" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -11063,7 +11064,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PART_NUMBER" value="179-MSD-4-A" x="33" y="-81" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D" x="33" y="-81" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="IC4" library="SamacSys_Parts" package="DPS310XTSA1" value="DPS310XTSA1" x="18.6" y="-54.7" smashed="yes" rot="R180">
+<element name="IC4" library="SamacSys_Parts" package="DPS310XTSA1" override_package3d_urn="urn:adsk.eagle:package:44116536/2" override_package_urn="urn:adsk.eagle:footprint:44116537/1" value="DPS310XTSA1" x="18.6" y="-54.7" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="DPS310XTSA1" x="18.6" y="-54.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/dps310xtsa1/infineon-technologies-ag?region=nac" x="18.6" y="-54.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="INFINEON - DPS310XTSA1 - DIGITAL PRESSURE SENSOR, 1200HPA, VLGA-8" x="18.6" y="-54.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -11073,7 +11074,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PART_NUMBER" value="726-DPS310XTSA1" x="18.6" y="-54.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/DPS310XTSA1?qs=uuTTuBTXn66Ynca8WHwycg%3D%3D" x="18.6" y="-54.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="IC5" library="SamacSys_Parts" package="BMI323" value="BMI323" x="27" y="-51" smashed="yes" rot="R90">
+<element name="IC5" library="SamacSys_Parts" package="BMI323" override_package3d_urn="urn:adsk.eagle:package:44116540/2" override_package_urn="urn:adsk.eagle:footprint:44116541/1" value="BMI323" x="27" y="-51" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="BMI323" x="27" y="-51" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/bmi323/bosch?region=nac" x="27" y="-51" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="3.0 SHUTTLE BOARD DEV KIT BMI323" x="27" y="-51" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -11083,7 +11084,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PART_NUMBER" value="262-BMI323" x="27" y="-51" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI323?qs=By6Nw2ByBD3%2FE1v0UqNQPQ%3D%3D" x="27" y="-51" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="IC6" library="SamacSys_Parts" package="QFN65P500X500X100-21N" value="MCP96L00T-E_MX" x="12.6" y="-55.5" smashed="yes">
+<element name="IC6" library="SamacSys_Parts" package="QFN65P500X500X100-21N" override_package3d_urn="urn:adsk.eagle:package:44116543/2" override_package_urn="urn:adsk.eagle:footprint:44116544/1" value="MCP96L00T-E_MX" x="12.6" y="-55.5" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="12.6" y="-55.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="12.6" y="-55.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="DESCRIPTION" value="MICROCHIP - MCP96L00T-E/MX - TEMPERATURE SENSOR, 6DEG C, MQFN" x="12.6" y="-55.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -11093,10 +11094,10 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PART_NUMBER" value="579-MCP96L00T-E/MX" x="12.6" y="-55.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP96L00T-E-MX?qs=lc2O%252BfHJPVbfgU9%252BbwIcfg%3D%3D" x="12.6" y="-55.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="35" y="-60" smashed="yes" rot="R90">
+<element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" override_package3d_urn="urn:adsk.eagle:package:44116583/2" override_package_urn="urn:adsk.eagle:footprint:44116584/1" value="QWIIC_RIGHT_ANGLE" x="35" y="-60" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CONN-13694" x="35" y="-60" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="35" y="-67" smashed="yes" rot="R90">
+<element name="J3" library="SparkFun-Connectors" package="JST04_1MM_RA" override_package3d_urn="urn:adsk.eagle:package:44116586/2" override_package_urn="urn:adsk.eagle:footprint:44116587/1" value="QWIIC_RIGHT_ANGLE" x="35" y="-67" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CONN-13694" x="35" y="-67" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13" x="14" y="-5" smashed="yes">
@@ -11113,7 +11114,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MANUFACTURER" value="JST Sales America Inc." x="7" y="-54" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="MPN" value="S2B-PH-K-S(LF)(SN)" x="7" y="-54" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="IC7" library="SamacSys_Parts" package="QFN50P300X300X100-17N" value="MLX90395KLW-BBA-001-SP" x="27.1" y="-45.6" smashed="yes">
+<element name="IC7" library="SamacSys_Parts" package="QFN50P300X300X100-17N" override_package3d_urn="urn:adsk.eagle:package:44116552/2" override_package_urn="urn:adsk.eagle:footprint:44116553/1" value="MLX90395KLW-BBA-001-SP" x="27.1" y="-45.6" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="MLX90395KLW-BBA-001-SP" x="27.1" y="-45.6" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/mlx90395klw-bba-001-sp/melexis?region=nac" x="27.1" y="-45.6" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="DESCRIPTION" value="Board Mount Hall Effect / Magnetic Sensors Magnetometer Node" x="27.1" y="-45.6" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -13124,6 +13125,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
