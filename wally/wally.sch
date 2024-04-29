@@ -8005,6 +8005,15 @@ by exp-lbrs.ulp</description>
 <part name="C33" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="10u"/>
 <part name="C34" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="10u"/>
 <part name="C35" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
+<part name="C36" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="10u"/>
+<part name="SUPPLY45" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="C39" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
+<part name="C40" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
+<part name="C41" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
+<part name="C42" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
+<part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
+<part name="R17" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="5k1"/>
+<part name="SUPPLY46" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -8173,8 +8182,8 @@ by exp-lbrs.ulp</description>
 <instance part="SUPPLY7" gate="G$1" x="-38.1" y="30.48" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-40.005" y="30.48" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="35.56" y="30.48" smashed="yes" rot="R270">
-<attribute name="VALUE" x="38.735" y="30.607" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY12" gate="G$1" x="71.12" y="30.48" smashed="yes" rot="R270">
+<attribute name="VALUE" x="76.835" y="35.687" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="C8" gate="G$1" x="-48.26" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="-42.545" y="32.385" size="1.778" layer="95" rot="R180"/>
@@ -8473,6 +8482,40 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="-17.145" y="-153.035" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-17.145" y="-146.05" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C36" gate="G$1" x="-91.44" y="236.22" smashed="yes">
+<attribute name="NAME" x="-89.535" y="236.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-94.615" y="232.41" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY45" gate="G$1" x="73.66" y="22.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="75.565" y="22.86" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C39" gate="G$1" x="38.1" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.815" y="24.765" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="43.815" y="31.75" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C40" gate="G$1" x="45.72" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="51.435" y="24.765" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="51.435" y="31.75" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C41" gate="G$1" x="53.34" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.055" y="24.765" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="59.055" y="31.75" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C42" gate="G$1" x="60.96" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="66.675" y="24.765" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="66.675" y="31.75" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED3" gate="G$1" x="58.42" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.992" y="130.556" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="62.992" y="132.715" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R17" gate="G$1" x="45.72" y="127" smashed="yes">
+<attribute name="NAME" x="45.72" y="129.54" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="45.72" y="124.46" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY46" gate="G$1" x="73.66" y="127" smashed="yes" rot="R90">
+<attribute name="VALUE" x="75.565" y="127" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8624,6 +8667,11 @@ by exp-lbrs.ulp</description>
 <junction x="-68.58" y="238.76"/>
 <pinref part="C33" gate="G$1" pin="1"/>
 <junction x="-76.2" y="238.76"/>
+<wire x1="-83.82" y1="238.76" x2="-91.44" y2="238.76" width="0.1524" layer="91"/>
+<junction x="-83.82" y="238.76"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<junction x="-91.44" y="238.76"/>
+<wire x1="-91.44" y1="238.76" x2="-106.68" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="GND"/>
@@ -8945,6 +8993,25 @@ by exp-lbrs.ulp</description>
 <pinref part="SUPPLY44" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="-274.32" x2="68.58" y2="-274.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C39" gate="G$1" pin="1"/>
+<pinref part="SUPPLY45" gate="G$1" pin="GND"/>
+<wire x1="38.1" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C40" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<junction x="45.72" y="22.86"/>
+<pinref part="C41" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<junction x="53.34" y="22.86"/>
+<pinref part="C42" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
+<junction x="60.96" y="22.86"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="SUPPLY46" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -8986,7 +9053,11 @@ by exp-lbrs.ulp</description>
 <wire x1="12.7" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="OUTPUT_1"/>
 <wire x1="17.78" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="27.94" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <junction x="17.78" y="30.48"/>
@@ -8996,6 +9067,14 @@ by exp-lbrs.ulp</description>
 <pinref part="TP5" gate="G$1" pin="TP"/>
 <wire x1="30.48" y1="25.4" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <junction x="30.48" y="30.48"/>
+<pinref part="C39" gate="G$1" pin="2"/>
+<junction x="38.1" y="30.48"/>
+<pinref part="C40" gate="G$1" pin="2"/>
+<junction x="45.72" y="30.48"/>
+<pinref part="C41" gate="G$1" pin="2"/>
+<junction x="53.34" y="30.48"/>
+<pinref part="C42" gate="G$1" pin="2"/>
+<junction x="60.96" y="30.48"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
@@ -9099,6 +9178,19 @@ by exp-lbrs.ulp</description>
 <wire x1="55.88" y1="-274.32" x2="35.56" y2="-274.32" width="0.1524" layer="91"/>
 <junction x="35.56" y="-274.32"/>
 </segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-20.32" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="-20.32" x2="93.98" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="86.36" y="-20.32"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="-20.32" x2="101.6" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="93.98" y="-20.32"/>
+<wire x1="86.36" y1="-20.32" x2="86.36" y2="-12.7" width="0.1524" layer="91"/>
+<label x="88.9" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$21" class="0">
 <segment>
@@ -9124,7 +9216,7 @@ by exp-lbrs.ulp</description>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="VBUS" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
@@ -9137,6 +9229,10 @@ by exp-lbrs.ulp</description>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="53.34" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
 <junction x="45.72" y="114.3"/>
+<label x="-5.08" y="114.3" size="1.778" layer="95"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="127" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_N" class="0">
@@ -9192,6 +9288,11 @@ by exp-lbrs.ulp</description>
 <junction x="-68.58" y="231.14"/>
 <pinref part="C33" gate="G$1" pin="2"/>
 <junction x="-76.2" y="231.14"/>
+<wire x1="-83.82" y1="231.14" x2="-91.44" y2="231.14" width="0.1524" layer="91"/>
+<junction x="-83.82" y="231.14"/>
+<pinref part="C36" gate="G$1" pin="2"/>
+<junction x="-91.44" y="231.14"/>
+<wire x1="-91.44" y1="231.14" x2="-106.68" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SLEEP" class="0">
@@ -9605,19 +9706,6 @@ by exp-lbrs.ulp</description>
 <wire x1="27.94" y1="-182.88" x2="35.56" y2="-182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-20.32" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="-20.32" x2="93.98" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="86.36" y="-20.32"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="-20.32" x2="101.6" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="93.98" y="-20.32"/>
-</segment>
-</net>
 <net name="RAD_RST" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RESET"/>
@@ -9768,6 +9856,13 @@ by exp-lbrs.ulp</description>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="-50.8" x2="86.36" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="50.8" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
