@@ -9865,11 +9865,12 @@ by exp-lbrs.ulp</description>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-58.42" x2="96.52" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-58.42" x2="91.44" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-58.42" x2="91.44" y2="-68.58" width="0.1524" layer="91"/>
 <label x="91.44" y="-68.58" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="-58.42" x2="91.44" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="91.44" y="-58.42"/>
 </segment>
 </net>
 <net name="TX1" class="0">
