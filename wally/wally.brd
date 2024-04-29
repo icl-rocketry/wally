@@ -2715,6 +2715,12 @@ by exp-lbrs.ulp</description>
 <via x="22.733" y="-53.34" extent="1-16" drill="0.508"/>
 <wire x1="22.733" y1="-53.34" x2="22.733" y2="-55.499" width="0.1778" layer="16"/>
 <wire x1="22.733" y1="-55.499" x2="22.606" y2="-55.626" width="0.1778" layer="16"/>
+<polygon width="0.254" layer="1" pour="cutout">
+<vertex x="20" y="-34"/>
+<vertex x="26" y="-34"/>
+<vertex x="26" y="-38"/>
+<vertex x="20" y="-38"/>
+</polygon>
 </signal>
 <signal name="3V3">
 <contactref element="IC1" pad="2"/>
@@ -3186,9 +3192,7 @@ by exp-lbrs.ulp</description>
 <vertex x="43" y="-52.6"/>
 <vertex x="43" y="-43"/>
 <vertex x="41" y="-41"/>
-<vertex x="41" y="-30"/>
-<vertex x="13" y="-30"/>
-<vertex x="11" y="-32"/>
+<vertex x="41" y="-37"/>
 <vertex x="11" y="-37"/>
 <vertex x="13.9" y="-39.9"/>
 <vertex x="13.9" y="-47.1"/>
@@ -3318,6 +3322,12 @@ by exp-lbrs.ulp</description>
 <wire x1="31.8152" y1="-55.3068" x2="30.607" y2="-56.515" width="0.254" layer="1"/>
 <wire x1="30.353" y1="-56.515" x2="30.607" y2="-56.515" width="0.254" layer="1"/>
 <wire x1="31.8152" y1="-55.3068" x2="31.8152" y2="-55" width="0.254" layer="1"/>
+<wire x1="23.1" y1="-38.9" x2="23" y2="-39" width="0.254" layer="16"/>
+<wire x1="23.1" y1="-35.6" x2="23.1" y2="-38.9" width="0.3" layer="16"/>
+<wire x1="18.92" y1="-31.03" x2="18.92" y2="-31.72" width="0.3" layer="16"/>
+<wire x1="18.92" y1="-31.72" x2="20.4" y2="-33.2" width="0.3" layer="16" curve="90"/>
+<wire x1="20.4" y1="-33.2" x2="20.7" y2="-33.2" width="0.3" layer="16"/>
+<wire x1="20.7" y1="-33.2" x2="23.1" y2="-35.6" width="0.3" layer="16" curve="-90"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC2" pad="1"/>
