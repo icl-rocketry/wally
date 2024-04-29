@@ -8017,6 +8017,8 @@ by exp-lbrs.ulp</description>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099355/2" override_package_urn="urn:adsk.eagle:footprint:27902/1"/>
 <part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099355/2" override_package_urn="urn:adsk.eagle:footprint:27902/1"/>
+<part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8530,6 +8532,14 @@ by exp-lbrs.ulp</description>
 <instance part="TP11" gate="G$1" x="25.4" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="70.104" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="27.94" y="72.39" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="TP12" gate="G$1" x="25.4" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="26.67" y="21.59" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="24.13" y="24.13" size="1.778" layer="97" rot="R180"/>
+</instance>
+<instance part="TP13" gate="G$1" x="27.94" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.21" y="67.31" size="1.778" layer="95" rot="R270"/>
+<attribute name="TP_SIGNAL_NAME" x="26.67" y="64.77" size="1.778" layer="97" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -9072,7 +9082,8 @@ by exp-lbrs.ulp</description>
 <pinref part="SUPPLY12" gate="G$1" pin="3V3"/>
 <wire x1="12.7" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="OUTPUT_1"/>
-<wire x1="17.78" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
@@ -9095,6 +9106,9 @@ by exp-lbrs.ulp</description>
 <junction x="53.34" y="30.48"/>
 <pinref part="C42" gate="G$1" pin="2"/>
 <junction x="60.96" y="30.48"/>
+<pinref part="TP12" gate="G$1" pin="TP"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
@@ -9381,8 +9395,13 @@ by exp-lbrs.ulp</description>
 <wire x1="-10.16" y1="58.42" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
 <label x="-12.7" y="76.2" size="1.778" layer="95" rot="R180"/>
 <pinref part="TP11" gate="G$1" pin="TP"/>
-<wire x1="22.86" y1="71.12" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-10.16" y="71.12"/>
+<pinref part="TP13" gate="G$1" pin="TP"/>
+<wire x1="17.78" y1="71.12" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="66.04" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
+<junction x="17.78" y="71.12"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="INPUT"/>
