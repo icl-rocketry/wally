@@ -7485,7 +7485,7 @@ by exp-lbrs.ulp</description>
 <part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
 <part name="R20" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="51"/>
 <part name="SUPPLY47" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="J5" library="USB4105-GF-A" deviceset="USB4105-GF-A" device=""/>
+<part name="J5" library="USB4105-GF-A" deviceset="USB4105-GF-A" device="" override_package3d_urn="urn:adsk.eagle:package:44135187/2" override_package_urn="urn:adsk.eagle:footprint:44135189/1"/>
 <part name="SUPPLY48" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 </parts>
 <sheets>
