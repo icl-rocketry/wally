@@ -6567,8 +6567,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R13" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="1M"/>
 <part name="R14" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="5k1"/>
 <part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" override_package3d_urn="urn:adsk.eagle:package:44099330/2" override_package_urn="urn:adsk.eagle:footprint:6240294/1" value="USBDiode"/>
-<part name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" override_package3d_urn="urn:adsk.eagle:package:44099334/2" override_package_urn="urn:adsk.eagle:footprint:6240294/1" value="USBDiode"/>
-<part name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" override_package3d_urn="urn:adsk.eagle:package:44099339/2" override_package_urn="urn:adsk.eagle:footprint:6240294/1" value="USBDiode"/>
 <part name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
 <part name="C15" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="1u"/>
 <part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
@@ -6610,7 +6608,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="C20" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C21" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C22" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
-<part name="J6" library="USB4105-GF-A" deviceset="USB4105-GF-A" device=""/>
+<part name="J6" library="USB4105-GF-A" deviceset="USB4105-GF-A" device="" override_package3d_urn="urn:adsk.eagle:package:44135151/2" override_package_urn="urn:adsk.eagle:footprint:44135152/1"/>
 <part name="SUPPLY48" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 </parts>
 <sheets>
@@ -6894,14 +6892,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="D2" gate="G$1" x="58.42" y="116.84" smashed="yes">
 <attribute name="NAME" x="55.88" y="119.38" size="1.27" layer="95"/>
 <attribute name="VALUE" x="55.88" y="113.03" size="1.27" layer="96"/>
-</instance>
-<instance part="D3" gate="G$1" x="58.42" y="121.92" smashed="yes">
-<attribute name="NAME" x="55.88" y="124.46" size="1.27" layer="95"/>
-<attribute name="VALUE" x="55.88" y="118.11" size="1.27" layer="96"/>
-</instance>
-<instance part="D4" gate="G$1" x="58.42" y="127" smashed="yes">
-<attribute name="NAME" x="55.88" y="129.54" size="1.27" layer="95"/>
-<attribute name="VALUE" x="55.88" y="123.19" size="1.27" layer="96"/>
 </instance>
 <instance part="C14" gate="G$1" x="93.98" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.695" y="88.265" size="1.778" layer="95" rot="R180"/>
@@ -7524,12 +7514,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="116.84" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="66.04" y1="121.92" x2="66.04" y2="127" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="60.96" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
-<junction x="66.04" y="121.92"/>
 <wire x1="66.04" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <label x="71.12" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -7964,15 +7948,8 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="40.64" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="121.92" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 <junction x="50.8" y="116.84"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="55.88" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="127" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
-<junction x="50.8" y="121.92"/>
 <wire x1="50.8" y1="116.84" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="111.76" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
