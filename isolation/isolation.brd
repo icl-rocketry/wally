@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -7197,6 +7197,8 @@
 <text x="-16.57294375" y="-18.11725" size="1" layer="22" font="vector" ratio="12" rot="MR60">Raven Input</text>
 <text x="14.758228125" y="-18.887253125" size="1" layer="22" font="vector" ratio="12" rot="MR120">Pickle Input</text>
 <text x="27.143" y="3.549" size="1.5" layer="22" font="vector" ratio="15" rot="MR0">VBUS</text>
+<wire x1="16.002" y1="31.623" x2="20.7518" y2="28.829" width="2.54" layer="46"/>
+<wire x1="-35.306" y1="-2.286" x2="-35.306" y2="3.683" width="2.54" layer="46"/>
 </plain>
 <libraries>
 <library name="SamacSys_Parts">
@@ -10029,6 +10031,37 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <contactref element="IC6" pad="3"/>
 <wire x1="-6.47" y1="8.89" x2="-6.47" y2="5.23" width="0.762" layer="1"/>
 <wire x1="-6.47" y1="5.23" x2="-6.62" y2="5.08" width="0.762" layer="1"/>
+</signal>
+<signal name="N$16">
+<polygon width="0.127" layer="1" pour="cutout">
+<vertex x="-36.83" y="5.08"/>
+<vertex x="-33.909" y="5.08"/>
+<vertex x="-33.909" y="-3.81"/>
+<vertex x="-36.83" y="-3.81"/>
+</polygon>
+<polygon width="0.127" layer="16" pour="cutout">
+<vertex x="-33.909" y="5.08"/>
+<vertex x="-36.83" y="5.08"/>
+<vertex x="-36.83" y="-3.81"/>
+<vertex x="-33.909" y="-3.81"/>
+</polygon>
+</signal>
+<signal name="N$19">
+<polygon width="0.127" layer="1" pour="cutout">
+<vertex x="14.077078125" y="30.82738125"/>
+<vertex x="21.248075" y="26.601615625"/>
+<vertex x="23.495" y="29.972"/>
+<vertex x="15.621" y="34.29"/>
+<vertex x="13.88745" y="31.111825"/>
+</polygon>
+</signal>
+<signal name="N$20">
+<polygon width="0.127" layer="16" pour="cutout">
+<vertex x="13.946075" y="30.927575"/>
+<vertex x="21.278709375" y="26.629134375"/>
+<vertex x="23.368" y="29.972"/>
+<vertex x="15.621" y="34.417"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
