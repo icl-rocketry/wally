@@ -232,6 +232,31 @@ JST PH 2-pin thru-home side entry</description>
 <text x="0.486" y="-2.096" size="1.4224" layer="21" ratio="12">+</text>
 <text x="-1.429" y="-1.896" size="1.4224" layer="21" ratio="12">-</text>
 </package>
+<package name="CHIPLED_0805" urn="urn:adsk.eagle:footprint:6239913/1" library_version="2">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
+<wire x1="-0.35" y1="1" x2="0.35" y2="1" width="0.1016" layer="51" curve="180" cap="flat"/>
+<wire x1="-0.35" y1="-1" x2="0.35" y2="-1" width="0.1016" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
+<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
+<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
+<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
+<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
+<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
+<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
+<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
+<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
+<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
+<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
+<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
+<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
+<rectangle x1="-0.625" y1="0.925" x2="-0.4" y2="1" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="JST-PH-2-THM-RA" urn="urn:adsk.eagle:package:6240694/1" type="box" library_version="2">
@@ -240,6 +265,13 @@ JST PH 2-pin thru-home side entry</description>
 JST PH 2-pin thru-home side entry</description>
 <packageinstances>
 <packageinstance name="JST-PH-2-THM-RA"/>
+</packageinstances>
+</package3d>
+<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:6240559/1" type="box" library_version="2">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
+<packageinstances>
+<packageinstance name="CHIPLED_0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1233,6 +1265,42 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="MPN" value="S2B-PH-K-S(LF)(SN)" x="68.58" y="-71.882" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.2" y="-33.272" size="0.6096" layer="27" rot="R90"/>
 </element>
+<element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDY" x="5.08" y="20.32" smashed="yes" rot="R90">
+<attribute name="VALUE" x="6.35" y="22.86" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R4" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="120" x="5.08" y="18.542" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="RATING" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TOLERANCE" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="0" y="18.542" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="5.08" y="17.1061" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="R6" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="100" x="-5.08" y="22.098" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="RATING" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TOLERANCE" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="-15.24" y="14.478" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="-5.08" y="20.6621" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDG" x="-5.08" y="20.32" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-6.35" y="17.78" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1252,6 +1320,17 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <vertex x="11.43" y="25.4"/>
 <vertex x="-11.43" y="25.4"/>
 </polygon>
+<contactref element="R6" pad="1"/>
+<wire x1="-6.792" y1="26.042" x2="-5.8952" y2="22.098" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.6166" y1="27.94" x2="-6.792" y2="26.042" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.7746" y1="27.94" x2="-6.6166" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.95" y1="26.042" x2="-0.7746" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="33.258" x2="-0.7746" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.8152" y1="36.576" x2="0" y2="33.258" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.588" y1="37.465" x2="-0.8152" y2="36.576" width="0" layer="19" extent="1-1"/>
+<wire x1="4.892" y1="25.915" x2="-0.95" y2="26.042" width="0" layer="19" extent="1-1"/>
+<wire x1="5.0674" y1="27.813" x2="4.892" y2="25.915" width="0" layer="19" extent="1-1"/>
+<wire x1="6.588" y1="37.211" x2="-0.8152" y2="36.576" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="CN3" pad="2"/>
@@ -1304,12 +1383,16 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <contactref element="C33" pad="2"/>
 <contactref element="C32" pad="2"/>
 <contactref element="J9" pad="2"/>
-<wire x1="-5.588" y1="-33.6424" x2="-7.747" y2="-33.6424" width="0" layer="19" extent="1-1"/>
+<contactref element="LED3" pad="A"/>
+<contactref element="LED2" pad="A"/>
+<wire x1="-6.13" y1="20.32" x2="6.13" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.588" y1="-37.211" x2="-6.13" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.588" y1="-33.6424" x2="-4.588" y2="-37.211" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.8546" y1="-32.004" x2="-5.588" y2="-33.6424" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.8546" y1="-29.972" x2="-5.8546" y2="-32.004" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.8546" y1="-27.94" x2="-5.8546" y2="-29.972" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.747" y1="-33.6424" x2="-5.588" y2="-33.6424" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.429" y1="-33.6424" x2="-5.588" y2="-33.6424" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.588" y1="-37.211" x2="-5.588" y2="-33.6424" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="-28.972" x2="-3.429" y2="-33.6424" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="-24.622" x2="0" y2="-28.972" width="0" layer="19" extent="1-1"/>
 <wire x1="3.429" y1="-33.6424" x2="0" y2="-28.972" width="0" layer="19" extent="1-1"/>
@@ -1441,9 +1524,11 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <contactref element="C32" pad="1"/>
 <contactref element="C33" pad="1"/>
 <contactref element="J9" pad="1"/>
-<wire x1="-5.588" y1="-35.1916" x2="-7.747" y2="-35.1916" width="0" layer="19" extent="1-1"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-6.588" y1="-37.211" x2="5.8952" y2="18.542" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.588" y1="-35.1916" x2="-6.588" y2="-37.211" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.747" y1="-35.1916" x2="-5.588" y2="-35.1916" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.429" y1="-35.1916" x2="-5.588" y2="-35.1916" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.588" y1="-37.211" x2="-5.588" y2="-35.1916" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.3054" y1="-32.004" x2="-3.429" y2="-35.1916" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.3054" y1="-29.972" x2="-4.3054" y2="-32.004" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.3054" y1="-27.94" x2="-4.3054" y2="-29.972" width="0" layer="19" extent="1-1"/>
@@ -1483,6 +1568,16 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="5.842" y1="23.615" x2="4.3054" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="23.742" x2="5.842" y2="23.615" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.842" y1="23.742" x2="0" y2="23.742" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="LED3" pad="C"/>
+<contactref element="R6" pad="2"/>
+<wire x1="-4.2648" y1="22.098" x2="-4.03" y2="20.32" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="LED2" pad="C"/>
+<contactref element="R4" pad="1"/>
+<wire x1="4.2648" y1="18.542" x2="4.03" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
