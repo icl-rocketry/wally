@@ -1940,6 +1940,14 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDN359BN-D.pdf"&gt; Da
 <part name="R2" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
 <part name="SUPPLY4" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100p"/>
+<part name="IC2" library="SamacSys_Parts" deviceset="FDN359BN" device=""/>
+<part name="R3" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="470"/>
+<part name="SUPPLY5" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100p"/>
+<part name="IC3" library="SamacSys_Parts" deviceset="FDN359BN" device=""/>
+<part name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="470"/>
+<part name="SUPPLY6" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100p"/>
 </parts>
 <sheets>
 <sheet>
@@ -1990,6 +1998,36 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDN359BN-D.pdf"&gt; Da
 <attribute name="NAME" x="-6.985" y="-10.795" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-8.255" y="-6.35" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="IC2" gate="G$1" x="0" y="-30.48" smashed="yes">
+<attribute name="NAME" x="16.51" y="-22.86" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="16.51" y="-25.4" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R3" gate="G$1" x="-15.24" y="-30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="-15.24" y="-33.02" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="-15.24" y="-27.94" size="1.778" layer="96" rot="R180" align="center"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="0" y="-52.07" smashed="yes">
+<attribute name="VALUE" x="0" y="-53.975" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C2" gate="G$1" x="-5.08" y="-40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="-6.985" y="-41.275" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-8.255" y="-36.83" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC3" gate="G$1" x="0" y="-60.96" smashed="yes">
+<attribute name="NAME" x="16.51" y="-53.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="16.51" y="-55.88" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R5" gate="G$1" x="-15.24" y="-60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="-15.24" y="-63.5" size="1.778" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="-15.24" y="-58.42" size="1.778" layer="96" rot="R180" align="center"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="0" y="-82.55" smashed="yes">
+<attribute name="VALUE" x="0" y="-84.455" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C3" gate="G$1" x="-5.08" y="-71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="-6.985" y="-71.755" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-8.255" y="-67.31" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2023,6 +2061,26 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDN359BN-D.pdf"&gt; Da
 <wire x1="-26.67" y1="-13.97" x2="-26.67" y2="-16.51" width="0.1524" layer="91"/>
 <wire x1="-26.67" y1="-16.51" x2="-5.08" y2="-16.51" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-16.51"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="S"/>
+<wire x1="0" y1="-49.53" x2="0" y2="-46.99" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="0" y1="-46.99" x2="0" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-43.18" x2="-5.08" y2="-46.99" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-46.99" x2="0" y2="-46.99" width="0.1524" layer="91"/>
+<junction x="0" y="-46.99"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="S"/>
+<wire x1="0" y1="-80.01" x2="0" y2="-77.47" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="0" y1="-77.47" x2="0" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-73.66" x2="-5.08" y2="-77.47" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-77.47" x2="0" y2="-77.47" width="0.1524" layer="91"/>
+<junction x="0" y="-77.47"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -2063,6 +2121,16 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDN359BN-D.pdf"&gt; Da
 <wire x1="-26.67" y1="-3.81" x2="-26.67" y2="0" width="0.1524" layer="91"/>
 <junction x="-26.67" y="0"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<label x="-31.75" y="-30.48" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-30.48" x2="-33.02" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<label x="-31.75" y="-60.96" size="1.778" layer="95"/>
+<wire x1="-20.32" y1="-60.96" x2="-33.02" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -2073,6 +2141,39 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDN359BN-D.pdf"&gt; Da
 <wire x1="-5.08" y1="0" x2="0" y2="0" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="0" width="0.1524" layer="91"/>
 <junction x="-5.08" y="0"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="G$1" pin="G"/>
+<wire x1="-10.16" y1="-30.48" x2="-5.08" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="-30.48" x2="0" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-35.56" x2="-5.08" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-30.48"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="G$1" pin="G"/>
+<wire x1="-10.16" y1="-60.96" x2="-5.08" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="-60.96" x2="0" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-66.04" x2="-5.08" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-60.96"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="D"/>
+<pinref part="IC2" gate="G$1" pin="D"/>
+<wire x1="20.32" y1="-60.96" x2="20.32" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="D"/>
+<wire x1="20.32" y1="-30.48" x2="20.32" y2="0" width="0.1524" layer="91"/>
+<junction x="20.32" y="-30.48"/>
+<wire x1="20.32" y1="-30.48" x2="57.15" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
