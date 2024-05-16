@@ -11709,27 +11709,27 @@ by exp-lbrs.ulp</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USB4105GFA/Global+Connector+Technology/view-part/?ref=snap" x="38.279540625" y="-94.936021875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.779540625" y="-99.936021875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="S1" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="67" y="-33" smashed="yes" rot="R270">
-<attribute name="ARROW_PART_NUMBER" value="" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="4.05mm" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="XKB Connectivity" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TS-1187A-B-A-B" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="67" y="-32.5" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="S1" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="29.23" y="-38.608" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="4.05mm" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="XKB Connectivity" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TS-1187A-B-A-B" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="29.73" y="-38.608" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="S2" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="67" y="-42" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="4.05mm" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="XKB Connectivity" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TS-1187A-B-A-B" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="67.5" y="-42" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="S2" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="21.153" y="-38.608" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="4.05mm" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="XKB Connectivity" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TS-1187A-B-A-B" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="21.653" y="-38.608" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
@@ -12085,20 +12085,20 @@ by exp-lbrs.ulp</description>
 <wire x1="2.0254" y1="-58.5" x2="6.7746" y2="-58.5" width="0" layer="19" extent="1-1"/>
 <wire x1="2.1179" y1="-63.3" x2="2.0254" y2="-58.5" width="0" layer="19" extent="1-1"/>
 <wire x1="15.8152" y1="-99" x2="10.2746" y2="-99" width="0" layer="19" extent="1-1"/>
+<wire x1="24.153" y1="-36.733" x2="23.8954" y2="-42.3" width="0" layer="19" extent="1-1"/>
+<wire x1="26.23" y1="-36.733" x2="24.153" y2="-36.733" width="0" layer="19" extent="1-1"/>
+<wire x1="32.23" y1="-36.733" x2="31.6746" y2="-42.3" width="0" layer="19" extent="1-1"/>
+<wire x1="18.153" y1="-36.733" x2="16.9254" y2="-42.3" width="0" layer="19" extent="1-1"/>
+<wire x1="21.46" y1="-31.03" x2="24.153" y2="-36.733" width="0" layer="19" extent="1-1"/>
 <wire x1="32" y1="-69.08" x2="26.543" y2="-72.771" width="0" layer="19" extent="1-1"/>
 <wire x1="35" y1="-68.5" x2="32" y2="-69.08" width="0" layer="19" extent="1-1"/>
 <wire x1="36.7" y1="-73.25" x2="35" y2="-68.5" width="0" layer="19" extent="1-1"/>
 <wire x1="35" y1="-61.5" x2="29.1" y2="-58.0746" width="0" layer="19" extent="1-1"/>
 <wire x1="1.59" y1="-79.25" x2="5" y2="-71" width="0" layer="19" extent="1-1"/>
-<wire x1="21.46" y1="-31.03" x2="22.6446" y2="-42.3" width="0" layer="19" extent="1-1"/>
 <wire x1="33.02" y1="-21.59" x2="21.46" y2="-31.03" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="-25.58" x2="4" y2="-42.2254" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="-12.88" x2="3" y2="-25.58" width="0" layer="19" extent="1-1"/>
 <wire x1="14" y1="-9" x2="3" y2="-12.88" width="0" layer="19" extent="1-1"/>
-<wire x1="64" y1="-40.125" x2="34" y2="-47" width="0" layer="19" extent="1-1"/>
-<wire x1="65.125" y1="-36" x2="64" y2="-40.125" width="0" layer="19" extent="1-1"/>
-<wire x1="65.125" y1="-30" x2="65.125" y2="-36" width="0" layer="19" extent="1-1"/>
-<wire x1="70" y1="-40.125" x2="64" y2="-40.125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
 <contactref element="IC1" pad="2"/>
@@ -12226,9 +12226,6 @@ by exp-lbrs.ulp</description>
 <via x="25.7556" y="-49.9872" extent="1-16" drill="0.3"/>
 <via x="2.8956" y="-93.726" extent="1-16" drill="0.3"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="19.2" y1="-44.55" x2="19.2" y2="-43.411" width="0.1778" layer="1"/>
-<wire x1="19.2" y1="-43.411" x2="19.812" y2="-42.799" width="0.1778" layer="1"/>
-<wire x1="19.812" y1="-42.799" x2="19.812" y2="-40.64" width="0.1778" layer="1"/>
 <wire x1="17.7" y1="-57.2254" x2="17.7754" y2="-57.15" width="0.1778" layer="1"/>
 <wire x1="17.7754" y1="-57.15" x2="18.669" y2="-57.15" width="0.1778" layer="1"/>
 <wire x1="19.7" y1="-57.2254" x2="19.7508" y2="-57.1746" width="0.1778" layer="1"/>
@@ -12288,11 +12285,6 @@ by exp-lbrs.ulp</description>
 <wire x1="17.8841" y1="-55.1659" x2="17.8841" y2="-55.16056875" width="0.1778" layer="1"/>
 <wire x1="17.8841" y1="-55.16056875" x2="18.30766875" y2="-54.737" width="0.1778" layer="1"/>
 <wire x1="18.30766875" y1="-54.737" x2="18.542" y2="-54.737" width="0.1778" layer="1"/>
-<wire x1="19.812" y1="-40.64" x2="17.018" y2="-37.846" width="0.1778" layer="1"/>
-<wire x1="17.018" y1="-37.846" x2="17.018" y2="-32.385" width="0.1778" layer="1"/>
-<wire x1="15.24" y1="-30.607" x2="15.24" y2="-25.4" width="0.1778" layer="1"/>
-<via x="15.24" y="-25.4" extent="1-16" drill="0.35"/>
-<wire x1="17.018" y1="-32.385" x2="15.24" y2="-30.607" width="0.1778" layer="1"/>
 <wire x1="2.86" y1="-96.75" x2="2.86" y2="-95.2856" width="0.1778" layer="1"/>
 <wire x1="2.86" y1="-95.2856" x2="2.8956" y2="-95.25" width="0.1778" layer="1"/>
 <via x="2.8956" y="-95.25" extent="1-16" drill="0.35"/>
@@ -12364,7 +12356,7 @@ by exp-lbrs.ulp</description>
 <wire x1="12.6" y1="-57.95" x2="17.6784" y2="-57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="-64.77" x2="12.6492" y2="-60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="-59.69" x2="6.35" y2="-64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="11.8509" y1="-11.1491" x2="15.24" y2="-25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="-13.97" x2="26.85" y2="-44.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHLD">
 <contactref element="R13" pad="1"/>
@@ -12616,11 +12608,9 @@ by exp-lbrs.ulp</description>
 <wire x1="31" y1="-45.7746" x2="31" y2="-47.1544" width="0.1778" layer="1"/>
 <wire x1="31" y1="-47.1544" x2="31.0896" y2="-47.244" width="0.1778" layer="1"/>
 <wire x1="26.8954" y1="-42.3" x2="26.67" y2="-42.0746" width="0.1778" layer="1"/>
-<wire x1="26.67" y1="-42.0746" x2="26.67" y2="-40.64" width="0.1778" layer="1"/>
-<via x="26.67" y="-40.64" extent="1-16" drill="0.35"/>
-<wire x1="30.1254" y1="-42.3" x2="30.1254" y2="-40.6664" width="0.1778" layer="1"/>
-<wire x1="30.1254" y1="-40.6664" x2="30.099" y2="-40.64" width="0.1778" layer="1"/>
-<via x="30.099" y="-40.64" extent="1-16" drill="0.35"/>
+<wire x1="30.1254" y1="-42.3" x2="30.1254" y2="-43.0266" width="0.1778" layer="1"/>
+<wire x1="30.1254" y1="-43.0266" x2="29.845" y2="-43.307" width="0.1778" layer="1"/>
+<via x="29.845" y="-43.307" extent="1-16" drill="0.35"/>
 <wire x1="11" y1="-48.15" x2="12.556" y2="-48.15" width="0.1778" layer="1"/>
 <wire x1="14.0716" y1="-46.6344" x2="14.6304" y2="-46.6344" width="0.1778" layer="1"/>
 <wire x1="12.556" y1="-48.15" x2="14.0716" y2="-46.6344" width="0.1778" layer="1"/>
@@ -12648,9 +12638,9 @@ by exp-lbrs.ulp</description>
 <via x="16.002" y="-43.561" extent="1-16" drill="0.35"/>
 <wire x1="18.4746" y1="-42.3" x2="18.4746" y2="-42.9754" width="0.1778" layer="1"/>
 <wire x1="18.4746" y1="-42.9754" x2="17.78" y2="-43.67" width="0.1778" layer="1"/>
-<wire x1="21.0954" y1="-42.3" x2="21.0954" y2="-40.3994" width="0.1778" layer="1"/>
-<wire x1="21.0954" y1="-40.3994" x2="21.082" y2="-40.386" width="0.1778" layer="1"/>
-<via x="21.082" y="-40.386" extent="1-16" drill="0.35"/>
+<wire x1="21.0954" y1="-42.3" x2="21.0954" y2="-42.9126" width="0.1778" layer="1"/>
+<wire x1="21.0954" y1="-42.9126" x2="20.574" y2="-43.434" width="0.1778" layer="1"/>
+<via x="20.574" y="-43.434" extent="1-16" drill="0.35"/>
 <wire x1="29.1" y1="-56.5254" x2="30.3426" y2="-56.5254" width="0.1778" layer="1"/>
 <wire x1="30.3426" y1="-56.5254" x2="30.353" y2="-56.515" width="0.1778" layer="1"/>
 <via x="30.353" y="-56.515" extent="1-16" drill="0.35"/>
@@ -12699,12 +12689,15 @@ by exp-lbrs.ulp</description>
 <wire x1="28.507740625" y1="-9" x2="22" y2="-9" width="0.1778" layer="1"/>
 <contactref element="CN1" pad="2"/>
 <contactref element="CN2" pad="2"/>
+<wire x1="25.4446" y1="-42.3" x2="24.1836" y2="-43.561" width="0.1778" layer="1"/>
+<wire x1="24.1836" y1="-43.561" x2="23.876" y2="-43.561" width="0.1778" layer="1"/>
+<via x="23.876" y="-43.561" extent="1-16" drill="0.35"/>
 <wire x1="14.478" y1="-45.2628" x2="13.9" y2="-45.2628" width="0" layer="19" extent="1-16"/>
-<wire x1="21.082" y1="-42.2148" x2="18.4746" y2="-42.3" width="0" layer="19" extent="1-1"/>
+<wire x1="20.574" y1="-43.434" x2="18.4746" y2="-42.3" width="0" layer="19" extent="1-1"/>
 <wire x1="15.621" y1="-40.513" x2="16.002" y2="-43.561" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4446" y1="-42.3" x2="21.0954" y2="-42.3" width="0" layer="19" extent="1-1"/>
-<wire x1="30.1254" y1="-42.3" x2="26.8954" y2="-42.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="-45.7746" x2="30.1752" y2="-42.3672" width="0" layer="19" extent="1-1"/>
+<wire x1="23.876" y1="-43.561" x2="21.0954" y2="-42.3" width="0" layer="19" extent="1-1"/>
+<wire x1="29.845" y1="-43.307" x2="26.8954" y2="-42.3" width="0" layer="19" extent="1-1"/>
+<wire x1="31" y1="-45.7746" x2="29.845" y2="-43.307" width="0" layer="19" extent="1-1"/>
 <wire x1="34" y1="-45" x2="34.1376" y2="-47.0916" width="0" layer="19" extent="1-1"/>
 <wire x1="35" y1="-41" x2="34" y2="-45" width="0" layer="19" extent="1-1"/>
 <wire x1="34" y1="-52" x2="34.1376" y2="-47.0916" width="0" layer="19" extent="1-1"/>
@@ -12844,8 +12837,8 @@ by exp-lbrs.ulp</description>
 <wire x1="23.5" y1="-94.2746" x2="23.4594" y2="-94.3152" width="0.1778" layer="1"/>
 <contactref element="S2" pad="B1"/>
 <contactref element="S2" pad="A1"/>
-<wire x1="64" y1="-43.875" x2="70" y2="-43.875" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="-98.9" x2="64" y2="-43.875" width="0" layer="19" extent="1-1"/>
+<wire x1="24.153" y1="-40.483" x2="23.5" y2="-94.2746" width="0" layer="19" extent="1-1"/>
+<wire x1="18.153" y1="-40.483" x2="24.153" y2="-40.483" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC6" pad="4"/>
@@ -13208,8 +13201,8 @@ by exp-lbrs.ulp</description>
 <wire x1="17.4552" y1="-81.3" x2="17.1" y2="-81.3" width="0.1778" layer="1"/>
 <contactref element="S1" pad="B1"/>
 <contactref element="S1" pad="A1"/>
-<wire x1="68.875" y1="-30" x2="68.875" y2="-36" width="0" layer="19" extent="1-1"/>
-<wire x1="17.1" y1="-81.3" x2="68.875" y2="-30" width="0" layer="19" extent="1-1"/>
+<wire x1="26.23" y1="-40.483" x2="19.4848" y2="-74.8" width="0" layer="19" extent="1-1"/>
+<wire x1="32.23" y1="-40.483" x2="26.23" y2="-40.483" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R15" pad="1"/>
@@ -13244,13 +13237,10 @@ by exp-lbrs.ulp</description>
 <wire x1="36.83" y1="-67.31" x2="36.83" y2="-59.69" width="0.1778" layer="16"/>
 <via x="36.83" y="-59.69" extent="1-16" drill="0.35"/>
 <wire x1="36.83" y1="-59.69" x2="36.83" y2="-44.45" width="0.1778" layer="1"/>
-<wire x1="36.83" y1="-44.45" x2="35.56" y2="-43.18" width="0.1778" layer="1"/>
-<wire x1="35.56" y1="-43.18" x2="34.29" y2="-43.18" width="0.1778" layer="1"/>
-<wire x1="29.1084" y1="-37.9984" x2="29.1084" y2="-31.0896" width="0.1778" layer="1"/>
-<wire x1="34.29" y1="-43.18" x2="29.1084" y2="-37.9984" width="0.1778" layer="1"/>
 <wire x1="27.94" y1="-76.2" x2="27.94" y2="-74.041" width="0.1778" layer="16"/>
 <wire x1="27.94" y1="-74.041" x2="31.4325" y2="-70.5485" width="0.1778" layer="16"/>
 <wire x1="31.4325" y1="-70.5485" x2="33.5915" y2="-70.5485" width="0.1778" layer="16"/>
+<wire x1="29.1084" y1="-31.0896" x2="36.83" y2="-44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX0">
 <contactref element="IC1" pad="36"/>
