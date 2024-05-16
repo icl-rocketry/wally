@@ -5505,6 +5505,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,10.3971,63.6956,CN1,,,,,"/>
+<approved hash="113,1,10.3971,53.5356,CN2,,,,,"/>
+<approved hash="113,1,10.3971,43.3756,CN3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
