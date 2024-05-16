@@ -9336,14 +9336,14 @@ by exp-lbrs.ulp</description>
 <label x="-35.56" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="4"/>
-<wire x1="12.7" y1="-462.28" x2="-7.62" y2="-462.28" width="0.1524" layer="91"/>
-<label x="-7.62" y="-462.28" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="IO18"/>
 <wire x1="-5.08" y1="-27.94" x2="-12.7" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-12.7" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="12.7" y1="-459.74" x2="-7.62" y2="-459.74" width="0.1524" layer="91"/>
+<label x="-7.62" y="-459.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -9353,14 +9353,14 @@ by exp-lbrs.ulp</description>
 <label x="-35.56" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="12.7" y1="-459.74" x2="-7.62" y2="-459.74" width="0.1524" layer="91"/>
-<label x="-7.62" y="-459.74" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="IO17"/>
 <wire x1="-5.08" y1="-25.4" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-12.7" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="12.7" y1="-462.28" x2="-7.62" y2="-462.28" width="0.1524" layer="91"/>
+<label x="-7.62" y="-462.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RAD_CS" class="0">

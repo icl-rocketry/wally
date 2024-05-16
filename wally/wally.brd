@@ -233,8 +233,8 @@ RX
 GND</text>
 <text x="30" y="-29" size="1.7" layer="21" font="vector" ratio="15" rot="R90">VCC
 GND
-RX
 TX
+RX
 PPS</text>
 <text x="3" y="-93" size="1.7" layer="21" font="vector" ratio="15" rot="R90">ESP32-S3</text>
 <text x="36.7" y="-97.9" size="1.7" layer="21" font="vector" ratio="15" rot="R90">USB C</text>
@@ -287,8 +287,8 @@ GND</text>
 <text x="37.4" y="-14.3" size="2" layer="22" font="vector" ratio="15" rot="MR270">UART</text>
 <text x="18.1" y="-29" size="1.7" layer="22" font="vector" ratio="15" rot="MR90">VCC
 GND
-RX
 TX
+RX
 PPS</text>
 <text x="12" y="-26" size="2" layer="22" font="vector" ratio="15" rot="MR90">SIM7XXX</text>
 <text x="3.8" y="-59" size="1" layer="22" font="vector" ratio="15" rot="MR0">ANT</text>
@@ -11716,16 +11716,16 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="67" y="-32.5" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="S2" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="59" y="-33" smashed="yes" rot="R270">
-<attribute name="ARROW_PART_NUMBER" value="" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="4.05mm" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="XKB Connectivity" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TS-1187A-B-A-B" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="59" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="59" y="-32.5" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="S2" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="67" y="-42" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="4.05mm" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="XKB Connectivity" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TS-1187A-B-A-B" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="-42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="67.5" y="-42" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
@@ -12091,9 +12091,9 @@ by exp-lbrs.ulp</description>
 <wire x1="3" y1="-25.58" x2="4" y2="-42.2254" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="-12.88" x2="3" y2="-25.58" width="0" layer="19" extent="1-1"/>
 <wire x1="14" y1="-9" x2="3" y2="-12.88" width="0" layer="19" extent="1-1"/>
-<wire x1="57.125" y1="-36" x2="34" y2="-45" width="0" layer="19" extent="1-1"/>
-<wire x1="57.125" y1="-30" x2="57.125" y2="-36" width="0" layer="19" extent="1-1"/>
-<wire x1="65.125" y1="-30" x2="57.125" y2="-30" width="0" layer="19" extent="1-1"/>
+<wire x1="64" y1="-40.125" x2="34" y2="-45" width="0" layer="19" extent="1-1"/>
+<wire x1="70" y1="-40.125" x2="64" y2="-40.125" width="0" layer="19" extent="1-1"/>
+<wire x1="65.125" y1="-30" x2="70" y2="-40.125" width="0" layer="19" extent="1-1"/>
 <wire x1="65.125" y1="-36" x2="65.125" y2="-30" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
@@ -12840,8 +12840,8 @@ by exp-lbrs.ulp</description>
 <wire x1="23.5" y1="-94.2746" x2="23.4594" y2="-94.3152" width="0.1778" layer="1"/>
 <contactref element="S2" pad="B1"/>
 <contactref element="S2" pad="A1"/>
-<wire x1="60.875" y1="-36" x2="60.875" y2="-30" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="-98.9" x2="60.875" y2="-36" width="0" layer="19" extent="1-1"/>
+<wire x1="64" y1="-43.875" x2="70" y2="-43.875" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="-98.9" x2="64" y2="-43.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC6" pad="4"/>
@@ -13000,7 +13000,6 @@ by exp-lbrs.ulp</description>
 </signal>
 <signal name="TX1">
 <contactref element="SIM7600G" pad="3"/>
-<contactref element="JP2" pad="4"/>
 <contactref element="IC1" pad="11"/>
 <wire x1="2.921" y1="-84.201" x2="3.81" y2="-85.09" width="0.1778" layer="16"/>
 <wire x1="3.81" y1="-85.09" x2="5.08" y2="-85.09" width="0.1778" layer="16"/>
@@ -13010,20 +13009,18 @@ by exp-lbrs.ulp</description>
 <wire x1="8.509" y1="-85.725" x2="11.938" y2="-85.725" width="0.1778" layer="1"/>
 <wire x1="11.938" y1="-85.725" x2="14.3256" y2="-88.1126" width="0.1778" layer="1"/>
 <wire x1="14.3256" y1="-96.6216" x2="14.3256" y2="-88.1126" width="0.1778" layer="1"/>
-<wire x1="26.54" y1="-31.03" x2="22.18" y2="-26.67" width="0.1778" layer="16"/>
 <via x="10.16" y="-26.67" extent="1-16" drill="0.35"/>
 <wire x1="14.29" y1="-96.75" x2="14.29" y2="-96.6572" width="0.254" layer="1"/>
 <wire x1="14.29" y1="-96.6572" x2="14.3256" y2="-96.6216" width="0.254" layer="1"/>
-<wire x1="10.16" y1="-26.67" x2="2.921" y2="-84.201" width="0" layer="19" extent="16-16"/>
+<contactref element="JP2" pad="3"/>
+<wire x1="24" y1="-31.03" x2="2.921" y2="-84.201" width="0" layer="19" extent="16-16"/>
+<wire x1="10.16" y1="-26.67" x2="24" y2="-31.03" width="0" layer="19" extent="1-1"/>
 <wire x1="3" y1="-17.96" x2="10.16" y2="-26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="22.18" y1="-26.67" x2="10.16" y2="-26.67" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RX1">
 <contactref element="SIM7600G" pad="2"/>
-<contactref element="JP2" pad="3"/>
 <contactref element="IC1" pad="10"/>
 <wire x1="12.954" y1="-94.488" x2="13.4112" y2="-94.0308" width="0.1778" layer="1"/>
-<wire x1="23.9268" y1="-30.9372" x2="24" y2="-31.03" width="0.1778" layer="16"/>
 <via x="5.08" y="-86.36" extent="1-16" drill="0.35"/>
 <wire x1="5.08" y1="-86.36" x2="3.81" y2="-86.36" width="0.1778" layer="16"/>
 <wire x1="3.81" y1="-86.36" x2="2.54" y2="-85.09" width="0.1778" layer="16"/>
@@ -13033,11 +13030,10 @@ by exp-lbrs.ulp</description>
 <via x="8.89" y="-26.67" extent="1-16" drill="0.35"/>
 <wire x1="13.02" y1="-96.75" x2="12.954" y2="-96.684" width="0.1778" layer="1"/>
 <wire x1="12.954" y1="-96.684" x2="12.954" y2="-94.488" width="0.1778" layer="1"/>
-<wire x1="23.9268" y1="-29.0068" x2="22.86" y2="-27.94" width="0.1778" layer="16"/>
-<wire x1="23.9268" y1="-29.0068" x2="23.9268" y2="-30.9372" width="0.1778" layer="16"/>
-<wire x1="24" y1="-31.03" x2="2.54" y2="-85.09" width="0" layer="19" extent="16-16"/>
-<wire x1="8.89" y1="-26.67" x2="22.86" y2="-27.94" width="0" layer="19" extent="16-16"/>
+<contactref element="JP2" pad="4"/>
+<wire x1="8.89" y1="-26.67" x2="2.54" y2="-85.09" width="0" layer="19" extent="16-16"/>
 <wire x1="3" y1="-15.42" x2="8.89" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="26.54" y1="-31.03" x2="8.89" y2="-26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RAD_CS">
 <contactref element="U1" pad="15"/>
