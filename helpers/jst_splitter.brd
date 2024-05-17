@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
@@ -98,19 +98,18 @@
 <text x="-8.9" y="-1.5" size="2.5" layer="22" font="vector" ratio="12" rot="MR90">IN</text>
 <text x="6.7" y="-6.1" size="2.5" layer="22" font="vector" ratio="12" rot="MR90">OUT</text>
 <text x="6.8" y="1.6" size="2.5" layer="22" font="vector" ratio="12" rot="MR90">OUT</text>
-<text x="-5.5" y="1.1" size="2.5" layer="21" font="vector" ratio="12">+</text>
-<text x="4" y="-6.3" size="2.5" layer="21" font="vector" ratio="12">+</text>
-<text x="4" y="1.5" size="2.5" layer="21" font="vector" ratio="12">+</text>
-<text x="-5.5" y="-3.3" size="2.5" layer="21" font="vector" ratio="12">-</text>
-<text x="4.1" y="-2.1" size="2.5" layer="21" font="vector" ratio="12">-</text>
-<text x="4.1" y="5.5" size="2.5" layer="21" font="vector" ratio="12">-</text>
-<text x="-3.7" y="1.1" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">+</text>
-<text x="-3.7" y="-3.3" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">-</text>
-<text x="5.8" y="-6.3" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">+</text>
-<text x="5.9" y="-2.1" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">-</text>
-<text x="5.8" y="1.5" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">+</text>
-<text x="5.9" y="5.5" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">-</text>
-<text x="-1.7" y="-2.5" size="0.5" layer="21" rot="R90">JLCJLCJLCJLC</text>
+<text x="-6.1" y="-2" size="2.5" layer="21" font="vector" ratio="12">+</text>
+<text x="4.3" y="-3.3" size="2.5" layer="21" font="vector" ratio="12">+</text>
+<text x="4.3" y="4.4" size="2.5" layer="21" font="vector" ratio="12">+</text>
+<text x="-6.1" y="0" size="2.5" layer="21" font="vector" ratio="12">-</text>
+<text x="4.3" y="-5.3" size="2.5" layer="21" font="vector" ratio="12">-</text>
+<text x="4.3" y="2.4" size="2.5" layer="21" font="vector" ratio="12">-</text>
+<text x="-4.3" y="-2" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">+</text>
+<text x="-4.3" y="0" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">-</text>
+<text x="6.1" y="-3.3" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">+</text>
+<text x="6.1" y="-5.3" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">-</text>
+<text x="6.1" y="4.4" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">+</text>
+<text x="6.1" y="2.4" size="2.5" layer="22" font="vector" ratio="12" rot="MR0">-</text>
 </plain>
 <libraries>
 <library name="Connectors" urn="urn:adsk.eagle:library:14555660">
@@ -361,24 +360,26 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </element>
 </elements>
 <signals>
-<signal name="FIRE">
-<contactref element="J1" pad="1"/>
-<contactref element="J3" pad="1"/>
-<polygon width="0.2" layer="1" spacing="0.15">
-<vertex x="-11" y="8.8"/>
-<vertex x="11" y="8.8"/>
-<vertex x="11" y="-7.7"/>
-<vertex x="-11" y="-7.7"/>
-</polygon>
-</signal>
 <signal name="GND">
-<contactref element="J3" pad="2"/>
-<contactref element="J1" pad="2"/>
 <polygon width="0.2" layer="16" spacing="0.15">
 <vertex x="-13.2" y="11"/>
 <vertex x="13.2" y="11"/>
 <vertex x="13.2" y="-9.9"/>
 <vertex x="-13.2" y="-9.9"/>
+</polygon>
+<contactref element="J3" pad="1"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J2" pad="1"/>
+</signal>
+<signal name="VCC">
+<contactref element="J3" pad="2"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J2" pad="2"/>
+<polygon width="0.2" layer="1" spacing="0.15">
+<vertex x="-11" y="8.8"/>
+<vertex x="11" y="8.8"/>
+<vertex x="11" y="-7.7"/>
+<vertex x="-11" y="-7.7"/>
 </polygon>
 </signal>
 </signals>
