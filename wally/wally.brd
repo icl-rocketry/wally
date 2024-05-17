@@ -194,7 +194,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXlpYzM4OA" projecturn="a.YnVzaW5lc3M6bXlpYzM4OCMyMDIzMTEwOTY5NjY3NjI3Ng" f3durn="urn:adsk.wipprod:dm.lineage:HWhlbBLaTLmuTxVn27SeLw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9b64cb60-e3a5-40ea-a13b-aa7fad6dc3fd" lastsyncedrevisionid="9b64cb60-e3a5-40ea-a13b-aa7fad6dc3fd" lastboardhashguid="712111e5-2221-a560-8c11-896959883df4" lastpushedtime="2024-05-17T14:15:52Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlpYzM4OA" projecturn="a.YnVzaW5lc3M6bXlpYzM4OCMyMDIzMTEwOTY5NjY3NjI3Ng" f3durn="urn:adsk.wipprod:dm.lineage:HWhlbBLaTLmuTxVn27SeLw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="4a75df5c-4ff8-4915-8248-e0f6bcc1256b" lastsyncedrevisionid="4a75df5c-4ff8-4915-8248-e0f6bcc1256b" lastboardhashguid="60fac5f8-f51b-0ff8-3ab9-6be902038e6c" lastpushedtime="2024-05-17T14:57:57Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="41" y2="0" width="0.254" layer="51" locked="yes"/>
 <wire x1="41" y1="0" x2="41" y2="-41" width="0.254" layer="51" locked="yes"/>
@@ -218,7 +218,6 @@
 <hole x="37" y="-36" drill="4"/>
 <hole x="4" y="-36" drill="4"/>
 <text x="14" y="-26" size="2" layer="21" font="vector" ratio="15" rot="R90">SIM7XXX</text>
-<text x="23" y="-21" size="2" layer="21" font="vector" ratio="15" rot="R180">GPS</text>
 <text x="28" y="-14" size="2" layer="21" font="vector" ratio="15" rot="R270">UART</text>
 <text x="11.746578125" y="-11.95191875" size="1.7" layer="21" font="vector" ratio="15" rot="R180">GND
 RX
@@ -284,13 +283,11 @@ PPS</text>
 TX
 RX
 GND</text>
-<text x="37.4" y="-14.3" size="2" layer="22" font="vector" ratio="15" rot="MR270">UART</text>
 <text x="18.1" y="-29" size="1.7" layer="22" font="vector" ratio="15" rot="MR90">VCC
 GND
 TX
 RX
 PPS</text>
-<text x="12" y="-26" size="2" layer="22" font="vector" ratio="15" rot="MR90">SIM7XXX</text>
 <text x="3.8" y="-59" size="1" layer="22" font="vector" ratio="15" rot="MR0">ANT</text>
 <text x="15" y="-82" size="1" layer="22" font="vector" ratio="15" rot="MR0">BOOT</text>
 <text x="9.905" y="-97.995" size="1" layer="22" font="vector" ratio="15" rot="MR0">RESET</text>
@@ -9381,6 +9378,7 @@ SLEEP</text>
 <text x="5" y="-79" size="1.5" layer="22" font="vector" ratio="15" rot="MR270">Shreya Ramteke</text>
 <text x="5" y="-64" size="1.5" layer="22" font="vector" ratio="15" rot="MR270">Sharwa Molla</text>
 <text x="3" y="-75.5" size="1.5" layer="22" font="vector" ratio="15" rot="MR270">Camillo De Gregorio</text>
+<text x="26" y="-22" size="2" layer="21" font="vector" ratio="15" rot="R180">GPS</text>
 </plain>
 <libraries>
 <library name="RA-01H">
