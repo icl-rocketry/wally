@@ -56,9 +56,9 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -9385,6 +9385,8 @@ SLEEP</text>
 <rectangle x1="32.131" y1="-47.625" x2="33.147" y2="-46.482" layer="21"/>
 <text x="31.073" y="-53.106" size="3" layer="21" font="vector" ratio="15">+</text>
 <text x="30.948540625" y="-46.164421875" size="3" layer="21" font="vector" ratio="15">+</text>
+<text x="27.305" y="-35.052" size="1.27" layer="21" font="vector" ratio="15">BOOT</text>
+<text x="20.32" y="-35.052" size="1.27" layer="21" font="vector" ratio="15">EN</text>
 </plain>
 <libraries>
 <library name="RA-01H">
@@ -10692,7 +10694,7 @@ by exp-lbrs.ulp</description>
 <attribute name="PRICE" value="None" x="9.8" y="-68.3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/RA-01H/AI-Thinker/view-part/?ref=snap" x="9.8" y="-68.3" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="IC1" library="SamacSys_Parts" package="ESP32S3WROOM1UN16" override_package3d_urn="urn:adsk.eagle:package:44135286/2" override_package_urn="urn:adsk.eagle:footprint:44135287/1" value="ESP32-S3-WROOM-1U-N16" x="10" y="-88" smashed="yes" rot="R90">
+<element name="IC1" library="SamacSys_Parts" package="ESP32S3WROOM1UN16" override_package3d_urn="urn:adsk.eagle:package:44332518/2" override_package_urn="urn:adsk.eagle:footprint:44332519/1" value="ESP32-S3-WROOM-1U-N16" x="10" y="-88" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="Multiprotocol Modules SMD Module, ESP32-S3, 16 MB SPI Flash, IPEX Antenna Connector" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -11709,7 +11711,7 @@ by exp-lbrs.ulp</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USB4105GFA/Global+Connector+Technology/view-part/?ref=snap" x="38.279540625" y="-94.936021875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.779540625" y="-99.936021875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="S1" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="29.23" y="-38.608" smashed="yes" rot="R180">
+<element name="S1" library="SamacSys_Parts" package="TS1187ABAB" override_package3d_urn="urn:adsk.eagle:package:44332511/2" override_package_urn="urn:adsk.eagle:footprint:44332512/1" value="TS-1187A-B-A-B" x="29.23" y="-38.608" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11720,7 +11722,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="29.23" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="29.73" y="-38.608" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="S2" library="SamacSys_Parts" package="TS1187ABAB" value="TS-1187A-B-A-B" x="21.153" y="-38.608" smashed="yes" rot="R180">
+<element name="S2" library="SamacSys_Parts" package="TS1187ABAB" override_package3d_urn="urn:adsk.eagle:package:44332514/2" override_package_urn="urn:adsk.eagle:footprint:44332515/1" value="TS-1187A-B-A-B" x="21.153" y="-38.608" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="tact switch 4x4X1.5 patch 160GF metal head waterproof" x="21.153" y="-38.608" size="1.778" layer="27" rot="R180" display="off"/>

@@ -7408,7 +7408,7 @@ by exp-lbrs.ulp</description>
 </classes>
 <parts>
 <part name="U1" library="RA-01H" deviceset="RA-01H" device="" override_package3d_urn="urn:adsk.eagle:package:44135289/2" override_package_urn="urn:adsk.eagle:footprint:44135291/1"/>
-<part name="IC1" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1U-N16" device="" override_package3d_urn="urn:adsk.eagle:package:44135286/2" override_package_urn="urn:adsk.eagle:footprint:44135287/1"/>
+<part name="IC1" library="SamacSys_Parts" deviceset="ESP32-S3-WROOM-1U-N16" device="" override_package3d_urn="urn:adsk.eagle:package:44332518/2" override_package_urn="urn:adsk.eagle:footprint:44332519/1"/>
 <part name="SUPPLY1" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY2" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY3" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
@@ -7556,8 +7556,8 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY47" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="J5" library="USB4105-GF-A" deviceset="USB4105-GF-A" device="" override_package3d_urn="urn:adsk.eagle:package:44135187/2" override_package_urn="urn:adsk.eagle:footprint:44135189/1"/>
 <part name="SUPPLY48" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="S1" library="SamacSys_Parts" deviceset="TS-1187A-B-A-B" device=""/>
-<part name="S2" library="SamacSys_Parts" deviceset="TS-1187A-B-A-B" device=""/>
+<part name="S1" library="SamacSys_Parts" deviceset="TS-1187A-B-A-B" device="" override_package3d_urn="urn:adsk.eagle:package:44332511/2" override_package_urn="urn:adsk.eagle:footprint:44332512/1"/>
+<part name="S2" library="SamacSys_Parts" deviceset="TS-1187A-B-A-B" device="" override_package3d_urn="urn:adsk.eagle:package:44332514/2" override_package_urn="urn:adsk.eagle:footprint:44332515/1"/>
 </parts>
 <sheets>
 <sheet>
