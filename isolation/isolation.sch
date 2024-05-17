@@ -6435,6 +6435,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="J7" library="SamacSys_Parts" deviceset="10164359-00011LF" device="" override_package3d_urn="urn:adsk.eagle:package:44339043/2" override_package_urn="urn:adsk.eagle:footprint:44339044/1"/>
 <part name="SUPPLY29" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY30" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099341/2" override_package_urn="urn:adsk.eagle:footprint:27902/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6904,6 +6905,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="SUPPLY30" gate="G$1" x="-43.18" y="111.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-45.085" y="111.76" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
+<instance part="TP5" gate="G$1" x="40.64" y="-439.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.29" y="-438.404" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="38.1" y="-440.69" size="1.778" layer="97" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7372,7 +7377,12 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <label x="63.5" y="-441.96" size="1.778" layer="95"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 <wire x1="60.96" y1="-436.88" x2="60.96" y2="-441.96" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-436.88" x2="60.96" y2="-436.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-436.88" x2="48.26" y2="-436.88" width="0.1524" layer="91"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="48.26" y1="-436.88" x2="60.96" y2="-436.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-439.42" x2="48.26" y2="-439.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-439.42" x2="48.26" y2="-436.88" width="0.1524" layer="91"/>
+<junction x="48.26" y="-436.88"/>
 </segment>
 </net>
 <net name="N$1" class="0">
