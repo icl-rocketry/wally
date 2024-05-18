@@ -26,10 +26,29 @@
 #include "esp32-hal-gpio.h"
 #include "pins_arduino.h"
 
+
+
 extern "C" {
 
 // Initialize variant/board, called before setup()
 void initVariant(void) {
+
+  // initialise button pin as input
+  pinMode(PIN_BUTTON1, INPUT_PULLUP);  // Boot button
+
+  // SD Card Pins
+  pinMode(SD_CS, OUTPUT);  // SD card chip select (CS), usually starts HIGH
+  digitalWrite(SD_CS, HIGH); 
+  pinMode(SD_DO, OUTPUT);  
+  pinMode(SD_CLK, OUTPUT);
+  pinMode(SD_DI, INPUT);
+
+  // Radio 
+  pinMode(RAD_CS, OUTPUT); 
+  digitalWrite(RAD_CS, HIGH); 
+  pinMode(RAD_DO, OUTPUT); 
+  pinMode(RAD_CLK, OUTPUT); 
+  pinMode(RAD_DI, INPUT);
 
   // initialise LED pins as outputs
   pinMode(ERR_LED, OUTPUT);
@@ -51,15 +70,21 @@ void initVariant(void) {
     digitalWrite(ERR_LED, HIGH);
     digitalWrite(RAD_LED, LOW);
     digitalWrite(LTE_LED, LOW);
-  } else if (battery_voltage < 700) {
+    } 
+  else if (battery_voltage < 700) {
     digitalWrite(ERR_LED, HIGH);
     digitalWrite(RAD_LED, HIGH);
     digitalWrite(LTE_LED, LOW);
-  } else {
+    } 
+  else {
     digitalWrite(ERR_LED, HIGH);
     digitalWrite(RAD_LED, HIGH);
     digitalWrite(LTE_LED, HIGH);
+    }
   }
-}
 
-}
+  
+
+} // extern "C"
+
+
