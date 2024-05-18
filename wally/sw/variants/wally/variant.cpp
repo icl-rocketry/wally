@@ -50,10 +50,21 @@ void initVariant(void) {
   pinMode(RAD_CLK, OUTPUT); 
   pinMode(RAD_DI, INPUT);
 
+  // I2C Pins
+  // pullups are on the pcb so don't need to set them here 
+  pinMode(SDA0, INPUT);
+  pinMode(SCL0, INPUT);
+
+  pinMode(SDA1, INPUT);
+  pinMode(SCL1, INPUT);
+
   // initialise LED pins as outputs
   pinMode(ERR_LED, OUTPUT);
   pinMode(RAD_LED, OUTPUT);
   pinMode(LTE_LED, OUTPUT);
+
+  // PPS
+  pinMode(PPS, INPUT_PULLDOWN);
 
   // Configure ADC to read battery voltage
   // get battery voltage
