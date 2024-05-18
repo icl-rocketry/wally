@@ -190,24 +190,32 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <busses>
 </busses>
 <nets>
-<net name="FIRE" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-30.48" x2="2.54" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-5.08" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="-30.48" x2="-2.54" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-30.48" x2="-2.54" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="0" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="-15.24" x2="-2.54" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-15.24"/>
+<label x="-5.08" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="-33.02" x2="-10.16" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="-33.02" x2="-10.16" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-33.02" x2="-7.62" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-33.02" x2="-7.62" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-17.78" y="-20.32" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="-17.78" x2="-7.62" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-17.78"/>
+<label x="-5.08" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
