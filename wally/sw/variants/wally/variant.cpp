@@ -30,13 +30,36 @@ extern "C" {
 
 // Initialize variant/board, called before setup()
 void initVariant(void) {
-  // default SD_CS to input pullup (we cannot have built in pullup since its
-  // a strapping pin!)
-  pinMode(SS, INPUT_PULLUP);
 
+  // initialise LED pins as outputs
+  pinMode(ERR_LED, OUTPUT);
+  pinMode(RAD_LED, OUTPUT);
+  pinMode(LTE_LED, OUTPUT);
+
+  // Configure ADC to read battery voltage
   // get battery voltage
-  analogSetAttenuation(ADC_11db); // 0-3.9V range
+  analogSetAttenuation(ADC_0db); // 0- 0.9V range (after voltage divider)
   pinMode(BAT_ADC, INPUT);
+
+  // turn on error LED
+  digitalWrite(ERR_LED, HIGH);
+
+  // turn on LEDs based on battery voltage
+  float battery_voltage = analogReadMilliVolts(BAT_ADC);
+
+  if (battery_voltage < 650) {
+    digitalWrite(ERR_LED, HIGH);
+    digitalWrite(RAD_LED, LOW);
+    digitalWrite(LTE_LED, LOW);
+  } else if (battery_voltage < 700) {
+    digitalWrite(ERR_LED, HIGH);
+    digitalWrite(RAD_LED, HIGH);
+    digitalWrite(LTE_LED, LOW);
+  } else {
+    digitalWrite(ERR_LED, HIGH);
+    digitalWrite(RAD_LED, HIGH);
+    digitalWrite(LTE_LED, HIGH);
+  }
 }
 
 }
