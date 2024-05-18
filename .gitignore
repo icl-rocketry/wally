@@ -39,3 +39,4 @@ TinyGPS/
 isolation/isolation.pro
 *.pro
 /wally/sw/.vscode
+/wally/sw/.vscode

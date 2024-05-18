@@ -41,21 +41,21 @@ void initVariant(void) {
 
   // Configure ADC to read battery voltage
   // get battery voltage
-  analogSetAttenuation(ADC_0db); // 0- 0.9V range (after voltage divider)
-  pinMode(BAT_ADC, INPUT);
+  analogSetPinAttenuation(VSENSE, ADC_0db); // 0 - 0.9V range (after voltage divider)
+  pinMode(VSENSE, INPUT);
 
   // turn on error LED
   digitalWrite(ERR_LED, HIGH);
 
   // turn on LEDs based on battery voltage
-  float battery_voltage = analogReadMilliVolts(BAT_ADC);
+  float battery_voltage = analogReadMilliVolts(VSENSE);
 
-  if (battery_voltage < 650) {
+  if (battery_voltage < 640) { // approx 3.84V, about 50% charge (for standard LiPo, not LiHV)
     digitalWrite(ERR_LED, HIGH);
     digitalWrite(RAD_LED, LOW);
     digitalWrite(LTE_LED, LOW);
     } 
-  else if (battery_voltage < 700) {
+  else if (battery_voltage < 670) { // approx 4.02V, about 80% charge (for standard LiPo, not LiHV)
     digitalWrite(ERR_LED, HIGH);
     digitalWrite(RAD_LED, HIGH);
     digitalWrite(LTE_LED, LOW);

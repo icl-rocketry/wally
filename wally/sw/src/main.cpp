@@ -16,3 +16,8 @@ void loop() {
 int myFunction(int x, int y) {
   return x + y;
 }
+
+float getVoltage() {
+  float raw = analogReadMilliVolts(VSENSE);
+  return (raw * (100 + 20))/20; // voltage divider
+}

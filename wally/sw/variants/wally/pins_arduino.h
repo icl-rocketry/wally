@@ -43,8 +43,8 @@ static const uint8_t ERR_LED = 8;
 static const uint8_t RAD_LED = 10;
 static const uint8_t LTE_LED = 9;
 
-// Battery
-static const uint8_t BAT_ADC = 7;
+// VSENSE
+static const uint8_t VSENSE = 7;
 
 // PPS
 static const uint8_t PPS = 15;
