@@ -1,0 +1,25 @@
+{
+    "build": {
+        "core": "esp32s3",
+        "extra_flags": "-DARDUINO_ESP32S3_DEV",  
+        "mcu": "esp32s3",
+        "f_cpu": "240000000L" 
+    },
+    "debug": {
+        "openocd_target": "esp32s3.cpu0"
+    },
+    "frameworks": [
+        "arduino",
+        "espidf" 
+    ],
+    "name": "WALLY-ESP32-S3",
+    "upload": {
+        "flash_size": "8MB",  
+        "maximum_ram_size": 327680, 
+        "maximum_size": 8388608, 
+        "require_upload_port": true,
+        "speed": 921600
+    },
+    "url": "https://www.espressif.com/en/products/socs/esp32-s3",
+    "vendor": "Espressif"
+}
