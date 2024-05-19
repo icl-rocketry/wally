@@ -9132,11 +9132,6 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="SDA0" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="10.16" y1="-154.94" x2="-5.08" y2="-154.94" width="0.1524" layer="91"/>
-<label x="22.86" y="-154.94" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="J2" gate="J1" pin="3"/>
 <wire x1="15.24" y1="-327.66" x2="27.94" y2="-327.66" width="0.1524" layer="91"/>
 <label x="22.86" y="-327.66" size="1.778" layer="95"/>
@@ -9255,11 +9250,6 @@ by exp-lbrs.ulp</description>
 <label x="22.86" y="-325.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="10.16" y1="-152.4" x2="-5.08" y2="-152.4" width="0.1524" layer="91"/>
-<label x="22.86" y="-152.4" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="-30.48" x2="86.36" y2="-38.1" width="0.1524" layer="91"/>
 <label x="81.28" y="-38.1" size="1.778" layer="95"/>
@@ -9306,6 +9296,11 @@ by exp-lbrs.ulp</description>
 <wire x1="-5.08" y1="-10.16" x2="-38.1" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-38.1" y="-10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="10.16" y1="-152.4" x2="-5.08" y2="-152.4" width="0.1524" layer="91"/>
+<label x="-5.08" y="-152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA1" class="0">
 <segment>
@@ -9322,6 +9317,11 @@ by exp-lbrs.ulp</description>
 <pinref part="IC1" gate="G$1" pin="IO5"/>
 <wire x1="-5.08" y1="-12.7" x2="-38.1" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-38.1" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="10.16" y1="-154.94" x2="-5.08" y2="-154.94" width="0.1524" layer="91"/>
+<label x="-5.08" y="-154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSENSE" class="0">
