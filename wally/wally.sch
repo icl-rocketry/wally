@@ -8086,10 +8086,10 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY25" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY29" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY30" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>
-<part name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="10k"/>
-<part name="R6" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="10k"/>
-<part name="R7" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="10k"/>
-<part name="R8" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="10k"/>
+<part name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="5k1"/>
+<part name="R6" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="5k1"/>
+<part name="R7" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="5k1"/>
+<part name="R8" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="5k1"/>
 <part name="SUPPLY32" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="D2" library="SamacSys_Parts" deviceset="SSA34-E3_5AT" device="" override_package3d_urn="urn:adsk.eagle:package:44099325/2" override_package_urn="urn:adsk.eagle:footprint:44099326/1"/>
 <part name="R9" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="100k"/>
@@ -8183,6 +8183,9 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY19" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="SUPPLY31" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY51" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="SUPPLY52" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>
+<part name="C38" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="C43" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -8797,6 +8800,17 @@ by exp-lbrs.ulp</description>
 <instance part="SUPPLY51" gate="G$1" x="-50.8" y="-233.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-50.8" y="-235.585" size="1.778" layer="96" rot="MR0" align="center"/>
 </instance>
+<instance part="SUPPLY52" gate="G$1" x="55.88" y="-670.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="59.055" y="-670.433" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="C38" gate="G$1" x="5.08" y="-660.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.795" y="-661.035" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="10.795" y="-654.05" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C43" gate="G$1" x="12.7" y="-660.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.415" y="-661.035" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="18.415" y="-654.05" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9295,6 +9309,39 @@ by exp-lbrs.ulp</description>
 <wire x1="-50.8" y1="-231.14" x2="-50.8" y2="-226.06" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-226.06"/>
 </segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY40" gate="G$1" pin="GND"/>
+<wire x1="30.48" y1="-632.46" x2="38.1" y2="-632.46" width="0.1524" layer="91"/>
+<pinref part="C46" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="-632.46" x2="43.18" y2="-632.46" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-647.7" x2="38.1" y2="-647.7" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-647.7" x2="38.1" y2="-632.46" width="0.1524" layer="91"/>
+<junction x="38.1" y="-632.46"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="GND_2"/>
+<pinref part="SUPPLY55" gate="G$1" pin="GND"/>
+<wire x1="2.54" y1="-670.56" x2="-5.08" y2="-670.56" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G$1" pin="SDO"/>
+<wire x1="-5.08" y1="-670.56" x2="-12.7" y2="-670.56" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-675.64" x2="-5.08" y2="-675.64" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-675.64" x2="-5.08" y2="-670.56" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-670.56"/>
+</segment>
+<segment>
+<pinref part="SUPPLY54" gate="G$1" pin="GND"/>
+<pinref part="IC9" gate="G$1" pin="GND_1"/>
+<wire x1="43.18" y1="-668.02" x2="38.1" y2="-668.02" width="0.1524" layer="91"/>
+<pinref part="C38" gate="G$1" pin="2"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="-668.02" x2="33.02" y2="-668.02" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-655.32" x2="12.7" y2="-655.32" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-655.32" x2="38.1" y2="-655.32" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-655.32" x2="38.1" y2="-668.02" width="0.1524" layer="91"/>
+<junction x="12.7" y="-655.32"/>
+<junction x="38.1" y="-668.02"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -9508,6 +9555,37 @@ by exp-lbrs.ulp</description>
 <pinref part="SUPPLY19" gate="G$1" pin="3V3"/>
 <pinref part="IC4" gate="G$1" pin="CSB"/>
 <wire x1="35.56" y1="-220.98" x2="25.4" y2="-220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY57" gate="G$1" pin="3V3"/>
+<pinref part="IC8" gate="G$1" pin="VDD"/>
+<wire x1="-2.54" y1="-637.54" x2="0" y2="-637.54" width="0.1524" layer="91"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="0" y1="-637.54" x2="5.08" y2="-637.54" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-647.7" x2="0" y2="-647.7" width="0.1524" layer="91"/>
+<wire x1="0" y1="-647.7" x2="0" y2="-637.54" width="0.1524" layer="91"/>
+<junction x="0" y="-637.54"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="VDD"/>
+<pinref part="SUPPLY56" gate="G$1" pin="3V3"/>
+<wire x1="2.54" y1="-668.02" x2="-2.54" y2="-668.02" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G$1" pin="VDDIO"/>
+<wire x1="-2.54" y1="-668.02" x2="-5.08" y2="-668.02" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-673.1" x2="-2.54" y2="-673.1" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-673.1" x2="-2.54" y2="-668.02" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-668.02"/>
+<wire x1="-2.54" y1="-668.02" x2="-2.54" y2="-662.94" width="0.1524" layer="91"/>
+<pinref part="C38" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="-662.94" x2="5.08" y2="-662.94" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="-662.94" x2="12.7" y2="-662.94" width="0.1524" layer="91"/>
+<junction x="5.08" y="-662.94"/>
+</segment>
+<segment>
+<pinref part="SUPPLY52" gate="G$1" pin="3V3"/>
+<pinref part="IC9" gate="G$1" pin="CSB"/>
+<wire x1="53.34" y1="-670.56" x2="33.02" y2="-670.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHLD" class="0">
@@ -9813,6 +9891,16 @@ by exp-lbrs.ulp</description>
 <wire x1="33.02" y1="-322.58" x2="48.26" y2="-322.58" width="0.1524" layer="91"/>
 <label x="35.56" y="-322.58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="SDA"/>
+<wire x1="5.08" y1="-635" x2="-15.24" y2="-635" width="0.1524" layer="91"/>
+<label x="-15.24" y="-635" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="SDI"/>
+<wire x1="33.02" y1="-673.1" x2="48.26" y2="-673.1" width="0.1524" layer="91"/>
+<label x="48.26" y="-673.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USB_P" class="0">
 <segment>
@@ -9900,6 +9988,16 @@ by exp-lbrs.ulp</description>
 <pinref part="AC1" gate="G$1" pin="SCL_SPC"/>
 <wire x1="-5.08" y1="-477.52" x2="-20.32" y2="-477.52" width="0.1524" layer="91"/>
 <label x="-20.32" y="-477.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="SCL"/>
+<wire x1="5.08" y1="-632.46" x2="-15.24" y2="-632.46" width="0.1524" layer="91"/>
+<label x="-15.24" y="-632.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="SCK"/>
+<wire x1="33.02" y1="-675.64" x2="48.26" y2="-675.64" width="0.1524" layer="91"/>
+<label x="48.26" y="-675.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
