@@ -693,6 +693,27 @@
 <wire x1="-2.038" y1="1" x2="-2.038" y2="1" width="0.125" layer="21"/>
 <wire x1="-2.038" y1="1" x2="-2.163" y2="1" width="0.125" layer="21" curve="180"/>
 </package>
+<package name="MS5607-02BA03">
+<description>&lt;b&gt;MS5607-02BA03&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="2" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="3" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="4" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="5" x="1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
+<smd name="6" x="1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="7" x="1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
+<smd name="8" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.2" layer="51"/>
+<wire x1="1.5" y1="-2.5" x2="1.5" y2="2.5" width="0.2" layer="51"/>
+<wire x1="1.5" y1="2.5" x2="-1.5" y2="2.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.1" layer="21"/>
+<circle x="-1.1" y="2.8" radius="0.1" width="0.2" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP32-S3-WROOM-1U-N16">
@@ -915,6 +936,22 @@
 <pin name="VDD" x="22.86" y="22.86" length="middle" direction="pwr" rot="R270"/>
 <pin name="RESERVED_2" x="20.32" y="22.86" length="middle" rot="R270"/>
 <pin name="GND_4" x="17.78" y="22.86" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+<symbol name="MS560702BA03-50">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VDD" x="0" y="0" length="middle" direction="pwr"/>
+<pin name="PS" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="GND" x="0" y="-5.08" length="middle" direction="pwr"/>
+<pin name="CSB_1" x="0" y="-7.62" length="middle" direction="in"/>
+<pin name="CSB_2" x="33.02" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="SDO" x="33.02" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="SDI/SDA" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="SCLK" x="33.02" y="0" length="middle" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1296,6 +1333,39 @@ Source: &lt;a href="http://www.st.com/st-web-ui/static/active/en/resource/techni
 <attribute name="MANUFACTURER_PART_NUMBER" value="H3LIS331DLTR" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="511-H3LIS331DLTR" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/H3LIS331DLTR?qs=TAo1I7FhABsAZFqkqNUSRA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS560702BA03-50" prefix="IC">
+<description>&lt;b&gt;Dimensions: Dimensions 3 x 3 x 0.9 MM | Dimensions .11 x .11 x 0.03 INCH | Electrical Characteristics: Board Level Pressure Sensor Supply Voltage 1.5  3.6 V | Operation/Application: Resolution .016 | Output/Span 24 bit ADC | Board Level Pressure Sensor Accuracy +/-4mbar | Other: Sensor Options No Option | Packaging Features: Board Level Pressure Sensor Package Surface Mountable | Product Type Features: Board Level Pressure Sensor Style Absolute | Board Level Pressure Sensor Type Digital Pressure and Altim&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=MS5607-02BA03&amp;DocType=Data Sheet&amp;DocLang=English&amp;PartCntxt=MS560702BA03-50&amp;DocFormat=pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MS560702BA03-50" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5607-02BA03">
+<connects>
+<connect gate="G$1" pin="CSB_1" pad="4"/>
+<connect gate="G$1" pin="CSB_2" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="PS" pad="2"/>
+<connect gate="G$1" pin="SCLK" pad="8"/>
+<connect gate="G$1" pin="SDI/SDA" pad="7"/>
+<connect gate="G$1" pin="SDO" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="MS560702BA03-50" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ms560702ba03-50/te-connectivity?region=europe" constant="no"/>
+<attribute name="DESCRIPTION" value="Dimensions: Dimensions 3 x 3 x 0.9 MM | Dimensions .11 x .11 x 0.03 INCH | Electrical Characteristics: Board Level Pressure Sensor Supply Voltage 1.5  3.6 V | Operation/Application: Resolution .016 | Output/Span 24 bit ADC | Board Level Pressure Sensor Accuracy +/-4mbar | Other: Sensor Options No Option | Packaging Features: Board Level Pressure Sensor Package Surface Mountable | Product Type Features: Board Level Pressure Sensor Style Absolute | Board Level Pressure Sensor Type Digital Pressure and Altim" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MS560702BA03-50" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="824-MS560702BA03-50" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/MS560702BA03-50?qs=urSpXqmdEVImCZG1H%252BT8ng%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7487,6 +7557,12 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY50" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="C26" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
 <part name="C27" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="IC5" library="SamacSys_Parts" deviceset="MS560702BA03-50" device=""/>
+<part name="SUPPLY51" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="3V3-CIRCLE" device="" value="3V3"/>
+<part name="C38" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="SUPPLY52" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="SUPPLY53" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="C43" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -8064,6 +8140,27 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="-31.115" y="-454.025" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-31.115" y="-461.01" size="1.778" layer="96"/>
 </instance>
+<instance part="IC5" gate="G$1" x="-5.08" y="-264.16" smashed="yes">
+<attribute name="NAME" x="24.13" y="-256.54" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="24.13" y="-259.08" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY51" gate="G$1" x="-15.24" y="-264.16" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-18.415" y="-264.287" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="C38" gate="G$1" x="-27.94" y="-266.7" smashed="yes">
+<attribute name="NAME" x="-33.655" y="-266.065" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-33.655" y="-273.05" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY52" gate="G$1" x="-15.24" y="-271.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-17.145" y="-271.78" size="1.778" layer="96" rot="R270" align="center"/>
+</instance>
+<instance part="SUPPLY53" gate="G$1" x="35.56" y="-271.78" smashed="yes" rot="R90">
+<attribute name="VALUE" x="37.465" y="-271.78" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C43" gate="G$1" x="-38.1" y="-266.7" smashed="yes">
+<attribute name="NAME" x="-43.815" y="-266.065" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-43.815" y="-273.05" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8587,6 +8684,33 @@ by exp-lbrs.ulp</description>
 <pinref part="AC1" gate="G$1" pin="GND_4"/>
 <wire x1="7.62" y1="-447.04" x2="12.7" y2="-447.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY52" gate="G$1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="CSB_1"/>
+<wire x1="-12.7" y1="-271.78" x2="-7.62" y2="-271.78" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
+<wire x1="-7.62" y1="-271.78" x2="-5.08" y2="-271.78" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-269.24" x2="-7.62" y2="-269.24" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-269.24" x2="-7.62" y2="-271.78" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-271.78"/>
+<wire x1="-7.62" y1="-271.78" x2="-7.62" y2="-276.86" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-276.86" x2="-27.94" y2="-276.86" width="0.1524" layer="91"/>
+<pinref part="C38" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="-276.86" x2="-27.94" y2="-271.78" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="-271.78" x2="-27.94" y2="-271.78" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-271.78"/>
+</segment>
+<segment>
+<pinref part="SUPPLY53" gate="G$1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="CSB_2"/>
+<wire x1="33.02" y1="-271.78" x2="30.48" y2="-271.78" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="SDO"/>
+<wire x1="30.48" y1="-271.78" x2="27.94" y2="-271.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-269.24" x2="30.48" y2="-269.24" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-269.24" x2="30.48" y2="-271.78" width="0.1524" layer="91"/>
+<junction x="30.48" y="-271.78"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -8793,6 +8917,23 @@ by exp-lbrs.ulp</description>
 <pinref part="SUPPLY36" gate="G$1" pin="3V3"/>
 <pinref part="AC1" gate="G$1" pin="CS"/>
 <wire x1="22.86" y1="-505.46" x2="17.78" y2="-505.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY51" gate="G$1" pin="3V3"/>
+<pinref part="IC5" gate="G$1" pin="VDD"/>
+<wire x1="-12.7" y1="-264.16" x2="-7.62" y2="-264.16" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="PS"/>
+<wire x1="-7.62" y1="-264.16" x2="-5.08" y2="-264.16" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-266.7" x2="-7.62" y2="-266.7" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-266.7" x2="-7.62" y2="-264.16" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-264.16"/>
+<pinref part="C38" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="-264.16" x2="-27.94" y2="-259.08" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-259.08" x2="-7.62" y2="-259.08" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-259.08" x2="-7.62" y2="-264.16" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="-264.16" x2="-27.94" y2="-264.16" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-264.16"/>
 </segment>
 </net>
 <net name="SHLD" class="0">
@@ -9098,6 +9239,11 @@ by exp-lbrs.ulp</description>
 <wire x1="12.7" y1="-505.46" x2="12.7" y2="-513.08" width="0.1524" layer="91"/>
 <label x="5.08" y="-513.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SDI/SDA"/>
+<wire x1="27.94" y1="-266.7" x2="43.18" y2="-266.7" width="0.1524" layer="91"/>
+<label x="38.1" y="-266.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USB_P" class="0">
 <segment>
@@ -9190,6 +9336,11 @@ by exp-lbrs.ulp</description>
 <pinref part="AC1" gate="G$1" pin="SCL_SPC"/>
 <wire x1="-5.08" y1="-477.52" x2="-20.32" y2="-477.52" width="0.1524" layer="91"/>
 <label x="-20.32" y="-477.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SCLK"/>
+<wire x1="27.94" y1="-264.16" x2="43.18" y2="-264.16" width="0.1524" layer="91"/>
+<label x="38.1" y="-264.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
