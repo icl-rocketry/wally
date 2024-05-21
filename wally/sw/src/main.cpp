@@ -1,7 +1,9 @@
 #include <Arduino.h>
 
 // put function declarations here:
-int myFunction(int, int);
+float getVoltageRaw();
+float getTrueVoltage();
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -28,14 +30,13 @@ void loop() {
 }
 
 // put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
 
 float getVoltageRaw() {
   return analogReadMilliVolts(VSENSE);
 }
 
+// avoid using this in a loop, it's unnecessarily slow
+// we can scale the raw value in post processing
 float getTrueVoltage() {
   float raw = getVoltageRaw();
   return (raw * (100 + 20))/20; // voltage divider

@@ -43,7 +43,7 @@ void initVariant(void) {
   // get battery voltage
   analogSetPinAttenuation(VSENSE, ADC_0db); // 0 - 0.9V range (after voltage divider)
   pinMode(VSENSE, INPUT);
-
+}
 
 } // extern "C"
 
