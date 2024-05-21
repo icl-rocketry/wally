@@ -9392,6 +9392,7 @@ SLEEP</text>
 <text x="3" y="-59" size="1.5" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
 <text x="3.6" y="-54.4" size="1" layer="22" font="vector" ratio="15" rot="MR0">A1</text>
 <text x="20.5" y="-37.4" size="1" layer="22" font="vector" ratio="15" rot="MR0" align="center">Designed by Shrey Bohra</text>
+<hole x="26" y="-98" drill="3.2"/>
 </plain>
 <libraries>
 <library name="RA-01H">
@@ -10837,19 +10838,19 @@ by exp-lbrs.ulp</description>
 <attribute name="MOUSER_PART_NUMBER" value="356-ESP32S3WROM1UN16" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1U-N16?qs=Li%252BoUPsLEntAI1ynUyotnA%3D%3D" x="10" y="-88" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="R12" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="5k1" x="28" y="-98.5" smashed="yes" rot="R270">
-<attribute name="CATEGORY" value="Resistor" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="PART_STATUS" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="RATING" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="SERIES" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="THERMALLOSS" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="TYPE" value="" x="19" y="-89.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="R12" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="5k1" x="31.7" y="-98.9" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Resistor" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="RATING" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="22.7" y="-89.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="R13" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/5" value="1M" x="31.95" y="-91.15" smashed="yes" rot="R270">
 <attribute name="CATEGORY" value="Resistor" x="25.95" y="-92.15" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -10865,45 +10866,45 @@ by exp-lbrs.ulp</description>
 <attribute name="TOLERANCE" value="" x="25.95" y="-92.15" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="TYPE" value="" x="25.95" y="-92.15" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="R14" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="5k1" x="26" y="-98.5" smashed="yes" rot="R270">
-<attribute name="CATEGORY" value="Resistor" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="PART_STATUS" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="RATING" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="SERIES" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="THERMALLOSS" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="TYPE" value="" x="13" y="-94.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="R14" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" package="RESC1608X60" package3d_urn="urn:adsk.eagle:package:16378565/5" value="5k1" x="30.2" y="-98.9" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Resistor" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="RATING" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="17.2" y="-94.9" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100n" x="30.1" y="-98.5" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Capacitor" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="62.1" y="-107.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100n" x="29.9" y="-89.5" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_STATUS" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SERIES" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="THERMALLOSS" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TYPE" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="20.9" y="-121.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="C15" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1u" x="32" y="-98.5" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Capacitor" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VOLTAGE_RATING" value="" x="64" y="-97.5" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="C15" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1u" x="32" y="-89.5" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="Capacitor" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="31" y="-57.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="SIM7600G" library="Connector" library_urn="urn:adsk.eagle:library:16378166" package="1X07" package3d_urn="urn:adsk.eagle:package:22477/2" override_package3d_urn="urn:adsk.eagle:package:44336871/2" override_package_urn="urn:adsk.eagle:footprint:22367/1" value="PINHD-1X7" x="3" y="-20.5" locked="yes" smashed="yes" rot="R270">
 <attribute name="CATEGORY" value="Headers" x="3" y="-20.5" locked="yes" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -12074,8 +12075,8 @@ by exp-lbrs.ulp</description>
 <via x="24.9781" y="-74.168" extent="1-16" drill="0.35"/>
 <contactref element="J5" pad="B1_A12"/>
 <contactref element="J5" pad="A1_B12"/>
-<wire x1="32" y1="-98.9846" x2="33.138578125" y2="-98.136021875" width="0.254" layer="1"/>
-<wire x1="33.138578125" y1="-98.136021875" x2="33.524540625" y2="-98.136021875" width="0.254" layer="1"/>
+<wire x1="33.138578125" y1="-98.136021875" x2="33.3" y2="-98.136021875" width="0.254" layer="1"/>
+<wire x1="33.3" y1="-98.136021875" x2="33.524540625" y2="-98.136021875" width="0.254" layer="1"/>
 <wire x1="2.9154" y1="-99" x2="1.77388125" y2="-99" width="0.1778" layer="1"/>
 <wire x1="1.77388125" y1="-99" x2="1.234440625" y2="-98.460559375" width="0.1778" layer="1"/>
 <via x="1.234440625" y="-98.460559375" extent="1-16" drill="0.35"/>
@@ -12105,16 +12106,15 @@ by exp-lbrs.ulp</description>
 <wire x1="26.35" y1="-84" x2="30" y2="-84" width="0.1778" layer="1"/>
 <wire x1="30" y1="-84" x2="30" y2="-81" width="0.1778" layer="1"/>
 <wire x1="30" y1="-81" x2="28.2921" y2="-79.2921" width="0.1778" layer="1"/>
-<wire x1="32" y1="-98.9846" x2="32.7254" y2="-100" width="0.1778" layer="1"/>
 <wire x1="33.7547125" y1="-100" x2="33.78063125" y2="-100.02591875" width="0.1778" layer="1"/>
 <wire x1="38.59844375" y1="-100.02591875" x2="38.6243625" y2="-100" width="0.1778" layer="1"/>
 <wire x1="38.6243625" y1="-100" x2="39" y2="-100" width="0.1778" layer="1"/>
-<wire x1="33.78063125" y1="-100.02591875" x2="38.59844375" y2="-100.02591875" width="0.1778" layer="1"/>
+<wire x1="33.78063125" y1="-100.02591875" x2="36" y2="-100.02591875" width="0.1778" layer="1"/>
+<wire x1="36" y1="-100.02591875" x2="38.59844375" y2="-100.02591875" width="0.1778" layer="1"/>
 <wire x1="39" y1="-100" x2="40" y2="-99" width="0.1778" layer="1"/>
 <wire x1="40" y1="-99" x2="40" y2="-98" width="0.1778" layer="1"/>
 <wire x1="40" y1="-98" x2="39" y2="-97" width="0.1778" layer="1"/>
 <wire x1="39" y1="-97" x2="37" y2="-97" width="0.1778" layer="1"/>
-<wire x1="32.7254" y1="-100" x2="33.7547125" y2="-100" width="0.1778" layer="1"/>
 <contactref element="S1" pad="D1"/>
 <contactref element="S1" pad="C1"/>
 <contactref element="S2" pad="D1"/>
@@ -12204,7 +12204,6 @@ by exp-lbrs.ulp</description>
 <contactref element="IC9" pad="1"/>
 <contactref element="C38" pad="2"/>
 <contactref element="C43" pad="2"/>
-<wire x1="33.524540625" y1="-91.736021875" x2="32.028521875" y2="-91.736021875" width="0.1778" layer="1"/>
 <wire x1="32.028521875" y1="-91.736021875" x2="31.95" y2="-91.6575" width="0.1778" layer="1"/>
 <wire x1="25.75" y1="-54.725" x2="25.75" y2="-55.11894375" width="0.1778" layer="1"/>
 <wire x1="26.03105625" y1="-55.4" x2="26.1" y2="-55.4" width="0.1778" layer="1"/>
@@ -12280,6 +12279,53 @@ by exp-lbrs.ulp</description>
 <wire x1="36.3" y1="-71.6" x2="35.662209375" y2="-70.962209375" width="0.1778" layer="16"/>
 <wire x1="35.662209375" y1="-70.962209375" x2="34.962209375" y2="-70.962209375" width="0.1778" layer="16"/>
 <via x="34.962209375" y="-70.962209375" extent="1-16" drill="0.35"/>
+<wire x1="33.7547125" y1="-100" x2="31.9848" y2="-100" width="0.1778" layer="1"/>
+<wire x1="31.9848" y1="-100" x2="31.7" y2="-99.7152" width="0.1778" layer="1"/>
+<wire x1="31.7" y1="-99.7152" x2="31.7848" y2="-99.7152" width="0.1778" layer="1"/>
+<wire x1="33.3" y1="-98.2" x2="33.3" y2="-98.136021875" width="0.1778" layer="1"/>
+<wire x1="31.7848" y1="-99.7152" x2="33.3" y2="-98.2" width="0.1778" layer="1"/>
+<wire x1="21.7" y1="-96.7846" x2="21.1846" y2="-97.3" width="0.1778" layer="1"/>
+<via x="20.8" y="-97.3" extent="1-16" drill="0.35"/>
+<wire x1="20.8" y1="-97.3" x2="20.05" y2="-98.05" width="0.1778" layer="16"/>
+<wire x1="20.05" y1="-98.05" x2="19.9" y2="-98.2" width="0.1778" layer="16"/>
+<wire x1="19.9" y1="-98.2" x2="19.9" y2="-98.4" width="0.1778" layer="16"/>
+<wire x1="22.1" y1="-98.4" x2="23.4" y2="-97.1" width="1.2" layer="16" curve="90"/>
+<wire x1="23.4" y1="-97.1" x2="25" y2="-95.5" width="1.2" layer="16" curve="-90"/>
+<wire x1="25" y1="-95.5" x2="30.5" y2="-95.5" width="1.2" layer="16"/>
+<wire x1="19.9" y1="-98.4" x2="21" y2="-98.4" width="1.2" layer="16"/>
+<wire x1="21" y1="-98.4" x2="22" y2="-98.4" width="1.2" layer="16"/>
+<wire x1="22" y1="-98.4" x2="22.1" y2="-98.4" width="1.2" layer="16"/>
+<wire x1="20.8" y1="-97.3" x2="20.8" y2="-98.2" width="0.4" layer="16"/>
+<wire x1="20.8" y1="-98.2" x2="21" y2="-98.4" width="0.4" layer="16" curve="90"/>
+<wire x1="20.8" y1="-97.3" x2="20.05" y2="-98.05" width="0.4" layer="16" curve="-90"/>
+<wire x1="20.8" y1="-97.3" x2="21.9" y2="-98.4" width="0.4" layer="16" curve="90"/>
+<wire x1="21.9" y1="-98.4" x2="22" y2="-98.4" width="0.4" layer="16"/>
+<wire x1="21.7" y1="-96.7846" x2="21.1846" y2="-97.3" width="0.4" layer="1" curve="-90"/>
+<wire x1="21.1846" y1="-97.3" x2="20.8" y2="-97.3" width="0.4" layer="1"/>
+<wire x1="36" y1="-95.9" x2="35.5" y2="-95.4" width="0.4" layer="1" curve="90"/>
+<via x="35.5" y="-95.4" extent="1-16" drill="0.35"/>
+<wire x1="36" y1="-100.02591875" x2="36" y2="-95.9" width="0.4" layer="1"/>
+<wire x1="35.5" y1="-95.4" x2="35" y2="-95.4" width="0.8" layer="16"/>
+<wire x1="34" y1="-95.4" x2="35" y2="-95.4" width="0.8" layer="16"/>
+<wire x1="34" y1="-95.4" x2="33.3" y2="-95.4" width="0.8" layer="16"/>
+<wire x1="34" y1="-95.4" x2="34" y2="-94.8" width="0.8" layer="16"/>
+<wire x1="34" y1="-94.8" x2="34.3" y2="-94.5" width="0.8" layer="16" curve="-90"/>
+<wire x1="34.3" y1="-94.5" x2="35" y2="-95.2" width="0.8" layer="16" curve="-90"/>
+<wire x1="35" y1="-95.2" x2="35" y2="-95.4" width="0.8" layer="16"/>
+<wire x1="35" y1="-95.4" x2="34.4" y2="-94.8" width="0.8" layer="16" curve="90"/>
+<wire x1="34.4" y1="-94.8" x2="34" y2="-94.8" width="0.8" layer="16"/>
+<wire x1="32.4846" y1="-89.5" x2="32.4846" y2="-89.9154" width="0.1778" layer="1"/>
+<wire x1="32.4846" y1="-89.9154" x2="32.3" y2="-90.1" width="0.1778" layer="1" curve="-90"/>
+<wire x1="32.3" y1="-90.1" x2="31.7" y2="-90.1" width="0.1778" layer="1"/>
+<wire x1="31.95" y1="-91.6575" x2="31.8075" y2="-91.8" width="0.1778" layer="1" curve="-90"/>
+<via x="31" y="-91.8" extent="1-16" drill="0.35"/>
+<wire x1="31" y1="-91.8" x2="30.9" y2="-91.9" width="0.1778" layer="16" curve="-90"/>
+<wire x1="30.9" y1="-91.9" x2="29.5" y2="-91.9" width="0.1778" layer="16"/>
+<via x="29.5" y="-91.9" extent="1-16" drill="0.35"/>
+<wire x1="31.95" y1="-91.6575" x2="32.028521875" y2="-91.736021875" width="0.5" layer="1" curve="90"/>
+<wire x1="32.028521875" y1="-91.736021875" x2="33.524540625" y2="-91.736021875" width="0.5" layer="1"/>
+<wire x1="31.95" y1="-91.6575" x2="31.8075" y2="-91.8" width="0.5" layer="1" curve="-90"/>
+<wire x1="31.8075" y1="-91.8" x2="31" y2="-91.8" width="0.5" layer="1"/>
 </signal>
 <signal name="3V3">
 <contactref element="IC1" pad="2"/>
@@ -12566,39 +12612,33 @@ by exp-lbrs.ulp</description>
 </signal>
 <signal name="CC2">
 <contactref element="R12" pad="1"/>
-<wire x1="28" y1="-97.6848" x2="28" y2="-96.5096" width="0.2" layer="1"/>
-<via x="28" y="-96.5096" extent="1-16" drill="0.508"/>
 <contactref element="J5" pad="B5"/>
-<wire x1="28" y1="-96.5096" x2="30.94108125" y2="-93.56851875" width="0.1778" layer="16"/>
-<wire x1="30.94108125" y1="-93.56851875" x2="31.9786" y2="-93.56851875" width="0.1778" layer="16"/>
 <via x="31.9786" y="-93.56851875" extent="1-16" drill="0.35"/>
 <wire x1="31.9786" y1="-93.56851875" x2="32.361096875" y2="-93.186021875" width="0.1778" layer="1"/>
 <wire x1="32.361096875" y1="-93.186021875" x2="33.524540625" y2="-93.186021875" width="0.1778" layer="1"/>
+<wire x1="31.9786" y1="-93.56851875" x2="31.4" y2="-94.14711875" width="0.1778" layer="16"/>
+<via x="31.4" y="-97.2" extent="1-16" drill="0.35"/>
+<wire x1="31.4" y1="-97.2" x2="31.7" y2="-97.5" width="0.1778" layer="1"/>
+<wire x1="31.7" y1="-97.5" x2="31.7" y2="-98.0848" width="0.1778" layer="1"/>
+<wire x1="31.4" y1="-94.14711875" x2="31.4" y2="-97.2" width="0.1778" layer="16"/>
 </signal>
 <signal name="CC1">
 <contactref element="R14" pad="1"/>
-<wire x1="27.595" y1="-98.3" x2="28.9475" y2="-96.9475" width="0.2" layer="16"/>
-<wire x1="27.595" y1="-98.3" x2="24.7" y2="-98.3" width="0.2" layer="16"/>
-<via x="24.7" y="-98.3" extent="1-16" drill="0.508"/>
-<wire x1="24.7" y1="-98.3" x2="25.3152" y2="-97.6848" width="0.2" layer="1"/>
-<wire x1="25.3152" y1="-97.6848" x2="26" y2="-97.6848" width="0.2" layer="1"/>
 <contactref element="J5" pad="A5"/>
-<wire x1="28.9475" y1="-96.9475" x2="29.39278125" y2="-96.50221875" width="0.1778" layer="16"/>
-<wire x1="29.39278125" y1="-96.50221875" x2="30.972759375" y2="-96.50221875" width="0.1778" layer="16"/>
-<via x="30.972759375" y="-96.50221875" extent="1-16" drill="0.35"/>
-<wire x1="30.972759375" y1="-96.50221875" x2="31.28895625" y2="-96.186021875" width="0.1778" layer="1"/>
-<wire x1="31.28895625" y1="-96.186021875" x2="33.524540625" y2="-96.186021875" width="0.1778" layer="1"/>
+<wire x1="30.2" y1="-98.0848" x2="30.2" y2="-97.6" width="0.1778" layer="1"/>
+<wire x1="33.5105625" y1="-96.2" x2="33.524540625" y2="-96.186021875" width="0.1778" layer="1"/>
+<wire x1="30.2" y1="-97.6" x2="31.6" y2="-96.2" width="0.1778" layer="1"/>
+<wire x1="31.6" y1="-96.2" x2="33.5105625" y2="-96.2" width="0.1778" layer="1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="C14" pad="2"/>
 <contactref element="C15" pad="2"/>
 <contactref element="D2" pad="2"/>
-<wire x1="32" y1="-98.0154" x2="30.1" y2="-98.0154" width="0.2" layer="1"/>
 <wire x1="33.5" y1="-94" x2="32.9017" y2="-94.5983" width="0.5" layer="16"/>
-<wire x1="33.5" y1="-93.1" x2="33.5" y2="-94" width="0.5" layer="16"/>
+<wire x1="33.5" y1="-93.1" x2="33.5" y2="-93.7" width="0.5" layer="16"/>
 <contactref element="R17" pad="1"/>
 <contactref element="TP10" pad="TP"/>
-<wire x1="32" y1="-98.0154" x2="32" y2="-96.8846" width="0.508" layer="1"/>
+<wire x1="33.5" y1="-93.7" x2="33.5" y2="-94" width="0.5" layer="16"/>
 <wire x1="32" y1="-96.8846" x2="32.004" y2="-96.8806" width="0.508" layer="1"/>
 <via x="32.004" y="-96.8806" extent="1-16" drill="0.35"/>
 <wire x1="32.004" y1="-96.8806" x2="32.004" y2="-95.496" width="0.508" layer="16"/>
@@ -12610,14 +12650,21 @@ by exp-lbrs.ulp</description>
 <wire x1="30.8" y1="-92.55" x2="30" y2="-93.35" width="0.508" layer="1"/>
 <contactref element="J5" pad="A4_B9"/>
 <contactref element="J5" pad="B4_A9"/>
-<wire x1="38" y1="-94.9" x2="34.4" y2="-94.9" width="0.1778" layer="16"/>
-<wire x1="34.4" y1="-94.9" x2="33.5" y2="-94" width="0.1778" layer="16"/>
 <wire x1="33.524540625" y1="-92.536021875" x2="33.5105625" y2="-92.55" width="0.508" layer="1"/>
 <wire x1="33.5105625" y1="-92.55" x2="32.258" y2="-92.55" width="0.508" layer="1"/>
 <wire x1="33.524540625" y1="-97.336021875" x2="32.451421875" y2="-97.336021875" width="0.508" layer="1"/>
 <wire x1="32.451421875" y1="-97.336021875" x2="32" y2="-96.8846" width="0.508" layer="1"/>
 <wire x1="30.3652" y1="-90.9" x2="30.3652" y2="-92.9848" width="0.1778" layer="1"/>
 <wire x1="30.3652" y1="-92.9848" x2="30" y2="-93.35" width="0.1778" layer="1"/>
+<wire x1="30.3652" y1="-90.9" x2="30.3652" y2="-89.5194" width="0.1778" layer="1"/>
+<wire x1="30.3652" y1="-89.5194" x2="30.3846" y2="-89.5" width="0.1778" layer="1"/>
+<wire x1="30.3846" y1="-89.5" x2="31.5154" y2="-89.5" width="0.1778" layer="1"/>
+<via x="34.7" y="-93.7" extent="1-16" drill="0.35"/>
+<wire x1="34.7" y1="-93.7" x2="33.5" y2="-93.7" width="0.1778" layer="16"/>
+<wire x1="34.7" y1="-93.7" x2="35.2" y2="-93.7" width="0.1778" layer="1"/>
+<wire x1="35.2" y1="-93.7" x2="35.5" y2="-94" width="0.1778" layer="1" curve="-90"/>
+<wire x1="35.5" y1="-94" x2="36.4" y2="-94.9" width="0.1778" layer="1" curve="90"/>
+<wire x1="36.4" y1="-94.9" x2="38" y2="-94.9" width="0.1778" layer="1"/>
 </signal>
 <signal name="USB_N">
 <contactref element="IC1" pad="13"/>
@@ -13835,6 +13882,8 @@ by exp-lbrs.ulp</description>
 <approved hash="5,1,17ce9abc4f3cf5f3"/>
 <approved hash="5,1,2f6ed110d0a02af8"/>
 <approved hash="5,1,2f6ed1e4d0d02dd2"/>
+<approved hash="4,16,8b94d8fb586e459c"/>
+<approved hash="4,16,a9690a51c435a709"/>
 </errors>
 </board>
 </drawing>
