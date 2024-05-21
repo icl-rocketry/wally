@@ -32,9 +32,9 @@ void initVariant(void) {
   pinMode(SCL1, INPUT);
 
   // initialise LED pins as outputs
-  pinMode(ERR_LED, OUTPUT);
-  pinMode(RAD_LED, OUTPUT);
-  pinMode(LTE_LED, OUTPUT);
+  pinMode(LED_R, OUTPUT);
+  pinMode(LED_Y, OUTPUT);
+  pinMode(LED_G, OUTPUT);
 
   // PPS
   pinMode(PPS, INPUT_PULLDOWN);
@@ -44,28 +44,6 @@ void initVariant(void) {
   analogSetPinAttenuation(VSENSE, ADC_0db); // 0 - 0.9V range (after voltage divider)
   pinMode(VSENSE, INPUT);
 
-  // turn on error LED
-  digitalWrite(ERR_LED, HIGH);
-
-  // turn on LEDs based on battery voltage
-  float battery_voltage = analogReadMilliVolts(VSENSE);
-
-  if (battery_voltage < 640) { // approx 3.84V, about 50% charge (for standard LiPo, not LiHV)
-    digitalWrite(ERR_LED, HIGH);
-    digitalWrite(RAD_LED, LOW);
-    digitalWrite(LTE_LED, LOW);
-    } 
-  else if (battery_voltage < 670) { // approx 4.02V, about 80% charge (for standard LiPo, not LiHV)
-    digitalWrite(ERR_LED, HIGH);
-    digitalWrite(RAD_LED, HIGH);
-    digitalWrite(LTE_LED, LOW);
-    } 
-  else {
-    digitalWrite(ERR_LED, HIGH);
-    digitalWrite(RAD_LED, HIGH);
-    digitalWrite(LTE_LED, HIGH);
-    }
-  }
 
 } // extern "C"
 

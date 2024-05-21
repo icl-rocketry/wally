@@ -5,7 +5,22 @@ int myFunction(int, int);
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  float supplyVoltage = getTrueVoltage();
+  if (supplyVoltage < 3.84) {
+    digitalWrite(LED_R, HIGH);
+    digitalWrite(LED_Y, LOW);
+    digitalWrite(LED_G, LOW);
+  }
+  else if (supplyVoltage < 4.02) {
+    digitalWrite(LED_R, HIGH);
+    digitalWrite(LED_Y, HIGH);
+    digitalWrite(LED_G, LOW);
+  }
+  else {
+    digitalWrite(LED_R, HIGH);
+    digitalWrite(LED_Y, HIGH);
+    digitalWrite(LED_G, HIGH);
+  }
 }
 
 void loop() {
@@ -17,7 +32,11 @@ int myFunction(int x, int y) {
   return x + y;
 }
 
-float getVoltage() {
-  float raw = analogReadMilliVolts(VSENSE);
+float getVoltageRaw() {
+  return analogReadMilliVolts(VSENSE);
+}
+
+float getTrueVoltage() {
+  float raw = getVoltageRaw();
   return (raw * (100 + 20))/20; // voltage divider
 }

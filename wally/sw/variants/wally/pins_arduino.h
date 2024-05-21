@@ -38,10 +38,16 @@ static const uint8_t RAD_DO   = 37;
 static const uint8_t RAD_CLK  = 36;
 static const uint8_t RAD_DI   = 38;
 
-// LEDs
-static const uint8_t ERR_LED = 8;
-static const uint8_t RAD_LED = 10;
-static const uint8_t LTE_LED = 9;
+// GPIO
+static const uint8_t A0 = 8;
+static const uint8_t A1 = 10;
+static const uint8_t A2 = 9;
+static const uint8_t A3 = 6;
+static const uint8_t A4 = 16;
+
+#define LED_R    8
+#define LED_Y   10
+#define LED_G    9
 
 // VSENSE
 static const uint8_t VSENSE = 7;
