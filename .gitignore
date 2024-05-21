@@ -38,4 +38,6 @@ TinyGPS/
 *.job
 isolation/isolation.pro
 *.pro
+
+/wally/sw/.pio
 /wally/sw/.vscode

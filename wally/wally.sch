@@ -7558,6 +7558,8 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY48" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="S1" library="SamacSys_Parts" deviceset="TS-1187A-B-A-B" device="" override_package3d_urn="urn:adsk.eagle:package:44332511/2" override_package_urn="urn:adsk.eagle:footprint:44332512/1"/>
 <part name="S2" library="SamacSys_Parts" deviceset="TS-1187A-B-A-B" device="" override_package3d_urn="urn:adsk.eagle:package:44332514/2" override_package_urn="urn:adsk.eagle:footprint:44332515/1"/>
+<part name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
+<part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8121,6 +8123,14 @@ by exp-lbrs.ulp</description>
 <instance part="S2" gate="G$1" x="-157.48" y="7.62" smashed="yes">
 <attribute name="NAME" x="-130.81" y="15.24" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-130.81" y="12.7" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="TP14" gate="G$1" x="-27.94" y="-22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="-34.29" y="-21.844" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-30.48" y="-24.13" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP15" gate="G$1" x="-27.94" y="-15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="-34.29" y="-14.224" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-30.48" y="-16.51" size="1.778" layer="97" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -9704,6 +9714,22 @@ by exp-lbrs.ulp</description>
 <pinref part="LED6" gate="G$1" pin="C"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="-236.22" x2="91.44" y2="-236.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="IO6"/>
+<label x="-15.24" y="-15.24" size="1.778" layer="95"/>
+<pinref part="TP15" gate="G$1" pin="TP"/>
+<wire x1="-25.4" y1="-15.24" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="IO16"/>
+<label x="-15.24" y="-22.86" size="1.778" layer="95"/>
+<pinref part="TP14" gate="G$1" pin="TP"/>
+<wire x1="-25.4" y1="-22.86" x2="-5.08" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
