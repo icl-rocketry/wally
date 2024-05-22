@@ -11,12 +11,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./wally/sw
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Move to PlatformIO Directory
-        run: cd wally/sw
 
       - name: Set up Python (without dependency checks)
         uses: actions/setup-python@v4
