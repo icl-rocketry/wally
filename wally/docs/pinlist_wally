@@ -1,0 +1,469 @@
+Pinlist
+
+Exported from wally.sch at 18/05/2024 07:52 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Part     Pad      Pin        Dir      Net
+
+C1       1        1          pas      VCC
+         2        2          pas      GND
+
+C2       1        1          pas      GND
+         2        2          pas      VSIM
+
+C3       1        1          pas      N$2
+         2        2          pas      GND
+
+C4       1        1          pas      GND
+         2        2          pas      VCC
+
+C5       1        1          pas      GND
+         2        2          pas      VCC
+
+C6       1        1          pas      GND
+         2        2          pas      VCC
+
+C7       1        1          pas      GND
+         2        2          pas      VCC
+
+C8       1        1          pas      VCC
+         2        2          pas      GND
+
+C9       1        1          pas      VCC
+         2        2          pas      GND
+
+C10      1        1          pas      3V3
+         2        2          pas      GND
+
+C11      1        1          pas      3V3
+         2        2          pas      GND
+
+C12      1        1          pas      3V3
+         2        2          pas      GND
+
+C13      1        1          pas      EN
+         2        2          pas      GND
+
+C14      1        1          pas      GND
+         2        2          pas      VBUS
+
+C15      1        1          pas      GND
+         2        2          pas      VBUS
+
+C16      1        1          pas      GND
+         2        2          pas      EN
+
+C17      1        1          pas      GND
+         2        2          pas      BOOT
+
+C18      1        1          pas      3V3
+         2        2          pas      GND
+
+C19      1        1          pas      3V3
+         2        2          pas      GND
+
+C20      1        1          pas      GND
+         2        2          pas      VCC
+
+C21      1        1          pas      GND
+         2        2          pas      VCC
+
+C22      1        1          pas      GND
+         2        2          pas      VCC
+
+C23      1        1          pas      3V3
+         2        2          pas      GND
+
+C24      1        1          pas      GND
+         2        2          pas      3V3
+
+C25      1        1          pas      GND
+         2        2          pas      3V3
+
+C26      1        1          pas      3V3
+         2        2          pas      GND
+
+C27      1        1          pas      3V3
+         2        2          pas      GND
+
+C28      1        1          pas      3V3
+         2        2          pas      GND
+
+C29      1        1          pas      3V3
+         2        2          pas      GND
+
+C30      1        1          pas      GND
+         2        2          pas      VSIM
+
+C31      1        1          pas      GND
+         2        2          pas      VSIM
+
+C32      1        1          pas      GND
+         2        2          pas      VSIM
+
+C33      1        1          pas      GND
+         2        2          pas      VSIM
+
+C34      1        1          pas      GND
+         2        2          pas      VSIM
+
+C35      1        1          pas      3V3
+         2        2          pas      GND
+
+C36      1        1          pas      GND
+         2        2          pas      VSIM
+
+C39      1        1          pas      GND
+         2        2          pas      3V3
+
+C40      1        1          pas      GND
+         2        2          pas      3V3
+
+C41      1        1          pas      GND
+         2        2          pas      3V3
+
+C42      1        1          pas      GND
+         2        2          pas      3V3
+
+CN1      1        2          pas      GND
+         2        1          pas      VCC
+
+CN2      1        2          pas      GND
+         2        1          pas      VCC
+
+D1       1        K          io       VSIM
+         2        A          io       N$2
+
+D2       1        K          io       VCC
+         2        A          io       VBUS
+
+IC1      1        GND_1      io       GND
+         2        3V3        io       3V3
+         3        EN         io       EN
+         4        IO4        io       SCL1
+         5        IO5        io       SDA1
+         6        IO6        io                *** unconnected ***
+         7        IO7        io       VSENSE
+         8        IO15       io       PPS
+         9        IO16       io                *** unconnected ***
+         10       IO17       io       RX1
+         11       IO18       io       TX1
+         12       IO8        io       ERR_LED
+         13       IO19       io       USB_N
+         14       IO20       io       USB_P
+         15       IO3        io                *** unconnected ***
+         16       IO46       io                *** unconnected ***
+         17       IO9        io       LTE_STATUS
+         18       IO10       io       RAD_STATUS
+         19       IO11       io       SD_DO
+         20       IO12       io       SD_CLK
+         21       IO13       io       SD_DI
+         22       IO14       io       SD_CS
+         23       IO21       io       SCL0
+         24       IO47       io       SDA0
+         25       IO48       io       RAD_BUSY
+         26       IO45       io                *** unconnected ***
+         27       IO0        io       BOOT
+         28       IO35       io       RAD_RXEN
+         29       IO36       io       RAD_SCK
+         30       IO37       io       RAD_DO
+         31       IO38       io       RAD_DI
+         32       IO39       io       RAD_CS
+         33       IO40       io       RAD_RST
+         34       IO41       io       RAD_TXEN
+         35       IO42       io       RAD_IO1
+         36       RXD0       io       RX0
+         37       TXD0       io       TX0
+         38       IO2        io       RAD_IO2
+         39       IO1        io       RAD_IO3
+         40       GND_2      io       GND
+         41       GND_3      io       GND
+         42       GND_4      io       GND
+         43       GND_5      io       GND
+         44       GND_6      io       GND
+         45       GND_7      io       GND
+         46       GND_8      io       GND
+         47       GND_9      io       GND
+         48       GND_10     io       GND
+         49       GND_11     io       GND
+
+IC2      1        SW         io       N$2
+         2        GND        io       GND
+         3        FB         io       N$3
+         4        EN         io       VCC
+         5        VIN        io       VCC
+         6        FREQ       io       GND
+
+IC3      1        GND        io       GND
+         2        OUTPUT_1   io       3V3
+         3        INPUT      io       VCC
+         4        OUTPUT_2   io       3V3
+
+IC4      1        GND_1      io       GND
+         2        CSB        io       3V3
+         3        SDI        io       SDA0
+         4        SCK        io       SCL0
+         5        SDO        io                *** unconnected ***
+         6        VDDIO      io       3V3
+         7        GND_2      io       GND
+         8        VDD        io       3V3
+
+IC5      1        SDO        io       GND
+         2        NC_1       io                *** unconnected ***
+         3        NC_2       io                *** unconnected ***
+         4        INT1       io                *** unconnected ***
+         5        VDDIO      io       3V3
+         6        GNDIO      io       GND
+         7        GND        io       GND
+         8        VDD        io       3V3
+         9        INT2       io                *** unconnected ***
+         10       NC_3       io                *** unconnected ***
+         11       NC_4       io                *** unconnected ***
+         12       CSB        io       3V3
+         13       SCX        io       SCL0
+         14       SDX        io       SDA0
+
+IC6      1        GND_1      io       GND
+         2        VIN+       io       N$6
+         3        GND_2      io       GND
+         4        VIN-       io       N$5
+         5        GND_3      io       GND
+         6        GND_4      io       GND
+         7        GND_5      io       GND
+         8        GND_6      io       3V3
+         9        GND_7      io       GND
+         10       GND_8      io       GND
+         11       ALERT_1    io                *** unconnected ***
+         12       ALERT_2    io                *** unconnected ***
+         13       GND_9      io       GND
+         14       ALERT_3    io                *** unconnected ***
+         15       ALERT_4    io                *** unconnected ***
+         16       ADDR       io       GND
+         17       GND_10     io       GND
+         18       GND_11     io       GND
+         19       SCL        io       SCL0
+         20       SDA        io       SDA0
+         21       EPAD       io       GND
+
+IC7      1        INT        io       GND
+         2        MS/CS      io       3V3
+         3        SCL/SCLK   io       SCL0
+         4        NC_1       io       GND
+         5        SDA/MOSI   io       SDA0
+         6        MISO       io       GND
+         7        INT/TRG    io       GND
+         8        NC_2       io       3V3
+         9        NC_3       io       GND
+         10       NC_4       io       GND
+         11       A1         io       GND
+         12       A0         io       GND
+         13       VSS        io       GND
+         14       NC_5       io       GND
+         15       VDD        io       3V3
+         16       NC_6       io       GND
+         17       EP         io       GND
+
+J1       1        DAT2       io       N$13
+         2        CD/DAT3    io       SD_CS
+         3        CMD        io       SD_DI
+         4        VDD        io       3V3
+         5        CLK        io       SD_CLK
+         6        VSS        io       GND
+         7        DAT0       io       SD_DO
+         8        DAT1       io       N$10
+         G1       GND_1      io       GND
+         G2       GND_2      io       GND
+         G3       GND_3      io       GND
+         G4       GND_4      io       GND
+         CD1      CD1        io       N$49
+
+J2       1        1          pwr      GND
+         2        2          pwr      3V3
+         3        3          pas      SDA0
+         4        4          pas      SCL0
+
+J3       1        1          pwr      GND
+         2        2          pwr      3V3
+         3        3          pas      SDA1
+         4        4          pas      SCL1
+
+J4       1        1          pas      N$6
+         2        2          pas      N$5
+
+J5       A5       CC1        io       CC1
+         A6       DP1        io       USB_P
+         A7       DN1        io       USB_N
+         A8       SBU1       io                *** unconnected ***
+         B5       CC2        io       CC2
+         B6       DP2        io       USB_P
+         B7       DN2        io       USB_N
+         B8       SBU2       io                *** unconnected ***
+         SH1      SHELL_GND  pwr      SHLD
+         SH2      SHELL_GND  pwr      SHLD
+         SH3      SHELL_GND  pwr      SHLD
+         SH4      SHELL_GND  pwr      SHLD
+         A4_B9    VBUS       pwr      VBUS
+         B4_A9    VBUS       pwr      VBUS
+         A1_B12   GND        pwr      GND
+         B1_A12   GND        pwr      GND
+
+JP1      1        1          pas      GND
+         2        2          pas               *** unconnected ***
+         3        3          pas      SCL0
+         4        4          pas      SDA0
+         5        5          pas      3V3
+
+JP2      1        1          pas      VCC
+         2        2          pas      GND
+         3        3          pas      TX1
+         4        4          pas      RX1
+         5        5          pas      PPS
+
+JP3      1        1          pas      3V3
+         2        2          pas      TX0
+         3        3          pas      RX0
+         4        4          pas      GND
+
+L1       1        1          pas      N$2
+         2        2          pas      VCC
+
+LED1     A        A          pas      N$49
+         C        C          pas      N$1
+
+LED2     A        A          pas      N$9
+         C        C          pas      GND
+
+LED3     A        A          pas      N$4
+         C        C          pas      GND
+
+LED4     A        A          pas      LTE_STATUS
+         C        C          pas      N$7
+
+LED5     A        A          pas      RAD_STATUS
+         C        C          pas      N$8
+
+LED6     A        A          pas      ERR_LED
+         C        C          pas      N$11
+
+R1       1        1          pas      3V3
+         2        2          pas      EN
+
+R2       1        1          pas      VSIM
+         2        2          pas      N$3
+
+R3       1        1          pas      N$3
+         2        2          pas      GND
+
+R4       1        1          pas      GND
+         2        2          pas      EN
+
+R5       1        1          pas      3V3
+         2        2          pas      SDA0
+
+R6       1        1          pas      3V3
+         2        2          pas      SCL0
+
+R7       1        1          pas      3V3
+         2        2          pas      SDA1
+
+R8       1        1          pas      3V3
+         2        2          pas      SCL1
+
+R9       1        1          pas      VCC
+         2        2          pas      VSENSE
+
+R10      1        1          pas      VSENSE
+         2        2          pas      GND
+
+R11      1        1          pas      GND
+         2        2          pas      BOOT
+
+R12      1        1          pas      CC2
+         2        2          pas      GND
+
+R13      1        1          pas      SHLD
+         2        2          pas      GND
+
+R14      1        1          pas      CC1
+         2        2          pas      GND
+
+R15      1        1          pas      N$1
+         2        2          pas      GND
+
+R16      1        1          pas      VCC
+         2        2          pas      N$9
+
+R17      1        1          pas      VBUS
+         2        2          pas      N$4
+
+R18      1        1          pas      N$7
+         2        2          pas      GND
+
+R19      1        1          pas      N$8
+         2        2          pas      GND
+
+R20      1        1          pas      N$11
+         2        2          pas      GND
+
+S1       A1       COM_1      io       BOOT
+         B1       COM_2      io       BOOT
+         C1       NO_1       io       GND
+         D1       NO_2       io       GND
+
+S2       A1       COM_1      io       EN
+         B1       COM_2      io       EN
+         C1       NO_1       io       GND
+         D1       NO_2       io       GND
+
+SIM7600G 1        1          pas      GND
+         2        2          pas      RX1
+         3        3          pas      TX1
+         4        4          pas      PWRKEY
+         5        5          pas      VSIM
+         6        6          pas      GND
+         7        7          pas      SLEEP
+
+TP1      TP       TP         in       PWRKEY
+
+TP2      TP       TP         in       SLEEP
+
+TP3      TP       TP         in       GND
+
+TP4      1        TP         pas      GND
+
+TP5      TP       TP         in       3V3
+
+TP6      1        TP         pas      BOOT
+
+TP7      1        TP         pas      GND
+
+TP8      1        TP         pas      EN
+
+TP9      TP       TP         in       VSIM
+
+TP10     TP       TP         in       VBUS
+
+TP11     TP       TP         in       VCC
+
+TP12     TP       TP         in       3V3
+
+TP13     TP       TP         in       VCC
+
+U1       1        ANT        io                *** unconnected ***
+         2        GND        pwr      GND
+         3        3.3V       pwr      3V3
+         4        RESET      in       RAD_RST
+         5        DIO0       io       RAD_TXEN
+         6        DIO1       io       RAD_IO1
+         7        DIO2       io       RAD_IO2
+         8        DIO3       io       RAD_IO3
+         9        GND        pwr      GND
+         10       DIO4       io       RAD_BUSY
+         11       DIO5       io       RAD_RXEN
+         12       SCK        in       RAD_SCK
+         13       MISO       out      RAD_DO
+         14       MOSI       in       RAD_DI
+         15       NSS        in       RAD_CS
+         16       GND        pwr      GND
+
