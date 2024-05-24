@@ -6406,7 +6406,7 @@ SLEEP</text>
 <text x="25.2" y="-48.2" size="0.7" layer="21" font="vector" ratio="15">ENV</text>
 <text x="25.2" y="-44.1" size="0.7" layer="21" font="vector" ratio="15">ALS</text>
 <text x="7.3" y="-57.2" size="0.3" layer="21" font="vector" ratio="15" rot="R90">I2C</text>
-<text x="14.9" y="-57.4" size="0.3" layer="21" font="vector" ratio="15" rot="R180">I2C</text>
+<text x="15.3" y="-57.5" size="0.3" layer="21" font="vector" ratio="15" rot="R180">I2C</text>
 <text x="19.7" y="-57.7" size="0.3" layer="21" font="vector" ratio="15" rot="R180">I2C</text>
 <text x="24.8" y="-57.7" size="0.3" layer="21" font="vector" ratio="15" rot="R180">I2C</text>
 <text x="24.3" y="-51.1" size="0.3" layer="21" font="vector" ratio="15" rot="R180">I2C</text>
@@ -15781,6 +15781,28 @@ SLEEP</text>
 <rectangle x1="20.127" y1="-11.519" x2="20.787" y2="-11.497" layer="29"/>
 <text x="10.9" y="-8" size="0.75" layer="21" font="vector" ratio="15" rot="R270">GND</text>
 <text x="10.9" y="-4" size="0.75" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<wire x1="24.4" y1="-81.4" x2="21.4" y2="-81.4" width="0.2" layer="21"/>
+<wire x1="21.4" y1="-81.4" x2="21.4" y2="-78.8" width="0.2" layer="21"/>
+<wire x1="21.4" y1="-78.8" x2="21" y2="-79.2" width="0.2" layer="21"/>
+<wire x1="21.4" y1="-78.8" x2="21.8" y2="-79.2" width="0.2" layer="21"/>
+<wire x1="24.4" y1="-81.4" x2="24" y2="-81" width="0.2" layer="21"/>
+<wire x1="24.4" y1="-81.4" x2="24" y2="-81.8" width="0.2" layer="21"/>
+<circle x="21.4" y="-82.1" radius="0.4" width="0.1" layer="21"/>
+<circle x="21.4" y="-82.1" radius="0.02" width="0.1" layer="21"/>
+<text x="23.9" y="-82.5" size="0.8" layer="21" font="vector" ratio="15">x</text>
+<text x="20.4" y="-79.2" size="0.8" layer="21" font="vector" ratio="15">y</text>
+<text x="20.7" y="-81.6" size="0.8" layer="21" font="vector" ratio="15">z</text>
+<wire x1="39" y1="-31" x2="34" y2="-31" width="0.2" layer="21"/>
+<wire x1="34" y1="-31" x2="34" y2="-26" width="0.2" layer="21"/>
+<wire x1="34" y1="-26" x2="33.4" y2="-26.6" width="0.2" layer="21"/>
+<wire x1="34" y1="-26" x2="34.6" y2="-26.6" width="0.2" layer="21"/>
+<wire x1="39" y1="-31" x2="38.4" y2="-30.4" width="0.2" layer="21"/>
+<wire x1="39" y1="-31" x2="38.4" y2="-31.6" width="0.2" layer="21"/>
+<circle x="36" y="-29" radius="1" width="0.2" layer="21"/>
+<circle x="36" y="-29" radius="0.1" width="0.2" layer="21"/>
+<text x="39.2" y="-31" size="1.2" layer="21" font="vector" ratio="15" align="center-left">X</text>
+<text x="34" y="-25.7" size="1.2" layer="21" font="vector" ratio="15" align="bottom-center">Y</text>
+<text x="38" y="-29" size="1.2" layer="21" font="vector" ratio="15" align="center">Z</text>
 </plain>
 <libraries>
 <library name="RA-01H">
@@ -18983,10 +19005,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="23.4" y="-48.75" extent="1-16" drill="0.35"/>
 <wire x1="26.55" y1="-56" x2="26" y2="-56" width="0.1778" layer="16"/>
 <via x="26" y="-56" extent="1-16" drill="0.35"/>
-<wire x1="26" y1="-56" x2="25.8" y2="-55.8" width="0.1778" layer="1"/>
-<wire x1="25.8" y1="-55.8" x2="25.8" y2="-55.6" width="0.1778" layer="1"/>
-<wire x1="25.8" y1="-55.6" x2="25.45" y2="-55.25" width="0.1778" layer="1"/>
-<wire x1="25.45" y1="-55.25" x2="24.725" y2="-55.25" width="0.1778" layer="1"/>
+<wire x1="26" y1="-56" x2="25.25" y2="-55.25" width="0.1778" layer="1"/>
+<wire x1="25.25" y1="-55.25" x2="24.725" y2="-55.25" width="0.1778" layer="1"/>
 <wire x1="19.25" y1="-59.1154" x2="18.5654" y2="-59.1154" width="0.1778" layer="1"/>
 <wire x1="18.5654" y1="-59.1154" x2="18.55" y2="-59.1" width="0.1778" layer="1"/>
 <via x="18.55" y="-59.1" extent="1-16" drill="0.35"/>
@@ -19710,8 +19730,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="23" y1="-57.96573125" x2="23.08283125" y2="-57.8829" width="0.1778" layer="16"/>
 <wire x1="23.08283125" y1="-57.8829" x2="23.25" y2="-57.8829" width="0.1778" layer="16"/>
 <via x="23.25" y="-57.8829" extent="1-16" drill="0.35"/>
-<wire x1="23.25" y1="-57.8829" x2="23.55" y2="-57.5829" width="0.1778" layer="1"/>
-<wire x1="23.55" y1="-57.5829" x2="23.65" y2="-57.5829" width="0.1778" layer="1"/>
+<wire x1="23.65" y1="-57.5829" x2="23.35" y2="-57.8829" width="0.1778" layer="1"/>
+<wire x1="23.25" y1="-57.8829" x2="23.35" y2="-57.8829" width="0.1778" layer="1"/>
 <wire x1="26.035" y1="-71" x2="28.6" y2="-71" width="0.1778" layer="1"/>
 <wire x1="35.2" y1="-72.9" x2="35.2" y2="-71.8" width="0.1778" layer="1"/>
 <wire x1="35.2" y1="-71.8" x2="35.0925" y2="-71.6925" width="0.1778" layer="1"/>
