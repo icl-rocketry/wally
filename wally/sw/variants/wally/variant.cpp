@@ -46,5 +46,6 @@ void initVariant(void) {
 
 
 } // extern "C"
+}
 
 
