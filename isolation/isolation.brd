@@ -7402,39 +7402,38 @@ Check Polarity</text>
 <wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="21"/>
 <wire x1="-3.675" y1="2.525" x2="-2.2" y2="2.525" width="0.2" layer="21"/>
 </package>
-<package name="SOP50P326X110-14N">
-<description>&lt;b&gt;DYY0014A&lt;/b&gt;&lt;br&gt;
+<package name="SN74HCS08BQAR">
+<description>&lt;b&gt;SN74HCS08BQAR-2&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.538" y="1.5" dx="1.075" dy="0.3" layer="1"/>
-<smd name="2" x="-1.538" y="1" dx="1.075" dy="0.3" layer="1"/>
-<smd name="3" x="-1.538" y="0.5" dx="1.075" dy="0.3" layer="1"/>
-<smd name="4" x="-1.538" y="0" dx="1.075" dy="0.3" layer="1"/>
-<smd name="5" x="-1.538" y="-0.5" dx="1.075" dy="0.3" layer="1"/>
-<smd name="6" x="-1.538" y="-1" dx="1.075" dy="0.3" layer="1"/>
-<smd name="7" x="-1.538" y="-1.5" dx="1.075" dy="0.3" layer="1"/>
-<smd name="8" x="1.538" y="-1.5" dx="1.075" dy="0.3" layer="1"/>
-<smd name="9" x="1.538" y="-1" dx="1.075" dy="0.3" layer="1"/>
-<smd name="10" x="1.538" y="-0.5" dx="1.075" dy="0.3" layer="1"/>
-<smd name="11" x="1.538" y="0" dx="1.075" dy="0.3" layer="1"/>
-<smd name="12" x="1.538" y="0.5" dx="1.075" dy="0.3" layer="1"/>
-<smd name="13" x="1.538" y="1" dx="1.075" dy="0.3" layer="1"/>
-<smd name="14" x="1.538" y="1.5" dx="1.075" dy="0.3" layer="1"/>
+<smd name="1" x="-0.25" y="1.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="2" x="-1.15" y="1" dx="0.6" dy="0.25" layer="1"/>
+<smd name="3" x="-1.15" y="0.5" dx="0.6" dy="0.25" layer="1"/>
+<smd name="4" x="-1.15" y="0" dx="0.6" dy="0.25" layer="1"/>
+<smd name="5" x="-1.15" y="-0.5" dx="0.6" dy="0.25" layer="1"/>
+<smd name="6" x="-1.15" y="-1" dx="0.6" dy="0.25" layer="1"/>
+<smd name="7" x="-0.25" y="-1.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="0.25" y="-1.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="1.15" y="-1" dx="0.6" dy="0.25" layer="1"/>
+<smd name="10" x="1.15" y="-0.5" dx="0.6" dy="0.25" layer="1"/>
+<smd name="11" x="1.15" y="0" dx="0.6" dy="0.25" layer="1"/>
+<smd name="12" x="1.15" y="0.5" dx="0.6" dy="0.25" layer="1"/>
+<smd name="13" x="1.15" y="1" dx="0.6" dy="0.25" layer="1"/>
+<smd name="14" x="0.25" y="1.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="15" x="0" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.325" y1="2.4" x2="2.325" y2="2.4" width="0.05" layer="51"/>
-<wire x1="2.325" y1="2.4" x2="2.325" y2="-2.4" width="0.05" layer="51"/>
-<wire x1="2.325" y1="-2.4" x2="-2.325" y2="-2.4" width="0.05" layer="51"/>
-<wire x1="-2.325" y1="-2.4" x2="-2.325" y2="2.4" width="0.05" layer="51"/>
-<wire x1="-1" y1="2.1" x2="1" y2="2.1" width="0.1" layer="51"/>
-<wire x1="1" y1="2.1" x2="1" y2="-2.1" width="0.1" layer="51"/>
-<wire x1="1" y1="-2.1" x2="-1" y2="-2.1" width="0.1" layer="51"/>
-<wire x1="-1" y1="-2.1" x2="-1" y2="2.1" width="0.1" layer="51"/>
-<wire x1="-1" y1="1.6" x2="-0.5" y2="2.1" width="0.1" layer="51"/>
-<wire x1="-0.65" y1="2.1" x2="0.65" y2="2.1" width="0.2" layer="21"/>
-<wire x1="0.65" y1="2.1" x2="0.65" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="0.65" y1="-2.1" x2="-0.65" y2="-2.1" width="0.2" layer="21"/>
-<wire x1="-0.65" y1="-2.1" x2="-0.65" y2="2.1" width="0.2" layer="21"/>
-<wire x1="-2.075" y1="2" x2="-1" y2="2" width="0.2" layer="21"/>
+<wire x1="-1.25" y1="-1.5" x2="1.25" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1.5" x2="1.25" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1.5" x2="-1.25" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1.5" x2="-1.25" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="2.7" x2="2.45" y2="2.7" width="0.1" layer="51"/>
+<wire x1="2.45" y1="2.7" x2="2.45" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="2.45" y1="-2.7" x2="-2.45" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="-2.7" x2="-2.45" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="2.2" x2="-0.25" y2="2.2" width="0.1" layer="21"/>
+<wire x1="-0.25" y1="2.2" x2="-0.25" y2="2.1" width="0.1" layer="21" curve="180"/>
+<wire x1="-0.25" y1="2.1" x2="-0.25" y2="2.1" width="0.1" layer="21"/>
+<wire x1="-0.25" y1="2.1" x2="-0.25" y2="2.2" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="SOT95P251X112-3N">
 <description>&lt;b&gt;SOT23_1+&lt;/b&gt;&lt;br&gt;
@@ -8367,44 +8366,44 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="VALUE" x="-22.8671" y="23.592" size="1.27" layer="27" rot="R270" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="-21.433" y="22.322" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC4" library="SamacSys_Parts" package="SOP50P326X110-14N" override_package3d_urn="urn:adsk.eagle:package:44092657/2" override_package_urn="urn:adsk.eagle:footprint:44092658/1" value="SN74HCS08DYYR" x="-16.64" y="15.154" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates 4-ch, 2-input, 2-V to 6-V low power AND gates with Schmitt-trigger inputs" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="IC4" library="SamacSys_Parts" package="SN74HCS08BQAR" override_package3d_urn="urn:adsk.eagle:package:44092657/2" override_package_urn="urn:adsk.eagle:footprint:44092658/1" override_locally_modified="yes" value="SN74HCS08BQAR" x="-16.64" y="15.154" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS08BQAR" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs08bqar/texas-instruments?region=nac" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates 4-ch, 2-input, 2-V to 6-V low power AND gates with Schmitt-Trigger inputs 14-WQFN -40 to 125" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.8mm" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS08DYYR" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS08DYYR" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS08DYYR?qs=Li%252BoUPsLEnuxOc6m1Nu7zQ%3D%3D" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS08BQAR" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS08BQAR" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS08BQAR?qs=stqOd1AaK78YU94khf0tnw%3D%3D" x="-16.64" y="15.154" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-16.64" y="15.154" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100n" x="-20" y="15.809" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Capacitor" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-18.5659" y="15.809" size="1.27" layer="27" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-20" y="17.079" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="100n" x="-20.15" y="15.759" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Capacitor" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-18.7159" y="15.759" size="1.27" layer="27" rot="R90" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-20.15" y="17.029" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1u" x="-20" y="17.617" smashed="yes" rot="R270">
-<attribute name="CATEGORY" value="Capacitor" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_STATUS" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SERIES" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-21.4341" y="17.617" size="1.27" layer="27" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-20" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/5" value="1u" x="-20.15" y="17.617" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Capacitor" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-21.5841" y="17.617" size="1.27" layer="27" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="-20.15" y="16.347" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC5" library="SamacSys_Parts" package="SOT95P251X112-3N" override_package3d_urn="urn:adsk.eagle:package:44099312/2" override_package_urn="urn:adsk.eagle:footprint:44099313/1" value="FDN359BN" x="-15.34" y="9" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="FDN359BN" x="-15.34" y="9" size="1.778" layer="27" display="off"/>
@@ -9163,9 +9162,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <contactref element="C11" pad="1"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C13" pad="1"/>
-<contactref element="IC4" pad="7"/>
-<contactref element="IC4" pad="12"/>
-<contactref element="IC4" pad="13"/>
 <contactref element="IC5" pad="2"/>
 <contactref element="IC6" pad="2"/>
 <contactref element="IC7" pad="2"/>
@@ -9236,13 +9232,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-15.337" y1="21.796" x2="-14.8" y2="21.796" width="0.1778" layer="1"/>
 <wire x1="-14.8" y1="21.796" x2="-14.8" y2="21.3" width="0.1778" layer="1"/>
 <via x="-14.8" y="21.3" extent="1-16" drill="0.35"/>
-<wire x1="-17.64" y1="16.692" x2="-17.64" y2="18" width="0.1778" layer="1"/>
-<via x="-18.3" y="18" extent="1-16" drill="0.35"/>
-<wire x1="-17.64" y1="18" x2="-18.3" y2="18" width="0.1778" layer="1"/>
-<wire x1="-17.14" y1="16.692" x2="-17.64" y2="16.692" width="0.1778" layer="1"/>
-<wire x1="-15.14" y1="13.616" x2="-15.14" y2="12.4" width="0.1778" layer="1"/>
-<wire x1="-15.14" y1="12.4" x2="-15.1" y2="12.4" width="0.1778" layer="1"/>
-<via x="-15.1" y="12.4" extent="1-16" drill="0.35"/>
 <wire x1="-18.25" y1="7.3805" x2="-18.25" y2="6.6" width="0.1778" layer="1"/>
 <wire x1="-18.25" y1="6.6" x2="-18.3" y2="6.6" width="0.1778" layer="1"/>
 <via x="-18.3" y="6.6" extent="1-16" drill="0.35"/>
@@ -9303,16 +9292,11 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-21.433" y1="24.0766" x2="-20.15" y2="24.1036" width="0.1778" layer="1"/>
 <wire x1="-20.15" y1="24.1036" x2="-19.2" y2="24.1" width="0.1778" layer="1"/>
 <via x="-19.2" y="24.1" extent="1-16" drill="0.35"/>
-<wire x1="-17.14" y1="16.692" x2="-17.14" y2="15.944853125" width="0.1778" layer="1"/>
-<wire x1="-17.14" y1="15.944853125" x2="-17.2" y2="15.8" width="0.1778" layer="1" curve="-45"/>
-<wire x1="-17.2" y1="15.8" x2="-17.924265625" y2="15.5" width="0.1778" layer="1" curve="-45"/>
-<wire x1="-17.924265625" y1="15.5" x2="-18.8" y2="15.5" width="0.1778" layer="1"/>
-<via x="-18.8" y="15.5" extent="1-16" drill="0.35"/>
-<wire x1="-20" y1="15.3244" x2="-20" y2="14.6" width="0.1778" layer="1"/>
-<via x="-20" y="14.6" extent="1-16" drill="0.35"/>
-<wire x1="-20" y1="18.1016" x2="-20.289" y2="18.3906" width="0.1778" layer="1"/>
-<wire x1="-20.289" y1="18.3906" x2="-20.5" y2="18.9" width="0.1778" layer="1" curve="-45"/>
-<via x="-20.5" y="18.9" extent="1-16" drill="0.35"/>
+<wire x1="-20.15" y1="15.2744" x2="-20.15" y2="14.55" width="0.1778" layer="1"/>
+<via x="-20.15" y="14.55" extent="1-16" drill="0.35"/>
+<wire x1="-20.15" y1="18.1016" x2="-20.25364375" y2="18.20524375" width="0.1778" layer="1"/>
+<wire x1="-20.25364375" y1="18.20524375" x2="-20.5" y2="18.8" width="0.1778" layer="1" curve="-45"/>
+<via x="-20.5" y="18.8" extent="1-16" drill="0.35"/>
 <wire x1="1.786" y1="17.1746" x2="3.391" y2="17.1746" width="0.48" layer="1"/>
 <wire x1="3.391" y1="17.1746" x2="4" y2="17.1746" width="0.48" layer="1"/>
 <wire x1="4" y1="17.1746" x2="4.89101875" y2="17.1746" width="0.48" layer="1"/>
@@ -9484,6 +9468,13 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="21.90250625" y1="16.89425" x2="22.249465625" y2="16.750534375" width="0.1778" layer="1" curve="-45"/>
 <wire x1="22.249465625" y1="16.750534375" x2="22.5" y2="16.5" width="0.1778" layer="1"/>
 <via x="22.5" y="16.5" extent="1-16" drill="0.35"/>
+<contactref element="IC4" pad="15"/>
+<contactref element="IC4" pad="7"/>
+<wire x1="-15.24" y1="14.904" x2="-16.39" y2="14.904" width="0.1778" layer="1"/>
+<wire x1="-16.39" y1="14.904" x2="-16.64" y2="15.154" width="0.1778" layer="1" curve="-90"/>
+<wire x1="-15.24" y1="14.904" x2="-15.24" y2="14.7729" width="0.1778" layer="1"/>
+<wire x1="-15.24" y1="14.7729" x2="-14.7671" y2="14.3" width="0.1778" layer="1" curve="90"/>
+<via x="-14.7671" y="14.3" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VBAT">
 <contactref element="LED1" pad="A"/>
@@ -9504,7 +9495,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <contactref element="C11" pad="2"/>
 <contactref element="C12" pad="2"/>
 <contactref element="C13" pad="2"/>
-<contactref element="IC4" pad="14"/>
 <contactref element="D2" pad="C"/>
 <contactref element="TP2" pad="TP"/>
 <contactref element="IC3" pad="14"/>
@@ -9594,6 +9584,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-6.772" y1="20.95" x2="-6.772" y2="22.894" width="1" layer="1"/>
 <wire x1="-6" y1="20.95" x2="-6.772" y2="22.894" width="1" layer="1"/>
 <wire x1="-5.2" y1="20.95" x2="-6.772" y2="22.894" width="1" layer="1"/>
+<contactref element="IC4" pad="14"/>
+<contactref element="IC4" pad="9"/>
+<contactref element="IC4" pad="10"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="C"/>
@@ -9704,8 +9697,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <signal name="EN1">
 <contactref element="LED2" pad="A"/>
 <contactref element="E1" pad="10"/>
-<contactref element="IC4" pad="2"/>
-<contactref element="IC4" pad="5"/>
 <contactref element="IC3" pad="12"/>
 <wire x1="-17.237" y1="23.196" x2="-17.237" y2="24.337" width="0.1778" layer="1"/>
 <wire x1="-17.237" y1="24.337" x2="-17.3" y2="24.4" width="0.1778" layer="1" curve="90"/>
@@ -9714,22 +9705,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-17.3" y1="23.6" x2="-16.9" y2="23.2" width="0.1778" layer="16" curve="90"/>
 <wire x1="-16.9" y1="23.2" x2="-16.7" y2="23.2" width="0.1778" layer="16"/>
 <wire x1="-16.7" y1="23.2" x2="-16" y2="22.5" width="0.1778" layer="16" curve="-90"/>
-<wire x1="-16" y1="19.2" x2="-15.8" y2="19" width="0.1778" layer="16" curve="90"/>
-<wire x1="-15.8" y1="19" x2="-15.6" y2="18.8" width="0.1778" layer="16" curve="-90"/>
-<wire x1="-15.6" y1="15.2" x2="-16.1" y2="14.7" width="0.1778" layer="16" curve="-90"/>
-<via x="-16.1" y="14.7" extent="1-16" drill="0.35"/>
-<wire x1="-16.1" y1="14.7" x2="-16.1" y2="13.656" width="0.1778" layer="1"/>
-<wire x1="-16.1" y1="13.656" x2="-16.14" y2="13.616" width="0.1778" layer="1" curve="-90"/>
-<wire x1="-16" y1="22.5" x2="-16" y2="19.2" width="0.1778" layer="16"/>
-<wire x1="-15.6" y1="18.8" x2="-15.6" y2="15.2" width="0.1778" layer="16"/>
-<wire x1="-16.1" y1="14.7" x2="-17.3" y2="14.7" width="0.1778" layer="1"/>
-<wire x1="-17.3" y1="14.7" x2="-17.64" y2="14.36" width="0.1778" layer="1" curve="90"/>
-<wire x1="-17.64" y1="14.36" x2="-17.64" y2="13.616" width="0.1778" layer="1"/>
 <wire x1="-24.141" y1="-1.738" x2="-25.65" y2="-1.738" width="0.1778" layer="1"/>
-<wire x1="-32.385" y1="7.385" x2="-32.3" y2="7.3" width="0.1778" layer="1"/>
-<wire x1="-32.385" y1="7.385" x2="-32.385" y2="8.348" width="0.1778" layer="1"/>
-<wire x1="-17.64" y1="13.616" x2="-17.64" y2="12.744853125" width="0.1778" layer="1"/>
-<wire x1="-17.64" y1="12.744853125" x2="-17.7" y2="12.6" width="0.1778" layer="1" curve="-45"/>
 <via x="-20.4" y="12.6" extent="1-16" drill="0.35"/>
 <wire x1="-20.4" y1="12.6" x2="-23.2" y2="12.6" width="0.1778" layer="16"/>
 <via x="-23.2" y="12.6" extent="1-16" drill="0.35"/>
@@ -9738,15 +9714,41 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-23" y1="12.1" x2="-22.9" y2="11.858578125" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-22.9" y1="8.18284375" x2="-23.1" y2="7.7" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-23.824265625" y1="7.4" x2="-23.1" y2="7.7" width="0.1778" layer="1" curve="45"/>
-<wire x1="-17.7" y1="12.6" x2="-20.4" y2="12.6" width="0.1778" layer="1"/>
 <wire x1="-22.9" y1="11.858578125" x2="-22.9" y2="8.18284375" width="0.1778" layer="1"/>
 <wire x1="-25.65" y1="-1.738" x2="-25.85" y2="-1.25515625" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-25.85" y1="6.446446875" x2="-25.6" y2="7.05" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-25.6" y1="7.05" x2="-24.755025" y2="7.4" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-24.755025" y1="7.4" x2="-23.824265625" y2="7.4" width="0.1778" layer="1"/>
 <wire x1="-25.85" y1="-1.25515625" x2="-25.85" y2="6.446446875" width="0.1778" layer="1"/>
-<wire x1="-24.996446875" y1="7.3" x2="-24.755025" y2="7.4" width="0.1778" layer="1" curve="45"/>
-<wire x1="-32.3" y1="7.3" x2="-24.996446875" y2="7.3" width="0.1778" layer="1"/>
+<contactref element="IC4" pad="2"/>
+<contactref element="IC4" pad="5"/>
+<wire x1="-16" y1="17.55" x2="-16.3" y2="17.25" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-16.3" y1="17.25" x2="-17.95" y2="17.25" width="0.1778" layer="16"/>
+<wire x1="-17.95" y1="17.25" x2="-18.15" y2="17.05" width="0.1778" layer="16" curve="90"/>
+<wire x1="-18.15" y1="17.05" x2="-18.15" y2="13.35" width="0.1778" layer="16"/>
+<wire x1="-18.15" y1="13.35" x2="-18" y2="13.2" width="0.1778" layer="16" curve="90"/>
+<via x="-18" y="13.2" extent="1-16" drill="0.35"/>
+<wire x1="-18" y1="13.2" x2="-17.64" y2="13.56" width="0.1778" layer="1" curve="90"/>
+<wire x1="-17.64" y1="13.56" x2="-17.64" y2="14.004" width="0.1778" layer="1"/>
+<wire x1="-16" y1="22.5" x2="-16" y2="17.55" width="0.1778" layer="16"/>
+<wire x1="-16.14" y1="14.004" x2="-16.14" y2="12.71" width="0.1778" layer="1"/>
+<wire x1="-16.14" y1="12.71" x2="-16.15" y2="12.7" width="0.1778" layer="1" curve="-90"/>
+<via x="-16.15" y="12.7" extent="1-16" drill="0.35"/>
+<wire x1="-16.15" y1="12.7" x2="-16.5" y2="12.35" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-18.05" y1="12.35" x2="-18.2" y2="12.5" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-18.2" y1="12.5" x2="-18.2" y2="12.65" width="0.1778" layer="16"/>
+<wire x1="-18.2" y1="12.65" x2="-18.2" y2="13" width="0.1778" layer="16"/>
+<wire x1="-18.2" y1="13" x2="-18" y2="13.2" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-16.5" y1="12.35" x2="-18.05" y2="12.35" width="0.1778" layer="16"/>
+<wire x1="-20.4" y1="12.6" x2="-18.25" y2="12.6" width="0.1778" layer="16"/>
+<wire x1="-18.25" y1="12.6" x2="-18.2" y2="12.65" width="0.1778" layer="16" curve="90"/>
+<wire x1="-32.385" y1="8.348" x2="-32.863015625" y2="8.15" width="0.1778" layer="1" curve="-45"/>
+<wire x1="-32.863015625" y1="8.15" x2="-33.55" y2="8.15" width="0.1778" layer="1"/>
+<via x="-33.55" y="8.15" extent="1-16" drill="0.35"/>
+<wire x1="-33.55" y1="8.15" x2="-33.54395" y2="8.14395" width="0.1778" layer="16"/>
+<wire x1="-33.54395" y1="8.14395" x2="-31.747896875" y2="7.4" width="0.1778" layer="16" curve="45"/>
+<wire x1="-31.747896875" y1="7.4" x2="-24.755025" y2="7.4" width="0.1778" layer="16"/>
+<via x="-24.755025" y="7.4" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED2" pad="C"/>
@@ -9757,7 +9759,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <signal name="EN2">
 <contactref element="E2" pad="10"/>
 <contactref element="LED4" pad="A"/>
-<contactref element="IC4" pad="10"/>
 <contactref element="IC3" pad="13"/>
 <wire x1="-17.737" y1="23.196" x2="-18.1" y2="23.559" width="0.1778" layer="1" curve="-90"/>
 <wire x1="-18.1" y1="23.559" x2="-18.1" y2="23.9" width="0.1778" layer="1"/>
@@ -9766,10 +9767,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-18.1" y1="23.6" x2="-17.3" y2="22.8" width="0.1778" layer="16" curve="90"/>
 <wire x1="-17.3" y1="22.8" x2="-16.9" y2="22.8" width="0.1778" layer="16"/>
 <wire x1="-16.9" y1="22.8" x2="-16.4" y2="22.3" width="0.1778" layer="16" curve="-90"/>
-<wire x1="-16.4" y1="18.1" x2="-16.2" y2="17.9" width="0.1778" layer="16" curve="90"/>
-<via x="-16.2" y="17.9" extent="1-16" drill="0.35"/>
-<wire x1="-16.2" y1="17.9" x2="-16.14" y2="17.84" width="0.1778" layer="1" curve="-90"/>
-<wire x1="-16.14" y1="17.84" x2="-16.14" y2="16.692" width="0.1778" layer="1"/>
 <wire x1="-16.4" y1="22.3" x2="-16.4" y2="18.1" width="0.1778" layer="16"/>
 <wire x1="-18.1" y1="25.2" x2="-17.7" y2="25.6" width="0.1778" layer="1" curve="-90"/>
 <wire x1="-18.1" y1="23.9" x2="-18.1" y2="25.2" width="0.1778" layer="1"/>
@@ -9791,6 +9788,14 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="18.85" y1="20.4" x2="15.88995" y2="20.4" width="0.1778" layer="1"/>
 <wire x1="15.88995" y1="20.4" x2="14.2" y2="21.1" width="0.1778" layer="1" curve="-45"/>
 <wire x1="22.485" y1="23.385" x2="19.95961875" y2="20.85961875" width="0.1778" layer="1"/>
+<contactref element="IC4" pad="13"/>
+<wire x1="-16.4" y1="18.1" x2="-16.75" y2="17.75" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-16.75" y1="17.75" x2="-17.65" y2="17.75" width="0.1778" layer="16"/>
+<via x="-17.65" y="17.75" extent="1-16" drill="0.35"/>
+<wire x1="-17.65" y1="17.75" x2="-17.9" y2="17.75" width="0.1778" layer="1"/>
+<wire x1="-17.9" y1="17.75" x2="-18" y2="17.65" width="0.1778" layer="1" curve="90"/>
+<wire x1="-18" y1="16.664" x2="-17.64" y2="16.304" width="0.1778" layer="1" curve="90"/>
+<wire x1="-18" y1="17.65" x2="-18" y2="16.664" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED4" pad="C"/>
@@ -9992,66 +9997,61 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-4.236396875" y1="-24" x2="-7.247896875" y2="-24" width="0.1778" layer="1"/>
 </signal>
 <signal name="FIRE1">
-<contactref element="IC4" pad="3"/>
 <contactref element="LED12" pad="A"/>
 <contactref element="TP4" pad="TP"/>
 <contactref element="R8" pad="2"/>
 <contactref element="R24" pad="2"/>
-<wire x1="-17.14" y1="13.616" x2="-17.14" y2="12.56" width="0.1778" layer="1"/>
-<wire x1="-17.6" y1="12.1" x2="-17.14" y2="12.56" width="0.1778" layer="1" curve="90"/>
 <wire x1="-18.25" y1="9.3095" x2="-18.25" y2="8.3955" width="0.1778" layer="1"/>
 <wire x1="-18.25" y1="9.3095" x2="-20.377065625" y2="9.3095" width="0.1778" layer="1"/>
 <wire x1="-20.377065625" y1="9.3095" x2="-20.4" y2="9.3" width="0.1778" layer="1" curve="45"/>
 <via x="-20.4" y="9.3" extent="1-16" drill="0.35"/>
 <wire x1="-20.4" y1="9.3" x2="-23.6" y2="9.3" width="0.1778" layer="16"/>
-<via x="-23.6" y="9.3" extent="1-16" drill="0.35"/>
-<wire x1="-30.1" y1="9.3" x2="-30.48" y2="8.3826" width="0.1778" layer="1" curve="45"/>
 <wire x1="-30.48" y1="8.3826" x2="-30.48" y2="8.348" width="0.1778" layer="1"/>
-<wire x1="-23.6" y1="9.3" x2="-30.1" y2="9.3" width="0.1778" layer="1"/>
 <wire x1="-20.4" y1="9.3" x2="-20.66" y2="9.927696875" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-20.66" y1="9.927696875" x2="-20.66" y2="11.77" width="0.1778" layer="1"/>
 <wire x1="-20.66" y1="11.77" x2="-20.33" y2="12.1" width="0.1778" layer="1" curve="-90"/>
-<wire x1="-20.33" y1="12.1" x2="-17.6" y2="12.1" width="0.1778" layer="1"/>
 <wire x1="-23.6" y1="9.3" x2="-23.6" y2="11.92" width="0.1778" layer="16"/>
 <wire x1="-23.6" y1="11.92" x2="-25.022478125" y2="13.342478125" width="0.1778" layer="16"/>
 <wire x1="-25.022478125" y1="13.342478125" x2="-25.34" y2="13.474" width="0.1778" layer="16" curve="45"/>
+<contactref element="IC4" pad="3"/>
+<wire x1="-20.33" y1="12.1" x2="-17.45" y2="12.1" width="0.1778" layer="1"/>
+<wire x1="-17.45" y1="12.1" x2="-17.15" y2="12.4" width="0.1778" layer="1" curve="90"/>
+<wire x1="-17.15" y1="13.994" x2="-17.14" y2="14.004" width="0.1778" layer="1" curve="-90"/>
+<wire x1="-17.15" y1="12.4" x2="-17.15" y2="13.994" width="0.1778" layer="1"/>
+<wire x1="-31.208578125" y1="9.3" x2="-31.45" y2="9.4" width="0.1778" layer="16" curve="-45"/>
+<via x="-31.45" y="9.4" extent="1-16" drill="0.35"/>
+<wire x1="-31.45" y1="9.4" x2="-30.53798125" y2="8.48798125" width="0.1778" layer="1"/>
+<wire x1="-30.53798125" y1="8.48798125" x2="-30.48" y2="8.348" width="0.1778" layer="1" curve="-45"/>
+<wire x1="-23.6" y1="9.3" x2="-31.208578125" y2="9.3" width="0.1778" layer="16"/>
 </signal>
 <signal name="FIRE2">
-<contactref element="IC4" pad="6"/>
 <contactref element="LED13" pad="A"/>
 <contactref element="TP6" pad="TP"/>
 <contactref element="R9" pad="2"/>
 <contactref element="R25" pad="2"/>
-<wire x1="-15.64" y1="13.616" x2="-15.64" y2="11.34" width="0.1778" layer="1"/>
-<wire x1="-15.64" y1="11.34" x2="-15.5" y2="11.2" width="0.1778" layer="1" curve="90"/>
+<wire x1="-15.5" y1="11.2" x2="-15.64" y2="11.34" width="0.1778" layer="1" curve="-90"/>
 <wire x1="-15.5" y1="11.2" x2="-12.5" y2="11.2" width="0.1778" layer="1"/>
 <wire x1="-12.5" y1="11.2" x2="-11.9375" y2="10.6375" width="0.1778" layer="1" curve="-90"/>
 <wire x1="-11.9375" y1="10.6375" x2="-11.9375" y2="9.906" width="0.1778" layer="1"/>
 <wire x1="-11.9375" y1="9.906" x2="-11.9375" y2="8.601" width="0.1778" layer="1"/>
-<wire x1="-28.448" y1="8.348" x2="-23.725540625" y2="8.348" width="0.1778" layer="1"/>
-<wire x1="-23.725540625" y1="8.348" x2="-23.6" y2="8.4" width="0.1778" layer="1" curve="45"/>
-<via x="-23.6" y="8.4" extent="1-16" drill="0.35"/>
-<wire x1="-23.6" y1="8.4" x2="-13.28284375" y2="8.4" width="0.1778" layer="16"/>
-<wire x1="-13.28284375" y1="8.4" x2="-12.8" y2="8.6" width="0.1778" layer="16" curve="45"/>
+<wire x1="-28.448" y1="8.348" x2="-25.716965625" y2="8.348" width="0.1778" layer="1"/>
+<wire x1="-25.716965625" y1="8.348" x2="-25.35" y2="8.5" width="0.1778" layer="1" curve="45"/>
+<via x="-25.35" y="8.5" extent="1-16" drill="0.35"/>
+<wire x1="-12.9" y1="8.5" x2="-12.8" y2="8.6" width="0.1778" layer="16"/>
+<wire x1="-12.9" y1="8.5" x2="-25.35" y2="8.5" width="0.1778" layer="16"/>
 <via x="-12.8" y="8.6" extent="1-16" drill="0.35"/>
 <wire x1="-12.8" y1="8.6" x2="-12.797584375" y2="8.601" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-12.797584375" y1="8.601" x2="-11.9375" y2="8.601" width="0.1778" layer="1"/>
-<wire x1="-23.6" y1="8.4" x2="-24.11715625" y2="8.4" width="0.1778" layer="16"/>
-<wire x1="-24.11715625" y1="8.4" x2="-24.6" y2="8.6" width="0.1778" layer="16" curve="-45"/>
-<wire x1="-24.6" y1="8.6" x2="-25.34" y2="10.38651875" width="0.1778" layer="16" curve="-45"/>
-<wire x1="-25.34" y1="10.38651875" x2="-25.34" y2="10.78" width="0.1778" layer="16"/>
+<contactref element="IC4" pad="6"/>
+<wire x1="-15.64" y1="11.34" x2="-15.64" y2="14.004" width="0.1778" layer="1"/>
+<wire x1="-25.34" y1="10.78" x2="-25.349996875" y2="10.770003125" width="0.1778" layer="1"/>
+<wire x1="-25.349996875" y1="10.770003125" x2="-25.35" y2="8.5" width="0.1778" layer="1"/>
 </signal>
 <signal name="FIRE3">
-<contactref element="IC4" pad="8"/>
 <contactref element="LED14" pad="A"/>
 <contactref element="TP8" pad="TP"/>
 <contactref element="R10" pad="2"/>
 <contactref element="R26" pad="2"/>
-<wire x1="-15.14" y1="16.692" x2="-15.14" y2="16.54" width="0.1778" layer="1"/>
-<wire x1="-15.14" y1="16.54" x2="-14.6" y2="16" width="0.1778" layer="1" curve="90"/>
-<wire x1="-14.6" y1="16" x2="-14.3" y2="15.7" width="0.1778" layer="1" curve="-90"/>
-<wire x1="-14.3" y1="11.9" x2="-14" y2="11.6" width="0.1778" layer="1" curve="90"/>
-<wire x1="-14.3" y1="15.7" x2="-14.3" y2="11.9" width="0.1778" layer="1"/>
 <wire x1="23.093671875" y1="21.861" x2="22.94640625" y2="21.8" width="0.1778" layer="1" curve="-45"/>
 <wire x1="22.94640625" y1="21.8" x2="21.8" y2="21.8" width="0.1778" layer="1"/>
 <wire x1="21.28786875" y1="21.58786875" x2="21.8" y2="21.8" width="0.1778" layer="1" curve="-45"/>
@@ -10083,9 +10083,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="5.5905" y1="10.221" x2="6.15605" y2="10.78655" width="0.1778" layer="1"/>
 <wire x1="6.15605" y1="10.78655" x2="6.9" y2="12.582603125" width="0.1778" layer="1" curve="45"/>
 <wire x1="6.9" y1="12.582603125" x2="6.9" y2="13.3" width="0.1778" layer="1"/>
-<wire x1="-14" y1="11.6" x2="-12.265684375" y2="11.6" width="0.1778" layer="1"/>
-<wire x1="-12.265684375" y1="11.6" x2="-11.3" y2="11.2" width="0.1778" layer="1" curve="-45"/>
-<wire x1="-11.3" y1="11.2" x2="-10.575734375" y2="10.9" width="0.1778" layer="1" curve="45"/>
+<wire x1="-10.575734375" y1="10.9" x2="-11.3" y2="11.2" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-7.815684375" y1="10.9" x2="-6.85" y2="10.5" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-6.85" y1="10.5" x2="-6.67175" y2="10.32175" width="0.1778" layer="1"/>
 <wire x1="-6.67175" y1="10.32175" x2="-5.05" y2="9.65" width="0.1778" layer="1" curve="45"/>
@@ -10101,6 +10099,18 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="17.194975" y1="15.894975" x2="18.775734375" y2="17.475734375" width="0.1778" layer="1"/>
 <wire x1="20.1" y1="16.2" x2="18.85858125" y2="17.44141875" width="0.1778" layer="1"/>
 <wire x1="18.85858125" y1="17.44141875" x2="18.775734375" y2="17.475734375" width="0.1778" layer="1" curve="45"/>
+<contactref element="IC4" pad="11"/>
+<wire x1="-16.64" y1="16.304" x2="-16.64" y2="17.51" width="0.1778" layer="1"/>
+<wire x1="-16.64" y1="17.51" x2="-16.5" y2="17.65" width="0.1778" layer="1" curve="-90"/>
+<wire x1="-16.5" y1="17.65" x2="-14.5" y2="17.65" width="0.1778" layer="1"/>
+<wire x1="-14.5" y1="17.65" x2="-14.25" y2="17.4" width="0.1778" layer="1" curve="-90"/>
+<wire x1="-14.25" y1="17.4" x2="-14.25" y2="16.25" width="0.1778" layer="1"/>
+<via x="-14.25" y="16.25" extent="1-16" drill="0.35"/>
+<wire x1="-14.25" y1="16.25" x2="-14.25" y2="11.9671" width="0.1778" layer="16"/>
+<wire x1="-14.25" y1="11.9671" x2="-13.95" y2="11.6671" width="0.1778" layer="16" curve="90"/>
+<via x="-13.95" y="11.6671" extent="1-16" drill="0.35"/>
+<wire x1="-11.3" y1="11.2" x2="-12.427678125" y2="11.6671" width="0.1778" layer="1" curve="45"/>
+<wire x1="-12.427678125" y1="11.6671" x2="-13.95" y2="11.6671" width="0.1778" layer="1"/>
 </signal>
 <signal name="BUZZ">
 <contactref element="IC3" pad="11"/>
@@ -10333,48 +10343,51 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="-15.1445125" y1="-28.9934" x2="-14.9627125" y2="-29.3344625" width="0.1778" layer="1" curve="-0.516048"/>
 </signal>
 <signal name="COM1">
-<contactref element="IC4" pad="1"/>
 <contactref element="IC3" pad="3"/>
-<wire x1="-17.6" y1="15.5" x2="-17.8" y2="15.3" width="0.1778" layer="16" curve="-90"/>
-<wire x1="-17.8" y1="15.3" x2="-18.2" y2="14.9" width="0.1778" layer="16" curve="90"/>
-<wire x1="-18.2" y1="14.9" x2="-18.2" y2="14.7" width="0.1778" layer="16"/>
-<via x="-18.2" y="14.7" extent="1-16" drill="0.35"/>
-<wire x1="-18.2" y1="14.7" x2="-18.14" y2="14.64" width="0.1778" layer="1" curve="-90"/>
-<wire x1="-18.14" y1="14.64" x2="-18.14" y2="13.616" width="0.1778" layer="1"/>
 <wire x1="-17.237" y1="20.896" x2="-17.237" y2="20.6349375" width="0.1778" layer="1"/>
 <wire x1="-17.237" y1="20.6349375" x2="-17.5" y2="20" width="0.1778" layer="1" curve="-45"/>
 <wire x1="-17.5" y1="20" x2="-17.6" y2="19.758578125" width="0.1778" layer="1" curve="45"/>
 <wire x1="-17.6" y1="19.758578125" x2="-17.6" y2="19.4" width="0.1778" layer="1"/>
 <via x="-17.6" y="19.4" extent="1-16" drill="0.35"/>
-<wire x1="-17.6" y1="19.4" x2="-17.6" y2="17" width="0.1778" layer="16"/>
-<wire x1="-17.6" y1="17" x2="-17.6" y2="15.5" width="0.1778" layer="16"/>
+<contactref element="IC4" pad="1"/>
+<wire x1="-17.6" y1="19.4" x2="-17.6" y2="18.7" width="0.1778" layer="16"/>
+<wire x1="-18.1" y1="18.2" x2="-17.6" y2="18.7" width="0.1778" layer="16" curve="90"/>
+<wire x1="-18.04" y1="14.904" x2="-18.594" y2="14.35" width="0.1778" layer="1" curve="-90"/>
+<wire x1="-18.594" y1="14.35" x2="-18.7" y2="14.35" width="0.1778" layer="1"/>
+<via x="-18.7" y="14.35" extent="1-16" drill="0.35"/>
+<wire x1="-18.7" y1="14.35" x2="-18.85" y2="14.5" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-18.85" y1="18" x2="-18.65" y2="18.2" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-18.65" y1="18.2" x2="-18.1" y2="18.2" width="0.1778" layer="16"/>
+<wire x1="-18.85" y1="14.5" x2="-18.85" y2="18" width="0.1778" layer="16"/>
 </signal>
 <signal name="COM2">
-<contactref element="IC4" pad="4"/>
 <contactref element="IC3" pad="6"/>
-<wire x1="-16.64" y1="13.616" x2="-16.64" y2="12.64" width="0.1778" layer="1"/>
-<wire x1="-16.64" y1="12.64" x2="-16.4" y2="12.4" width="0.1778" layer="1" curve="90"/>
-<via x="-16.4" y="12.4" extent="1-16" drill="0.35"/>
-<wire x1="-16.4" y1="12.4" x2="-16.7" y2="12.7" width="0.1778" layer="16" curve="-90"/>
-<wire x1="-16.7" y1="17.7" x2="-17" y2="18" width="0.1778" layer="16" curve="90"/>
-<via x="-17" y="18" extent="1-16" drill="0.35"/>
-<wire x1="-17" y1="18" x2="-16.5" y2="18.5" width="0.1778" layer="1" curve="-90"/>
-<wire x1="-16.5" y1="18.5" x2="-16.3" y2="18.5" width="0.1778" layer="1"/>
-<wire x1="-16.3" y1="18.5" x2="-15.3" y2="19.5" width="0.1778" layer="1" curve="90"/>
-<wire x1="-15.3" y1="20.459" x2="-15.737" y2="20.896" width="0.1778" layer="1" curve="90"/>
-<wire x1="-16.7" y1="12.7" x2="-16.7" y2="17.7" width="0.1778" layer="16"/>
-<wire x1="-15.3" y1="19.5" x2="-15.3" y2="20.459" width="0.1778" layer="1"/>
+<contactref element="IC4" pad="4"/>
+<wire x1="-16.64" y1="14.004" x2="-16.64" y2="13.26" width="0.1778" layer="1"/>
+<wire x1="-16.64" y1="13.26" x2="-16.65" y2="13.25" width="0.1778" layer="1" curve="-90"/>
+<via x="-16.65" y="13.25" extent="1-16" drill="0.35"/>
+<wire x1="-16.65" y1="13.25" x2="-16.65" y2="16.5" width="0.1778" layer="16"/>
+<wire x1="-16.65" y1="16.5" x2="-16.3" y2="16.85" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-16.3" y1="16.85" x2="-15.45" y2="16.85" width="0.1778" layer="16"/>
+<wire x1="-15.45" y1="16.85" x2="-15.05" y2="17.25" width="0.1778" layer="16" curve="90"/>
+<wire x1="-15.05" y1="17.25" x2="-15.05" y2="19.05" width="0.1778" layer="16"/>
+<wire x1="-15.05" y1="19.05" x2="-15.25" y2="19.25" width="0.1778" layer="16" curve="90"/>
+<wire x1="-15.25" y1="19.25" x2="-15.45" y2="19.45" width="0.1778" layer="16" curve="-90"/>
+<wire x1="-15.45" y1="19.45" x2="-15.45" y2="20.15" width="0.1778" layer="16"/>
+<via x="-15.45" y="20.15" extent="1-16" drill="0.35"/>
+<wire x1="-15.45" y1="20.15" x2="-15.45" y2="20.609" width="0.1778" layer="1"/>
+<wire x1="-15.45" y1="20.609" x2="-15.737" y2="20.896" width="0.1778" layer="1" curve="90"/>
 </signal>
 <signal name="COM3">
-<contactref element="IC4" pad="9"/>
 <contactref element="IC3" pad="8"/>
-<wire x1="-15.64" y1="16.692" x2="-15.64" y2="18.06" width="0.1778" layer="1"/>
-<wire x1="-15.4" y1="18.3" x2="-15.64" y2="18.06" width="0.1778" layer="1" curve="90"/>
 <wire x1="-15.337" y1="22.296" x2="-14.396" y2="22.296" width="0.1778" layer="1"/>
 <wire x1="-14.396" y1="22.296" x2="-14.1" y2="22" width="0.1778" layer="1" curve="-90"/>
 <wire x1="-14.1" y1="22" x2="-14.1" y2="18.9" width="0.1778" layer="1"/>
-<wire x1="-14.1" y1="18.9" x2="-14.7" y2="18.3" width="0.1778" layer="1" curve="-90"/>
-<wire x1="-14.7" y1="18.3" x2="-15.4" y2="18.3" width="0.1778" layer="1"/>
+<wire x1="-14.7" y1="18.3" x2="-14.1" y2="18.9" width="0.1778" layer="1" curve="90"/>
+<contactref element="IC4" pad="12"/>
+<wire x1="-17.14" y1="16.304" x2="-17.14" y2="18.01" width="0.1778" layer="1"/>
+<wire x1="-17.14" y1="18.01" x2="-16.85" y2="18.3" width="0.1778" layer="1" curve="-90"/>
+<wire x1="-16.85" y1="18.3" x2="-14.7" y2="18.3" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="LED9" pad="C"/>
