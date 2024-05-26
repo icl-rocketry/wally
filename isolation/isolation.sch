@@ -6265,8 +6265,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="SUPPLY7" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDY"/>
 <part name="R4" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
-<part name="R6" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="100"/>
-<part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDG"/>
 <part name="E1" library="SamacSys_Parts" deviceset="SJ1-3525N" device="" override_package3d_urn="urn:adsk.eagle:package:44092638/2" override_package_urn="urn:adsk.eagle:footprint:44092639/1"/>
 <part name="SUPPLY8" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="SN74HC14PWR" device="" override_package3d_urn="urn:adsk.eagle:package:44092651/2" override_package_urn="urn:adsk.eagle:footprint:44092652/1"/>
@@ -6274,8 +6272,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="SUPPLY10" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDY"/>
 <part name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
-<part name="R7" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="100"/>
-<part name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDG"/>
 <part name="E2" library="SamacSys_Parts" deviceset="SJ1-3525N" device="" override_package3d_urn="urn:adsk.eagle:package:44092643/2" override_package_urn="urn:adsk.eagle:footprint:44092644/1"/>
 <part name="SUPPLY11" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="J1" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
@@ -6469,14 +6465,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="12.7" y="-48.26" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="12.7" y="-53.34" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R6" gate="G$1" x="12.7" y="-60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7" y="-63.5" size="1.778" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="12.7" y="-58.42" size="1.778" layer="96" rot="R180" align="center"/>
-</instance>
-<instance part="LED3" gate="G$1" x="27.94" y="-60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.368" y="-64.516" size="1.778" layer="95"/>
-<attribute name="VALUE" x="23.368" y="-66.675" size="1.778" layer="96"/>
-</instance>
 <instance part="E1" gate="G$1" x="40.64" y="-35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.89" y="-22.86" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="24.13" y="-22.86" size="1.778" layer="96" rot="R180" align="center-left"/>
@@ -6501,14 +6489,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="R5" gate="G$1" x="99.06" y="-50.8" smashed="yes">
 <attribute name="NAME" x="99.06" y="-48.26" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="99.06" y="-53.34" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="R7" gate="G$1" x="99.06" y="-60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.06" y="-63.5" size="1.778" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="99.06" y="-58.42" size="1.778" layer="96" rot="R180" align="center"/>
-</instance>
-<instance part="LED5" gate="G$1" x="114.3" y="-60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="109.728" y="-64.516" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.728" y="-66.675" size="1.778" layer="96"/>
 </instance>
 <instance part="E2" gate="G$1" x="127" y="-35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="95.25" y="-22.86" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -6937,10 +6917,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="E1" gate="G$1" pin="SLEEVE"/>
 <wire x1="0" y1="-35.56" x2="-7.62" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="-7.62" y="-35.56"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="-60.96" x2="-7.62" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-60.96" x2="-7.62" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-50.8"/>
 </segment>
 <segment>
 <pinref part="E1" gate="G$1" pin="RING"/>
@@ -6972,10 +6948,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="E2" gate="G$1" pin="SLEEVE"/>
 <wire x1="86.36" y1="-35.56" x2="78.74" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="78.74" y="-35.56"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="-60.96" x2="78.74" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-60.96" x2="78.74" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="78.74" y="-50.8"/>
 </segment>
 <segment>
 <pinref part="E2" gate="G$1" pin="RING"/>
@@ -7457,11 +7429,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="22.86" y1="-152.4" x2="10.16" y2="-152.4" width="0.1524" layer="91"/>
 <label x="10.16" y="-152.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="30.48" y1="-60.96" x2="45.72" y2="-60.96" width="0.1524" layer="91"/>
-<label x="48.26" y="-60.96" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="EN2" class="0">
 <segment>
@@ -7494,31 +7461,12 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="22.86" y1="-157.48" x2="10.16" y2="-157.48" width="0.1524" layer="91"/>
 <label x="10.16" y="-157.48" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="116.84" y1="-60.96" x2="132.08" y2="-60.96" width="0.1524" layer="91"/>
-<label x="137.16" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="-60.96" x2="17.78" y2="-60.96" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="-50.8" x2="104.14" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="LED5" gate="G$1" pin="C"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="-60.96" x2="104.14" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PICKLE3" class="0">
