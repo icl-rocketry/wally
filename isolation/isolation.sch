@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -6247,9 +6247,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R1" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="75"/>
 <part name="IC1" library="SamacSys_Parts" deviceset="XTLV61048DBVR" device="" override_package3d_urn="urn:adsk.eagle:package:44099322/2" override_package_urn="urn:adsk.eagle:footprint:44099323/1"/>
 <part name="D1" library="SamacSys_Parts" deviceset="SSA34-E3_5AT" device="" override_package3d_urn="urn:adsk.eagle:package:44099325/2" override_package_urn="urn:adsk.eagle:footprint:44099326/1"/>
-<part name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="10u"/>
+<part name="C1" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="10u"/>
 <part name="C2" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="10u"/>
-<part name="R2" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="1M"/>
+<part name="R2" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="1M"/>
 <part name="R3" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
 <part name="SUPPLY2" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY3" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
@@ -6261,34 +6261,34 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="C5" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C6" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C7" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
-<part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="1u"/>
+<part name="C3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="1u"/>
 <part name="SUPPLY7" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDY"/>
-<part name="R4" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R4" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="E1" library="SamacSys_Parts" deviceset="SJ1-3525N" device="" override_package3d_urn="urn:adsk.eagle:package:44092638/2" override_package_urn="urn:adsk.eagle:footprint:44092639/1"/>
 <part name="SUPPLY8" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="SN74HC14PWR" device="" override_package3d_urn="urn:adsk.eagle:package:44092651/2" override_package_urn="urn:adsk.eagle:footprint:44092652/1"/>
 <part name="SUPPLY9" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY10" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDY"/>
-<part name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R5" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="E2" library="SamacSys_Parts" deviceset="SJ1-3525N" device="" override_package3d_urn="urn:adsk.eagle:package:44092643/2" override_package_urn="urn:adsk.eagle:footprint:44092644/1"/>
 <part name="SUPPLY11" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="J1" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
 <part name="J2" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="S4B-PH-K-S(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19181369/5"/>
 <part name="SUPPLY12" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY13" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
-<part name="C9" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="1u"/>
+<part name="C8" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="C9" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="1u"/>
 <part name="SUPPLY14" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="IC3" library="SamacSys_Parts" deviceset="SN74HCS32BQAR" device="" override_package3d_urn="urn:adsk.eagle:package:44092654/2" override_package_urn="urn:adsk.eagle:footprint:44092655/1"/>
-<part name="C10" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
-<part name="C11" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="1u"/>
+<part name="C10" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="C11" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="1u"/>
 <part name="SUPPLY15" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY16" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="IC4" library="SamacSys_Parts" deviceset="SN74HCS08DYYR" device="" override_package3d_urn="urn:adsk.eagle:package:44092657/2" override_package_urn="urn:adsk.eagle:footprint:44092658/1"/>
-<part name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
-<part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="1u"/>
+<part name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="1u"/>
 <part name="SUPPLY18" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY19" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY20" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
@@ -6301,38 +6301,38 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="SUPPLY22" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY23" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R8" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
-<part name="R9" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
-<part name="R10" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
-<part name="R11" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="68k"/>
+<part name="R8" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="47k"/>
+<part name="R9" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="47k"/>
+<part name="R10" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="47k"/>
+<part name="R11" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="47k"/>
 <part name="LS1" library="SamacSys_Parts" deviceset="CMI-9705-85-SMT-TR" device="" override_package3d_urn="urn:adsk.eagle:package:44093672/2" override_package_urn="urn:adsk.eagle:footprint:44093711/1"/>
 <part name="SUPPLY24" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="R12" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="5k1"/>
-<part name="R13" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="1M"/>
-<part name="R14" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="5k1"/>
+<part name="R12" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="5k1"/>
+<part name="R13" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="1M"/>
+<part name="R14" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="5k1"/>
 <part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="_SOD-123FL" package3d_urn="urn:adsk.eagle:package:6240937/1" override_package3d_urn="urn:adsk.eagle:package:44099330/2" override_package_urn="urn:adsk.eagle:footprint:6240294/1" value="USBDiode"/>
-<part name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="100n"/>
-<part name="C15" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="1u"/>
+<part name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="C15" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="1u"/>
 <part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R15" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R15" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="LED7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R16" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R16" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="LED8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R17" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R17" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="SUPPLY25" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="LED9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R18" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R18" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="LED10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R19" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R19" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="LED11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R20" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R20" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="SUPPLY26" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="LED12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R21" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R21" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="LED13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R22" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R22" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="LED14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="LEDR"/>
-<part name="R23" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="120"/>
+<part name="R23" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="120"/>
 <part name="SUPPLY27" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" override_package3d_urn="urn:adsk.eagle:package:44099356/2" override_package_urn="urn:adsk.eagle:footprint:27907/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-20Y" package3d_urn="urn:adsk.eagle:package:27951/1" override_package3d_urn="urn:adsk.eagle:package:44099360/2" override_package_urn="urn:adsk.eagle:footprint:27907/1"/>
@@ -6352,16 +6352,20 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="C20" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C21" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
 <part name="C22" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="22u"/>
-<part name="R24" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="470"/>
-<part name="R25" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="470"/>
-<part name="R26" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="470"/>
-<part name="R27" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/5" technology="_" value="470"/>
+<part name="R24" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="470"/>
+<part name="R25" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="470"/>
+<part name="R26" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="470"/>
+<part name="R27" library="Resistor" library_urn="urn:adsk.eagle:library:16378527" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/5" technology="_" value="470"/>
 <part name="J7" library="SamacSys_Parts" deviceset="10164359-00011LF" device="" override_package3d_urn="urn:adsk.eagle:package:44339043/2" override_package_urn="urn:adsk.eagle:footprint:44339044/1"/>
 <part name="SUPPLY29" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY30" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1" override_package3d_urn="urn:adsk.eagle:package:44099341/2" override_package_urn="urn:adsk.eagle:footprint:27902/1"/>
 <part name="C23" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/5" technology="_" value="10u"/>
 <part name="IC9" library="SamacSys_Parts" deviceset="SN74HC14PWR" device="" override_package3d_urn="urn:adsk.eagle:package:44092651/2" override_package_urn="urn:adsk.eagle:footprint:44092652/1"/>
+<part name="SUPPLY31" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="C24" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="100n"/>
+<part name="C25" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16290895/5" technology="_" value="1u"/>
+<part name="SUPPLY32" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -6827,6 +6831,20 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="8.89" y="-88.9" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="8.89" y="-91.44" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="SUPPLY31" gate="G$1" x="-2.54" y="-104.14" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-4.445" y="-104.14" size="1.778" layer="96" rot="R270" align="center"/>
+</instance>
+<instance part="C24" gate="G$1" x="116.84" y="-106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.555" y="-107.315" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="122.555" y="-102.87" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C25" gate="G$1" x="127" y="-104.14" smashed="yes">
+<attribute name="NAME" x="131.445" y="-103.505" size="1.778" layer="95"/>
+<attribute name="VALUE" x="131.445" y="-107.95" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY32" gate="G$1" x="121.92" y="-116.84" smashed="yes">
+<attribute name="VALUE" x="121.92" y="-118.745" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6937,6 +6955,14 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="22.86" y1="-160.02" x2="17.78" y2="-160.02" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-160.02" x2="17.78" y2="-165.1" width="0.1524" layer="91"/>
 <junction x="17.78" y="-165.1"/>
+<pinref part="IC2" gate="G$1" pin="2A"/>
+<wire x1="22.86" y1="-154.94" x2="17.78" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-154.94" x2="17.78" y2="-160.02" width="0.1524" layer="91"/>
+<junction x="17.78" y="-160.02"/>
+<pinref part="IC2" gate="G$1" pin="1A"/>
+<wire x1="22.86" y1="-149.86" x2="17.78" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-149.86" x2="17.78" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="17.78" y="-154.94"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="GND"/>
@@ -7164,6 +7190,34 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="5.08" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY29" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="SUPPLY31" gate="G$1" pin="GND"/>
+<wire x1="0" y1="-104.14" x2="2.54" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-104.14" x2="2.54" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G$1" pin="GND"/>
+<wire x1="2.54" y1="-106.68" x2="2.54" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-111.76" x2="7.62" y2="-111.76" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G$1" pin="3A"/>
+<wire x1="7.62" y1="-106.68" x2="2.54" y2="-106.68" width="0.1524" layer="91"/>
+<junction x="2.54" y="-106.68"/>
+<pinref part="IC9" gate="G$1" pin="2A"/>
+<wire x1="7.62" y1="-101.6" x2="2.54" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-101.6" x2="2.54" y2="-104.14" width="0.1524" layer="91"/>
+<junction x="2.54" y="-104.14"/>
+<pinref part="IC9" gate="G$1" pin="1A"/>
+<wire x1="7.62" y1="-96.52" x2="2.54" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-96.52" x2="2.54" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="2.54" y="-101.6"/>
+</segment>
+<segment>
+<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="-109.22" x2="121.92" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="G$1" pin="GND"/>
+<wire x1="121.92" y1="-109.22" x2="127" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-114.3" x2="121.92" y2="-109.22" width="0.1524" layer="91"/>
+<junction x="121.92" y="-109.22"/>
+</segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
@@ -7298,6 +7352,19 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="48.26" y1="-439.42" x2="48.26" y2="-436.88" width="0.1524" layer="91"/>
 <junction x="48.26" y="-436.88"/>
 </segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="VCC"/>
+<wire x1="33.02" y1="-96.52" x2="121.92" y2="-96.52" width="0.1524" layer="91"/>
+<label x="127" y="-96.52" size="1.778" layer="95"/>
+<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="-96.52" x2="132.08" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-101.6" x2="121.92" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-101.6" x2="127" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-101.6" x2="121.92" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="121.92" y="-101.6"/>
+<junction x="121.92" y="-96.52"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -7396,11 +7463,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <label x="50.8" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="1A"/>
-<wire x1="22.86" y1="-149.86" x2="10.16" y2="-149.86" width="0.1524" layer="91"/>
-<label x="10.16" y="-149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="1B"/>
 <wire x1="25.4" y1="-248.92" x2="7.62" y2="-248.92" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="2B"/>
@@ -7423,19 +7485,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="22.86" y1="-50.8" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SAFE1" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="1Y"/>
-<wire x1="22.86" y1="-152.4" x2="10.16" y2="-152.4" width="0.1524" layer="91"/>
-<label x="10.16" y="-152.4" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="EN2" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="2A"/>
-<wire x1="22.86" y1="-154.94" x2="10.16" y2="-154.94" width="0.1524" layer="91"/>
-<label x="10.16" y="-154.94" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="E2" gate="G$1" pin="TIP_SWITCH"/>
 <wire x1="127" y1="-33.02" x2="132.08" y2="-33.02" width="0.1524" layer="91"/>
@@ -7453,13 +7503,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="IC3" gate="G$1" pin="4B"/>
 <wire x1="48.26" y1="-200.66" x2="60.96" y2="-200.66" width="0.1524" layer="91"/>
 <label x="55.88" y="-200.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SAFE2" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="2Y"/>
-<wire x1="22.86" y1="-157.48" x2="10.16" y2="-157.48" width="0.1524" layer="91"/>
-<label x="10.16" y="-157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
