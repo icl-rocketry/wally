@@ -97,6 +97,10 @@
 #include "components.h"
 #endif
 
+#include<Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
+
 /* Private macro -------------------------------------------------------------*/
 #define    BOOT_TIME            10 //ms
 
@@ -114,20 +118,36 @@ static uint8_t tx_buffer[1000];
 /* Extern variables ----------------------------------------------------------*/
 
 /* Private functions ---------------------------------------------------------*/
+#define I2C_ADDRESS 0x68  // Example I2C address for the sensor
 
-/*
- *   WARNING:
- *   Functions declare in this section are defined at the end of this file
- *   and are strictly related to the hardware platform used.
- *
- */
-static int32_t platform_write(void *handle, uint8_t reg, const uint8_t *bufp,
-                              uint16_t len);
-static int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp,
-                             uint16_t len);
-static void tx_com( uint8_t *tx_buffer, uint16_t len );
-static void platform_delay(uint32_t ms);
-static void platform_init(void);
+static int32_t platform_write(void *handle, uint8_t reg, const uint8_t *bufp, uint16_t len) {
+    Wire.beginTransmission(I2C_ADDRESS);
+    Wire.write(reg);
+    Wire.write(bufp, len);
+    return Wire.endTransmission() == 0 ? 0 : -1; // 0 on success, -1 on error
+}
+static int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp, uint16_t len) {
+    Wire.beginTransmission(I2C_ADDRESS);
+    Wire.write(reg);
+    if (Wire.endTransmission(false) != 0) {
+        return -1; // Error
+    }
+    Wire.requestFrom(I2C_ADDRESS, len);
+    for (uint16_t i = 0; i < len; i++) {
+        bufp[i] = Wire.read();
+    }
+    return 0;
+}
+static void platform_init(void) {
+    Wire.begin(); // Initialize I2C
+    Serial.begin(115200); // Initialize Serial for communication
+}
+static void tx_com(uint8_t *tx_buffer, uint16_t len) {
+    Serial.write(tx_buffer, len);
+}
+static void platform_delay(uint32_t ms) {
+    delay(ms);
+}
 
 /* Main Example --------------------------------------------------------------*/
 void lsm6dsv32x_read_data_polling(void)
@@ -139,7 +159,7 @@ void lsm6dsv32x_read_data_polling(void)
   /* Initialize mems driver interface */
   dev_ctx.write_reg = platform_write;
   dev_ctx.read_reg = platform_read;
-  dev_ctx.handle = &SENSOR_BUS; // will be solved once the driver is decided.
+  dev_ctx.handle = nullptr; // will be solved once the driver is decided.
 
   /* Init test platform */
   platform_init();
@@ -229,15 +249,6 @@ void lsm6dsv32x_read_data_polling(void)
 }
 
 /*
- * @brief  Write generic device register (platform dependent)
- *
- * @param  handle    customizable argument. In this examples is used in
- *                   order to select the correct sensor bus handler.
- * @param  reg       register to write
- * @param  bufp      pointer to data to write in register reg
- * @param  len       number of consecutive register to write
- *
- */
 static int32_t platform_write(void *handle, uint8_t reg, const uint8_t *bufp,
                               uint16_t len)
 {
@@ -265,7 +276,7 @@ static int32_t platform_write(void *handle, uint8_t reg, const uint8_t *bufp,
  * @param  len       number of consecutive register to read
  *
  */
-static int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp,
+/*static int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp,
                              uint16_t len)
 {
 #if defined(NUCLEO_F411RE)
@@ -282,13 +293,7 @@ static int32_t platform_read(void *handle, uint8_t reg, uint8_t *bufp,
 #endif
   return 0;
 }
-/*
- * @brief  platform specific outputs on terminal (platform dependent)
- *
- * @param  tx_buffer     buffer to transmit
- * @param  len           number of byte to send
- *
- */
+
 static void tx_com(uint8_t *tx_buffer, uint16_t len)
 {
 #if defined(NUCLEO_F411RE)
@@ -300,12 +305,6 @@ static void tx_com(uint8_t *tx_buffer, uint16_t len)
 #endif
 }
 
-/*
- * @brief  platform specific delay (platform dependent)
- *
- * @param  ms        delay in ms
- *
- */
 static void platform_delay(uint32_t ms)
 {
 #if defined(NUCLEO_F411RE) | defined(STEVAL_MKI109V3)
@@ -315,9 +314,6 @@ static void platform_delay(uint32_t ms)
 #endif
 }
 
-/*
- * @brief  platform specific initialization (platform dependent)
- */
 static void platform_init(void)
 {
 #if defined(STEVAL_MKI109V3)
@@ -327,4 +323,4 @@ static void platform_init(void)
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);
   HAL_Delay(1000);
 #endif
-}
+} */

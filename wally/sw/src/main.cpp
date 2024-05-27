@@ -1,5 +1,5 @@
 #include <Arduino.h>
-
+/*
 // put function declarations here:
 int myFunction(int, int);
 float getTrueVoltage();
@@ -42,3 +42,4 @@ float getTrueVoltage() {
   float raw = getVoltageRaw();
   return (raw * (100 + 20))/20; // voltage divider
 }
+*/
