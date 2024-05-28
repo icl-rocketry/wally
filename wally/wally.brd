@@ -194,7 +194,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXlpYzM4OA" projecturn="a.YnVzaW5lc3M6bXlpYzM4OCMyMDIzMTEwOTY5NjY3NjI3Ng" f3durn="urn:adsk.wipprod:dm.lineage:9jgWy8MWQ5aiTgaKm4XITg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="b652432b-7dad-4222-90d6-a4948578cd44" lastsyncedrevisionid="b652432b-7dad-4222-90d6-a4948578cd44" lastboardhashguid="1fad2c6b-0287-7495-9c33-25d565479cfe" lastpushedtime="2024-05-28T02:43:14Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlpYzM4OA" projecturn="a.YnVzaW5lc3M6bXlpYzM4OCMyMDIzMTEwOTY5NjY3NjI3Ng" f3durn="urn:adsk.wipprod:dm.lineage:9jgWy8MWQ5aiTgaKm4XITg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="6b2e4d40-8a11-4cc5-8d4b-bd933622d041" lastsyncedrevisionid="6b2e4d40-8a11-4cc5-8d4b-bd933622d041" lastboardhashguid="8159a53f-fbbd-2ad1-f31a-44b223d8800b" lastpushedtime="2024-05-28T14:10:16Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="41" y2="0" width="0.254" layer="51" locked="yes"/>
 <wire x1="41" y1="0" x2="41" y2="-41" width="0.254" layer="51" locked="yes"/>
@@ -209,7 +209,8 @@
 <wire x1="2" y1="0" x2="25" y2="0" width="0.25" layer="20"/>
 <wire x1="35" y1="0" x2="39" y2="0" width="0.25" layer="20"/>
 <wire x1="39" y1="0" x2="41" y2="-2" width="0.25" layer="20" curve="-90"/>
-<wire x1="41" y1="-2" x2="41" y2="-99" width="0.25" layer="20"/>
+<wire x1="41" y1="-2" x2="41" y2="-6" width="0.25" layer="20"/>
+<wire x1="41" y1="-14" x2="41" y2="-99" width="0.25" layer="20"/>
 <wire x1="41" y1="-99" x2="39" y2="-101" width="0.25" layer="20" curve="-90"/>
 <wire x1="39" y1="-101" x2="2" y2="-101" width="0.25" layer="20"/>
 <wire x1="2" y1="-101" x2="0" y2="-99" width="0.25" layer="20" curve="-90"/>
@@ -15816,14 +15817,19 @@ SLEEP</text>
 <wire x1="30.539" y1="-27.73" x2="31.239" y2="-28.43" width="0.2" layer="22"/>
 <wire x1="30.539" y1="-27.73" x2="29.839" y2="-27.03" width="0.2" layer="22"/>
 <wire x1="30.539" y1="-27.73" x2="31.239" y2="-27.03" width="0.2" layer="22"/>
-<rectangle x1="38.608" y1="-33.782" x2="39.624" y2="-32.639" layer="21"/>
-<text x="34.969540625" y="-34.237421875" size="3" layer="21" font="vector" ratio="15">+</text>
+<rectangle x1="38.108" y1="-33.682" x2="39.124" y2="-32.539" layer="21"/>
+<text x="34.569540625" y="-34.237421875" size="3" layer="21" font="vector" ratio="15">+</text>
 <wire x1="27" y1="-2" x2="33" y2="-2" width="0.0508" layer="20"/>
 <wire x1="33" y1="-2" x2="34" y2="-1" width="0.0508" layer="20" curve="90"/>
 <wire x1="34" y1="-1" x2="35" y2="0" width="0.0508" layer="20" curve="-90"/>
 <wire x1="26" y1="-1" x2="25" y2="0" width="0.0508" layer="20" curve="90"/>
 <wire x1="26" y1="-1" x2="27" y2="-2" width="0.0508" layer="20" curve="90"/>
-<text x="40.1" y="-29" size="1.7" layer="21" font="vector" ratio="15" rot="R180">BAT</text>
+<text x="39.4" y="-29.1" size="1.7" layer="21" font="vector" ratio="15" rot="R180">BAT</text>
+<wire x1="39" y1="-8" x2="40" y2="-7" width="0.0508" layer="20" curve="-90"/>
+<wire x1="41" y1="-6" x2="40" y2="-7" width="0.0508" layer="20" curve="-90"/>
+<wire x1="39" y1="-8" x2="39" y2="-12" width="0.0508" layer="20"/>
+<wire x1="39" y1="-12" x2="40" y2="-13" width="0.0508" layer="20" curve="90"/>
+<wire x1="41" y1="-14" x2="40" y2="-13" width="0.0508" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="RA-01H">
@@ -18136,7 +18142,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="TOLERANCE" value="" x="29.55" y="-90.9" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="29.55" y="-90.9" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="20.5" y="-31.03" smashed="yes">
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" override_package3d_urn="urn:adsk.eagle:package:44442030/2" override_package_urn="urn:adsk.eagle:footprint:22354/1" value="" x="20.5" y="-31.03" smashed="yes">
 <attribute name="POPULARITY" value="69" x="20.5" y="-31.03" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="14.15" y="-34.205" size="1.27" layer="27"/>
 </element>
@@ -18448,7 +18454,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="13" y="-9" smashed="yes">
 <attribute name="VALUE" x="13" y="-10.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="CN3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44116580/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1" value="" x="38.1" y="-31.75" smashed="yes"/>
+<element name="CN3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-THM-RA" package3d_urn="urn:adsk.eagle:package:6240694/1" override_package3d_urn="urn:adsk.eagle:package:44441745/2" override_package_urn="urn:adsk.eagle:footprint:6240048/1" value="" x="37.5" y="-31.65" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -18997,7 +19003,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.7" y1="-38" x2="9.3" y2="-38.6" width="0.1778" layer="1"/>
 <via x="4.686471875" y="-70.986471875" extent="1-16" drill="0.35"/>
 <wire x1="2.3" y1="-78" x2="3.5142" y2="-76.7858" width="0.1778" layer="16"/>
-<wire x1="3.5142" y1="-76.7858" x2="3.5142" y2="-72.48826875" width="0.1778" layer="16"/>
+<wire x1="3.5142" y1="-76.7858" x2="3.5142" y2="-76" width="0.1778" layer="16"/>
+<wire x1="3.5142" y1="-76" x2="3.5142" y2="-72.48826875" width="0.1778" layer="16"/>
 <wire x1="4.686471875" y1="-71.315996875" x2="4.686471875" y2="-70.986471875" width="0.1778" layer="16"/>
 <wire x1="3.5142" y1="-72.48826875" x2="4.686471875" y2="-71.315996875" width="0.1778" layer="16"/>
 <wire x1="4.686471875" y1="-70.986471875" x2="5.5" y2="-71.8" width="0.1778" layer="1"/>
@@ -19163,6 +19170,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="21.5" y="-48.654" extent="1-16" drill="0.35"/>
 <via x="11" y="-45.6" extent="1-16" drill="0.35"/>
 <contactref element="CN3" pad="1"/>
+<wire x1="4.75" y1="-48.65" x2="4.75" y2="-47.55" width="0.1778" layer="1"/>
+<wire x1="4.75" y1="-47.55" x2="4.8" y2="-47.5" width="0.1778" layer="1"/>
+<via x="4.8" y="-47.5" extent="1-16" drill="0.35"/>
+<wire x1="3.8" y1="-46.15" x2="3.8" y2="-47.5" width="0.1778" layer="1"/>
+<via x="3.8" y="-47.5" extent="1-16" drill="0.35"/>
+<wire x1="4.8" y1="-47.5" x2="5" y2="-47.5" width="0.1778" layer="16"/>
+<via x="6" y="-47.7" extent="1-16" drill="0.35"/>
+<wire x1="4.8" y1="-47.7" x2="6" y2="-47.7" width="0.1778" layer="16"/>
+<wire x1="4.8" y1="-47.7" x2="5" y2="-47.5" width="0.1778" layer="16"/>
+<wire x1="5" y1="-47.5" x2="5.4718" y2="-47.0282" width="0.1778" layer="16"/>
+<wire x1="5.4718" y1="-47.0282" x2="6" y2="-47.0282" width="0.1778" layer="16"/>
+<via x="6" y="-47.0282" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3V3">
 <contactref element="IC1" pad="2"/>
