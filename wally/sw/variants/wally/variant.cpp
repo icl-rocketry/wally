@@ -45,6 +45,7 @@ void initVariant(void) {
   pinMode(VSENSE, INPUT);
 
 
+}
 } // extern "C"
 
 

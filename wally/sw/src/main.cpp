@@ -1,7 +1,11 @@
 #include <Arduino.h>
+#include <LTE.h>
+
 
 // put function declarations here:
 int myFunction(int, int);
+float getVoltageRaw();
+float getTrueVoltage();
 
 void setup() {
   // put your setup code here, to run once:
@@ -28,9 +32,6 @@ void loop() {
 }
 
 // put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
 
 float getVoltageRaw() {
   return analogReadMilliVolts(VSENSE);
