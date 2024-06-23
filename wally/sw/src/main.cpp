@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "radio.h"
 
 // put function declarations here:
 float getVoltageRaw();
