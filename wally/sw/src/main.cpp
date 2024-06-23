@@ -1,9 +1,12 @@
 #include <Arduino.h>
+#include <SPI.h>
 #include "radio.h"
+
 
 // put function declarations here:
 float getVoltageRaw();
 float getTrueVoltage();
+SPIClass rad_spi(HSPI);
 
 
 void setup() {
@@ -24,6 +27,12 @@ void setup() {
     digitalWrite(LED_Y, HIGH);
     digitalWrite(LED_G, HIGH);
   }
+
+  Serial.begin(115200);
+  
+  rad_spi.begin(RAD_CLK, RAD_DI, RAD_DO, RAD_CS);
+  
+
 }
 
 void loop() {
