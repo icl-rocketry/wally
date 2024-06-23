@@ -43,6 +43,13 @@ static const uint8_t RAD_DIO2 = 2;
 static const uint8_t RAD_DIO3 = 1;
 static const uint8_t RAD_RXEN  = 35;
 static const uint8_t RAD_TXEN  = 41;
+static const uint8_t RAD_BUSY = 48;
+
+// SPI defaults (for compatibility with SPI lib)
+static const uint8_t SCK  = RAD_CLK;
+static const uint8_t MISO = RAD_DO;
+static const uint8_t MOSI = RAD_DI;
+static const uint8_t SS   = RAD_CS;
 
 // GPIO
 static const uint8_t A0 = 8;
