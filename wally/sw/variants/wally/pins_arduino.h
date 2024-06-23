@@ -37,6 +37,12 @@ static const uint8_t RAD_CS   = 39;
 static const uint8_t RAD_DO   = 37;
 static const uint8_t RAD_CLK  = 36;
 static const uint8_t RAD_DI   = 38;
+static const uint8_t RAD_RST  = 40;
+static const uint8_t RAD_DIO1 = 42;
+static const uint8_t RAD_DIO2 = 2;
+static const uint8_t RAD_DIO3 = 1;
+static const uint8_t RAD_RXEN  = 35;
+static const uint8_t RAD_TXEN  = 41;
 
 // GPIO
 static const uint8_t A0 = 8;
