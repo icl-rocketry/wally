@@ -51,6 +51,10 @@ static const uint8_t MISO = RAD_DO;
 static const uint8_t MOSI = RAD_DI;
 static const uint8_t SS   = RAD_CS;
 
+// I2C defaults (for compatibility with Wire lib)
+static const uint8_t SDA = SDA0;
+static const uint8_t SCL = SCL0;
+
 // GPIO
 static const uint8_t A0 = 8;
 static const uint8_t A1 = 10;
