@@ -1,19 +1,59 @@
 #include <Arduino.h>
+#include "Dps3xx.h"
+using namespace dps;
+using namespace dps3xx;
 
-// put function declarations here:
-int myFunction(int, int);
+// Create an instance of the Dps3xx class
+Dps3xx sensor;
 
 void setup() {
-  // put your setup code here, to run once:
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+  
+  // Initialize the sensor
+  sensor.init();
+  
+  // Check if the sensor initialization failed
+  if (sensor.m_initFail) {
+    Serial.println("Sensor initialization failed!");
+  } else {
+    Serial.println("Sensor initialized successfully.");
   }
+}
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Buffers for temperature and pressure data
+  float tempBuffer[10];
+  float prsBuffer[10];
+  uint8_t tempCount = 0;
+  uint8_t prsCount = 0;
+  
+  // Get continuous results
+  int16_t result = sensor.getContResults(tempBuffer, tempCount, prsBuffer, prsCount);
+  
+  // Check if the data retrieval was successful
+  //if (result == DPS__SUCCEEDED) {
+    // Print temperature data
+    Serial.println("Temperature Data:");
+    for (uint8_t i = 0; i < tempCount; i++) {
+      Serial.println(tempBuffer[i]);
+    }
+    
+    // Print pressure data
+    Serial.println("Pressure Data:");
+    for (uint8_t i = 0; i < prsCount; i++) {
+      Serial.println(prsBuffer[i]);
+    }
+  //} else {
+    //Serial.println("Failed to get sensor data.");
+  //}
+  
+  // Add a delay to avoid flooding the serial monitor
+  delay(1000);
 }
 
 // put function definitions here:
 #include "Dps3xx.h"
-
 using namespace dps;
 using namespace dps3xx;
 
