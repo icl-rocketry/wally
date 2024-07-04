@@ -1,12 +1,18 @@
 #include <Arduino.h>
 #include <Wire.h>
+#include "env.h"
+// #include "Adafruit_Sensor.h"
+// #include "Adafruit_BME680.h"
 
 
-
-// put function declarations here:
 float getVoltageRaw();
 float getTrueVoltage();
 
+TwoWire i2c0 = TwoWire(0);
+TwoWire i2c1 = TwoWire(1);
+
+// Adafruit_BME680 bme(TwoWire *i2c0);
+env bme680;
 
 void setup() {
 
@@ -30,8 +36,7 @@ void setup() {
     digitalWrite(LED_G, HIGH);
   }
 
-  TwoWire i2c0 = TwoWire(0);
-  TwoWire i2c1 = TwoWire(1);
+  
 
   i2c0.begin(SDA0, SCL0, 400000);
   i2c1.begin(SDA1, SCL1, 100000);
@@ -62,10 +67,39 @@ void setup() {
 
   Serial.println("Done scanning.");
   Serial.println("Supply voltage: " + String(supplyVoltage) + "mV");
+
+  bme680 = env();
+  
+  if (!bme680.begin(0x77, i2c0)){
+        Serial.println("Failed to initialise env sensor");
+  }
+  else {
+    Serial.println("Env sensor initialised successfully");
+  }
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  float temperature, humidity, pressure, gas;
+
+  if (bme680.read(temperature, humidity, pressure, gas)) {
+        Serial.print("Temperature: ");
+        Serial.print(temperature);
+        Serial.println(" °C");
+
+        Serial.print("Humidity: ");
+        Serial.print(humidity);
+        Serial.println(" %");
+
+        Serial.print("Pressure: ");
+        Serial.print(pressure);
+        Serial.println(" hPa");
+
+        Serial.print("Gas: ");
+        Serial.print(gas);
+        Serial.println(" kOhms");
+    }
+
+  delay(50);
 }
 
 // put function definitions here:
