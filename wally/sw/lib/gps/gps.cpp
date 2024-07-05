@@ -58,8 +58,31 @@ int gps::getHdop() {
     return _gps.hdop.value();
 }
 
-float gps::getCourse() {
+double gps::getCourse() {
     return _gps.course.isValid() ? _gps.course.deg() : NAN;
 }
 
+GPSData gps::getData() {
+    GPSData data;
+    data.latitude = getLatitude();
+    data.longitude = getLongitude();
+    data.altitude = getAltitude();
+    data.speed = getSpeed();
+    data.date = getDate();
+    data.time = getTime();
+    data.age = getAge();
+    data.satellites = getSatellites();
+    data.hdop = getHdop();
+    data.course = getCourse();
+    return data;
+}
 
+void gps::smartDelay(unsigned long ms)
+{
+  unsigned long start = millis();
+  do 
+  {
+    while (_uart.available())
+      _gps.encode(_uart.read());
+  } while (millis() - start < ms);
+}

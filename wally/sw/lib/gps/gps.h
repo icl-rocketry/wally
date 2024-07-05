@@ -4,6 +4,19 @@
 #include <TinyGPS++.h>
 #include <HardwareSerial.h>
 
+struct GPSData {
+    double latitude;
+    double longitude;
+    double altitude;
+    double speed;
+    String date;
+    String time;
+    int age;
+    int satellites;
+    int hdop;
+    double course;
+};
+
 class gps {
 public:
     gps(HardwareSerial& uart);
@@ -19,6 +32,7 @@ public:
     int getSatellites();
     int getHdop();
     double getCourse();
+    GPSData getData();
 
 private:
     HardwareSerial& _uart;
