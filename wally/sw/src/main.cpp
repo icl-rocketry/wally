@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include "env.h"
+#include "gps.h"
 // #include "Adafruit_Sensor.h"
 // #include "Adafruit_BME680.h"
 
@@ -10,9 +11,13 @@ float getTrueVoltage();
 
 TwoWire i2c0 = TwoWire(0);
 TwoWire i2c1 = TwoWire(1);
+HardwareSerial uart = HardwareSerial(1);
 
 // Adafruit_BME680 bme(TwoWire *i2c0);
 env bme680;
+gps gpsModule(uart);
+
+GPSData gpsData;
 
 void setup() {
 
@@ -40,6 +45,7 @@ void setup() {
 
   i2c0.begin(SDA0, SCL0, 400000);
   i2c1.begin(SDA1, SCL1, 100000);
+  uart.begin(9600);
 
   byte error, address;
   int nDevices;
@@ -76,30 +82,38 @@ void setup() {
   else {
     Serial.println("Env sensor initialised successfully");
   }
+
+  // gps gpsModule = gps(uart);
 }
 
 void loop() {
   float temperature, humidity, pressure, gas;
 
-  if (bme680.read(temperature, humidity, pressure, gas)) {
-        Serial.print("Temperature: ");
-        Serial.print(temperature);
-        Serial.println(" °C");
+  // if (bme680.read(temperature, humidity, pressure, gas)) {
+  //       Serial.print("Temperature: ");
+  //       Serial.print(temperature);
+  //       Serial.println(" °C");
 
-        Serial.print("Humidity: ");
-        Serial.print(humidity);
-        Serial.println(" %");
+  //       Serial.print("Humidity: ");
+  //       Serial.print(humidity);
+  //       Serial.println(" %");
 
-        Serial.print("Pressure: ");
-        Serial.print(pressure);
-        Serial.println(" hPa");
+  //       Serial.print("Pressure: ");
+  //       Serial.print(pressure);
+  //       Serial.println(" hPa");
 
-        Serial.print("Gas: ");
-        Serial.print(gas);
-        Serial.println(" kOhms");
-    }
+  //       Serial.print("Gas: ");
+  //       Serial.print(gas);
+  //       Serial.println(" kOhms");
+  //   }
 
-  delay(50);
+    gpsData = gpsModule.getData();
+
+    Serial.print("Latitude: "); Serial.print(gpsData.latitude, 6);
+    Serial.print(", Longitude: "); Serial.print(gpsData.longitude, 6);
+    Serial.println(", Altitude: "); Serial.print(gpsData.altitude);
+
+  gpsModule.smartDelay(100);
 }
 
 // put function definitions here:

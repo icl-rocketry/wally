@@ -64,6 +64,7 @@ double gps::getCourse() {
 
 GPSData gps::getData() {
     GPSData data;
+    gps::update();
     data.latitude = getLatitude();
     data.longitude = getLongitude();
     data.altitude = getAltitude();

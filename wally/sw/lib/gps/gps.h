@@ -33,6 +33,7 @@ public:
     int getHdop();
     double getCourse();
     GPSData getData();
+    void smartDelay(unsigned long ms);
 
 private:
     HardwareSerial& _uart;
